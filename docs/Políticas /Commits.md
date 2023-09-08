@@ -1,7 +1,7 @@
 ---
 tag: "politicas"
 ---
-Padronização dos commits no projeto. aaaaa
+Padronização dos commits no projeto. 
 
 ## Histórico de Versões
 

@@ -1,21 +1,26 @@
 site_name: MDS-Squad08
+site_url: https://unb-mds.github.io/2023-2-Squad08/
 theme:
   name: material
+nav:
+  - Comece por aqui :): "docs/index.md"
+  - Backlog: "docs/backlog.md"
+  - Gestão do Projeto:
+    - Arquitetura: "docs/Gestão do Projeto/Arquitetura.md"
+    - Comunicação: "docs/Gestão do Projeto/Comunicação.md"
+    - MVV: "docs/Gestão do Projeto/MVV.md"
+  - Políticas:
+    - Branches: "docs/Políticas /Branches.md"
+    - Código de conduta: "docs/Políticas /Código de conduta.md"
+    - Commits: "docs/Políticas /Commits.md"
+    - Issues: "docs/Políticas /Issues.md"
+  - Sprints:
+    - Sprint 00: 
+      - Planejamento: "docs/Sprints/Sprint 00/Planejamento.md"
+      - Resultados: "docs/Sprints/Sprint 00/Resultados.md"
+    - Sprint 01: 
+      - Planejamento: "docs/Sprints/Sprint 01/Planejamento.md"
+      - Resultados: "docs/Sprints/Sprint 01/Resultados.md"
 
-markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - admonition
-  - pymdownx.arithmatex:
-      generic: true
-  - footnotes
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.mark
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+
 

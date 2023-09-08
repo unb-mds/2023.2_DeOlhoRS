@@ -3,24 +3,24 @@ site_url: https://unb-mds.github.io/2023-2-Squad08/
 theme:
   name: material
 nav:
-  - Comece por aqui :): "docs/index.md"
-  - Backlog: "docs/backlog.md"
+  - Comece por aqui :): "index.md"
+  - Backlog: "Backlog.md"
   - Gestão do Projeto:
-    - Arquitetura: "docs/Gestão do Projeto/Arquitetura.md"
-    - Comunicação: "docs/Gestão do Projeto/Comunicação.md"
-    - MVV: "docs/Gestão do Projeto/MVV.md"
+    - Arquitetura: "Gestão do Projeto/Arquitetura.md"
+    - Comunicação: "Gestão do Projeto/Comunicação.md"
+    - MVV: "Gestão do Projeto/MVV.md"
   - Políticas:
-    - Branches: "docs/Políticas /Branches.md"
-    - Código de conduta: "docs/Políticas /Código de conduta.md"
-    - Commits: "docs/Políticas /Commits.md"
-    - Issues: "docs/Políticas /Issues.md"
+    - Branches: "Políticas /Branches.md"
+    - Código de conduta: "Políticas /Código de conduta.md"
+    - Commits: "Políticas /Commits.md"
+    - Issues: "Políticas /Issues.md"
   - Sprints:
     - Sprint 00: 
-      - Planejamento: "docs/Sprints/Sprint 00/Planejamento.md"
-      - Resultados: "docs/Sprints/Sprint 00/Resultados.md"
+      - Planejamento: "Sprints/Sprint 00/Planejamento.md"
+      - Resultados: "Sprints/Sprint 00/Resultados.md"
     - Sprint 01: 
-      - Planejamento: "docs/Sprints/Sprint 01/Planejamento.md"
-      - Resultados: "docs/Sprints/Sprint 01/Resultados.md"
+      - Planejamento: "Sprints/Sprint 01/Planejamento.md"
+      - Resultados: "Sprints/Sprint 01/Resultados.md"
 
 
 

@@ -1,5 +1,0 @@
-# MVV
-
-## Missão
-## Visão
-## Valores

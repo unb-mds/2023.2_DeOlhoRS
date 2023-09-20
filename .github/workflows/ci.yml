@@ -1,26 +1,22 @@
-site_name: MDS-Squad08
-site_url: https://unb-mds.github.io/2023-2-Squad08/
-theme:
-  name: material
-nav:
-  - Comece por aqui :): "index.md"
-  - Backlog: "Backlog.md"
-  - Gestão do Projeto:
-    - Arquitetura: "Gestão do Projeto/Arquitetura.md"
-    - Comunicação: "Gestão do Projeto/Comunicação.md"
-    - MVV: "Gestão do Projeto/MVV.md"
-  - Políticas:
-    - Branches: "Políticas /Branches.md"
-    - Código de conduta: "Políticas /Código de conduta.md"
-    - Commits: "Políticas /Commits.md"
-    - Issues: "Políticas /Issues.md"
-  - Sprints:
-    - Sprint 00: 
-      - Planejamento: "Sprints/Sprint 00/Planejamento.md"
-      - Resultados: "Sprints/Sprint 00/Resultados.md"
-    - Sprint 01: 
-      - Planejamento: "Sprints/Sprint 01/Planejamento.md"
-      - Resultados: "Sprints/Sprint 01/Resultados.md"
-
-
-
+name: ci 
+on:
+  push:
+    branches:
+      - documentacao
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - uses: actions/cache@v2
+        with:
+          key: ${{ github.ref }}
+          path: .cache
+      - run: pip install mkdocs-material
+      - run: pip install pillow cairosvg
+      - run: mkdocs gh-deploy --force

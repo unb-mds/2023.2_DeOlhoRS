@@ -9,6 +9,7 @@ nav:
     - Arquitetura: "Gestão do Projeto/Arquitetura.md"
     - Comunicação: "Gestão do Projeto/Comunicação.md"
     - MVV: "Gestão do Projeto/MVV.md"
+    - Personas : "Gestão do Projeto/PersonasQD.md"
   - Políticas:
     - Branches: "Políticas /Branches.md"
     - Código de conduta: "Políticas /Código de conduta.md"

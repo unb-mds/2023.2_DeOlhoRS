@@ -25,3 +25,7 @@ Tivemos dificuldade para compreender o projeto do Querido Diário e o que iríam
 | [#14](https://github.com/unb-mds/2023-2-Squad08/issues/14)| Documentação da Padronização das Branches |                Concluído                   |
 | [#15](https://github.com/unb-mds/2023-2-Squad08/issues/15)| Documentação da Arquitetura do Projeto |                      Adiado                   |
 | [#16](https://github.com/unb-mds/2023-2-Squad08/issues/16)| Levantamento de Requisitos do Projeto |                      Adiado                    |
+
+## Conclusões
+
+Ficamos confusos com a proposta do projeto durante essa Sprint mas aprendemos bastante com os treinamentos nas ferramentas que utilizaremos e com as documentações que realizamos.

@@ -1,20 +1,21 @@
-# Comece por aqui :)
+# Seja bem-vindo!
 
-Olá! tudo bem? Somos o squad 08 da turma de Métodos de Desenvolvimento de Software, da Universidade de Brasília (UnB), no período de 2023.2!
+Olá a todos,
+Somos o Squad 8, e temos o prazer de apresentar o nosso projeto desenvolvido como parte da disciplina de Métodos de Desenvolvimento de Software. Nosso objetivo principal é contribuir para a transparência e responsabilidade governamental, coletando diários oficiais municipais de diferentes municípios e analisando informações cruciais sobre nomeações e exonerações de servidores públicos.
 
 ## 💡 Ideia e Incentivo
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a venenatis leo. Phasellus molestie urna libero, vitae cursus erat consequat a. Aenean tempor accumsan elit, et porttitor velit pulvinar non. Aenean nec porta arcu, quis pellentesque tortor. Nunc porta velit vitae urna fringilla pretium.
+A coleta e análise de informações em diários oficiais municipais desempenham um papel crucial na transparência e responsabilidade governamental. Esses documentos contêm informações vitais sobre a nomeação e exoneração de funcionários públicos, contratos públicos, licitações e outras atividades administrativas relevantes. Portanto, é fundamental ter uma ferramenta que possa automatizar esse processo e extrair informações relevantes para análise.
 
 ## 🚀 Como executar o projeto
 ### 🛠 Tecnologias e Pré-Requisitos
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a venenatis leo. Phasellus molestie urna libero, vitae cursus erat consequat a. Aenean tempor accumsan elit, et porttitor velit pulvinar non. Aenean nec porta arcu, quis pellentesque tortor. Nunc porta velit vitae urna fringilla pretium.
+Em andamento.
 
 ### ✔️ Instalando e executando
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a venenatis leo. Phasellus molestie urna libero, vitae cursus erat consequat a. Aenean tempor accumsan elit, et porttitor velit pulvinar non. Aenean nec porta arcu, quis pellentesque tortor. Nunc porta velit vitae urna fringilla pretium.
+Em andamento.
 
 ## 🤝 Como contribuir para o projeto
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a venenatis leo. Phasellus molestie urna libero, vitae cursus erat consequat a. Aenean tempor accumsan elit, et porttitor velit pulvinar non. Aenean nec porta arcu, quis pellentesque tortor. Nunc porta velit vitae urna fringilla pretium.
+Este projeto é um trabalho em andamento e está aberto a contribuições. Se você deseja contribuir, siga os padrões de desenvolvimento e abra um pedido de pull com suas alterações.
 
 ## 👩‍💻 Desenvolvedores(as) 👨‍💻
 

@@ -2,6 +2,8 @@ Durante essa sprint, foram feitos os treinamentos propostos no dia 07/09/2023, o
 
 Além disso, durante essa sprint, o integrante Matheus Mello entrou no grupo.
 
+## Histórico de versões
+
 |    Data    | Versão |       Descrição       |      Autor      |
 | :--------: | :----: | :-------------------: | :-------------: |
 | 25/09/2023 |  0.1   | Fechamento do documento| [Ana Clara Borges](https://github.com/anabborges)|

@@ -23,6 +23,7 @@ contador_ano = 2008 # Um ano antes de ter os primeiros diarios
 contador_mes = 0 # um mês antes de ter os diario
 contador_dia = 0 # um dia antes de ter os diarios
 # Percorre o ano
+
 while contador_ano <= 2023:
     contador_ano +=1
     if contador_ano >=2024:
@@ -86,6 +87,7 @@ while contador_ano <= 2023:
                                     EC.presence_of_element_located((By.XPATH, "//*[@id='popup']/div/article/a"))
                                     )
                 driver.find_element(By.XPATH, "//*[@id='popup']/div/article/a").click()
+               
 driver.quit()
 # Padrão procurado na string de nome do arquivo = ano-mes-dia
 padrao = r"(\d{4})-(\d{2})-(\d{2})"
@@ -101,9 +103,9 @@ for arq in arquivos:
             os.rename(caminhoArq, f'{ano}-{mes}-{dia}.pdf')
             print(os.path.basename(arq))
 
-for docs in os.listdir("/home/bdebatata/MétodosDeDesenvolvimentoDeSoftware/2023-2-Squad08/WebScrapping"):
+for docs in os.listdir("/home/bdebatata/MétodosDeDesenvolvimentoDeSoftware/2023-2-Squad08"):
     if docs.endswith(".pdf"):
-        caminhoAtual = os.path.join("/home/bdebatata/MétodosDeDesenvolvimentoDeSoftware/2023-2-Squad08/WebScrapping", docs)
-        caminhoDestino = os.path.join("/home/bdebatata/MétodosDeDesenvolvimentoDeSoftware/2023-2-Squad08/WebScrapping/DiariosOficiais", docs)
+        caminhoAtual = os.path.join("/home/bdebatata/MétodosDeDesenvolvimentoDeSoftware/2023-2-Squad08", docs)
+        caminhoDestino = os.path.join("/home/bdebatata/MétodosDeDesenvolvimentoDeSoftware/2023-2-Squad08/DiariosOficiais", docs)
         shutil.move(caminhoAtual, caminhoDestino)
    

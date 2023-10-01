@@ -19,7 +19,7 @@ month_selector = Select(calendar_month)
 year_selector = Select(calendar_year)
 
 # Contador para o while
-contador_ano = 2008 # Um ano antes de ter os primeiros diarios
+contador_ano = 2010 # Um ano antes de ter os primeiros diarios
 contador_mes = 0 # um mês antes de ter os diario
 contador_dia = 0 # um dia antes de ter os diarios
 # Percorre o ano

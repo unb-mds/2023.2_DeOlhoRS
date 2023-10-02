@@ -14,6 +14,10 @@ As cores bases foram definidas a partir das cores da bandeira do Rio Grande do S
 
 A logo é o contorno do estado do Rio Grande do Sul com colunas que representam gráficos de barra para remeter ao conteúdo do projeto, o estudo e a elaboração de gráficos a respeito dos dados de exoneração e nomeações do RS.
 
+## Funcionalidades
+
+Nós decidimos as funcionalidades do nosso site durante a elaboração do protótipo, assim como os tipos de filtro que teremos e os gráficos que o usuário visualizará. Como filtro teremos: filtro por município, por nome, por cpf e por cargo. Além disso, teremos gráficos de setores, de barras e tabelas.
+
 ## Figma
 
 Já foi feita a prototipação de baixa fidelidade e a alta está em produção dentro da plataforma Figma, a qual possibilita criação fácil de design, além da fácil utilização dos elementos em código.

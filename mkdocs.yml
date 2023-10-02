@@ -10,6 +10,13 @@ nav:
     - Comunicação: "Gestão do Projeto/Comunicação.md"
     - MVV: "Gestão do Projeto/MVV.md"
     - Personas : "Gestão do Projeto/PersonasQD.md"
+    - Design Sprint:
+      - O que é: "DesignSprint/DesignSprint.md"
+      - Decidir: "DesignSprint/Decidir.md"
+      - Design: "DesignSprint/Design.md"
+      - Ideação: "DesignSprint/Ideação.md"
+      - Mapeamento: "DesignSprint/Mapeamento.md"
+      - Requisitos: "DesignSprin/Requisitos.md"
   - Políticas:
     - Branches: "Políticas /Branches.md"
     - Código de conduta: "Políticas /Código de conduta.md"

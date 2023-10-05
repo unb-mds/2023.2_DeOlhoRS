@@ -1,0 +1,38 @@
+site_name: MDS-Squad08
+site_url: https://unb-mds.github.io/2023-2-Squad08/
+theme:
+  name: material
+nav:
+  - Comece por aqui :): "index.md"
+  - Backlog: "Backlog.md"
+  - Gestão do Projeto:
+    - Arquitetura: "Gestão do Projeto/Arquitetura.md"
+    - Comunicação: "Gestão do Projeto/Comunicação.md"
+    - MVV: "Gestão do Projeto/MVV.md"
+    - Personas : "Gestão do Projeto/PersonasQD.md"
+    - Storymap: "Gestão do Projeto/Storymap.md"
+    - Design Sprint:
+      - O que é: "DesignSprint/DesignSprint.md"
+      - Decidir: "DesignSprint/Decidir.md"
+      - Design: "DesignSprint/Design.md"
+      - Ideação: "DesignSprint/Ideação.md"
+      - Mapeamento: "DesignSprint/Mapeamento.md"
+      - Requisitos: "DesignSprint/Requisitos.md"
+  - Políticas:
+    - Branches: "Políticas /Branches.md"
+    - Código de conduta: "Políticas /Código de conduta.md"
+    - Commits: "Políticas /Commits.md"
+    - Issues: "Políticas /Issues.md"
+  - Sprints:
+    - Sprint 00: 
+      - Planejamento: "Sprints/Sprint 00/Planejamento.md"
+      - Resultados: "Sprints/Sprint 00/Resultados.md"
+    - Sprint 01: 
+      - Planejamento: "Sprints/Sprint 01/Planejamento.md"
+      - Resultados: "Sprints/Sprint 01/Resultados.md"
+    - Sprint 02:
+      - Planejamento: "Sprints/Sprint 02/Planejamento.md"
+      - Resultados: "Sprints/Sprint 02/Resultados.md"
+
+
+

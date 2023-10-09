@@ -12,7 +12,7 @@ Dado o processo de criação, foram desenvolvidos alguns diagramas para a melhor
 A ideia inicial da arquitetura se baseia em: 
 
 <div align="center"> 
-    <img src="/site/assets/images/diagramaDePacotes.png" width="400" />
+    <img src="/docs/images/diagramaDePacotes.png" width="400" />
 </div>
 
 Tal esboço de um diagrama de pacotes representa os pacotes necessários para a implementação do projeto.
@@ -49,7 +49,7 @@ A partir desse raciocínio e da elicitação de requisitos é possível realizar
     <summary>Caminho do usuário, página Home:
     </summary>
     <div align="center"> 
-    <img src="/site/assets/images/home.png" width="400" />
+    <img src="/docs/images/home.png" width="400" />
 </div>
 </details>
 
@@ -57,7 +57,7 @@ A partir desse raciocínio e da elicitação de requisitos é possível realizar
     <summary>Caminho do usuário, página Sobre:
     </summary>
     <div align="center"> 
-    <img src="/site/assets/images/sobre.png" width="400" />
+    <img src="/docs/images/sobre.png" width="400" />
 </div>
 </details>
 
@@ -65,7 +65,7 @@ A partir desse raciocínio e da elicitação de requisitos é possível realizar
     <summary>Caminho do usuário, página de Pesquisa Avançada:
     </summary>
     <div align="center"> 
-    <img src="/site/assets/images/pesquisa.png" width="400" />
+    <img src="/docs/images/pesquisa.png" width="400" />
 </div>
 </details>
 
@@ -73,7 +73,7 @@ A partir desse raciocínio e da elicitação de requisitos é possível realizar
     <summary>Caminho do software, webscraping:
     </summary>
     <div align="center"> 
-    <img src="/site/assets/images/webscraping.png" width="400" />
+    <img src="/docs/images/webscraper.png" width="400" />
 </div>
 </details>
 
@@ -81,7 +81,7 @@ A partir desse raciocínio e da elicitação de requisitos é possível realizar
     <summary>Caminho do software, PyPDF2:
     </summary>
     <div align="center"> 
-    <img src="/site/assets/images/PyPDF.png" width="400" />
+    <img src="/docs/images/PyPDF.png" width="400" />
 </div>
 </details>
 
@@ -89,7 +89,7 @@ A partir desse raciocínio e da elicitação de requisitos é possível realizar
     <summary>Caminho do software, Regex:
     </summary>
     <div align="center"> 
-    <img src="/site/assets/images/regex.png" width="400" />
+    <img src="/docs/images/Regex.png" width="400" />
 </div>
 </details>
 
@@ -101,6 +101,7 @@ Além disso as tecnologias escolhidas para as implementações desse software es
 | :--------: | :----: | :-------------------: | :-------------: |
 | 8/10/2023 |  0.1   | Abertura do documento | [Bruno Henrique Duarte](https://github.com/bdebatata) e   [Bianca Patrocinio](https://github.com/BiancaPatrocinio7)|
 | 9/10/2023 |  0.2   | Acréscimo do detalhamento de cada camada | [Bruno Henrique Duarte](https://github.com/bdebatata) e   [Bianca Patrocinio](https://github.com/BiancaPatrocinio7)|
+|09/10/2023|0.3| Arrumando para o build do mkdocs | [Bruno Henrique](https://github.com/bdebatata) |
 
 
 

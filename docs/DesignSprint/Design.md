@@ -23,3 +23,7 @@ Nós decidimos as funcionalidades do nosso site durante a elaboração do protó
 Já foi feita a prototipação de baixa fidelidade e a alta está em produção dentro da plataforma Figma, a qual possibilita criação fácil de design, além da fácil utilização dos elementos em código.
 
 Link para o projeto: https://www.figma.com/file/1JtfmfvGR7FGMYcPoCWa6Z/M%C3%A9dia-fidelidade?type=design&node-id=0-1&mode=design&t=NiD4TpEJtP2nM6m2-0
+
+##  Atualizações
+
+Foram feitas algumas mudanças no projeto, tornando o design cada vez mais esteticamente agradável.

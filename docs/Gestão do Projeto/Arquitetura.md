@@ -33,9 +33,9 @@ A busca por expressões regulares vai ser o que vai procurar de forma automatiza
 4. Database
 Com as informações agora desta forma, estes dados serão salvos em um arquivo .json para fácil acesso e manipulação pelas camadas a seguir.
 
-### API do Google Drive
+#### Sobre o armazenamento de dados:
 
-O ultimo tópico traz uma problemática grande quando pensado no armazenamento. Usando o Rio Grande do Sul como exemplo, são arquivos desde 2009 todos os dias menos finais de semana e sendo sempre atualizados, para armazenar esses dados enquanto são processados pela camada de dados, foi escolhido se usar uma API do Google Drive que permite salva-los na Nuvem do Google. 
+Após uma reunião com um dos membros do projeto que está se usando referência (Projeto [Exoonero](https://github.com/exoonero/extrator)), um dos tópicos mais questionados foi sobre o armazenamento dessa quantia de PDFs, .txt e dados de processamento do Regex. Foi mostrado que é possível realizar esse processo em tempo de execução de código para que não se tenha que armazenar para sempre esses dados, somente usar e apagar. Porém será necessário armazenar uma coisa: um arquivo .json que contém um "resumo" das informações, de onde será retirado os dados para montagem dos displays de dados no site.
 
 ### Camada do Site
 
@@ -70,28 +70,13 @@ A partir desse raciocínio e da elicitação de requisitos é possível realizar
 </details>
 
 <details>
-    <summary>Caminho do software, webscraping:
+    <summary>Caminho do software, camada de dados:
     </summary>
     <div align="center"> 
-    <img src="/docs/images/webscraper.png" width="400" />
+    <img src="/docs/images/camadaDeDados.png" width="400" />
 </div>
 </details>
 
-<details>
-    <summary>Caminho do software, PyPDF2:
-    </summary>
-    <div align="center"> 
-    <img src="/docs/images/PyPDF.png" width="400" />
-</div>
-</details>
-
-<details>
-    <summary>Caminho do software, Regex:
-    </summary>
-    <div align="center"> 
-    <img src="/docs/images/Regex.png" width="400" />
-</div>
-</details>
 
 Além disso as tecnologias escolhidas para as implementações desse software estão documentadas em: [Escolhas Tecnológicas](/docs/Tecnologias/EscolhasTecnologicas.md)
 
@@ -102,6 +87,7 @@ Além disso as tecnologias escolhidas para as implementações desse software es
 | 8/10/2023 |  0.1   | Abertura do documento | [Bruno Henrique Duarte](https://github.com/bdebatata) e   [Bianca Patrocinio](https://github.com/BiancaPatrocinio7)|
 | 9/10/2023 |  0.2   | Acréscimo do detalhamento de cada camada | [Bruno Henrique Duarte](https://github.com/bdebatata) e   [Bianca Patrocinio](https://github.com/BiancaPatrocinio7)|
 |09/10/2023|0.3| Arrumando para o build do mkdocs | [Bruno Henrique](https://github.com/bdebatata) |
+|10/10/2023|0.4| Atualização da Documentação, Retirada da API do Google Drive | [Bruno Henrique](https://github.com/bdebatata) |
 
 
 

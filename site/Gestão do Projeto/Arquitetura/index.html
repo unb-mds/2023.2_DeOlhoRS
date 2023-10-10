@@ -339,12 +339,18 @@
     Camada de Dados
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#api-do-google-drive" class="md-nav__link">
-    API do Google Drive
+    <nav class="md-nav" aria-label="Camada de Dados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sobre-o-armazenamento-de-dados" class="md-nav__link">
+    Sobre o armazenamento de dados:
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1330,12 +1336,18 @@
     Camada de Dados
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#api-do-google-drive" class="md-nav__link">
-    API do Google Drive
+    <nav class="md-nav" aria-label="Camada de Dados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sobre-o-armazenamento-de-dados" class="md-nav__link">
+    Sobre o armazenamento de dados:
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1408,8 +1420,8 @@ A busca por expressões regulares vai ser o que vai procurar de forma automatiza
 Com as informações agora desta forma, estes dados serão salvos em um arquivo .json para fácil acesso e manipulação pelas camadas a seguir.</p>
 </li>
 </ol>
-<h3 id="api-do-google-drive">API do Google Drive</h3>
-<p>O ultimo tópico traz uma problemática grande quando pensado no armazenamento. Usando o Rio Grande do Sul como exemplo, são arquivos desde 2009 todos os dias menos finais de semana e sendo sempre atualizados, para armazenar esses dados enquanto são processados pela camada de dados, foi escolhido se usar uma API do Google Drive que permite salva-los na Nuvem do Google. </p>
+<h4 id="sobre-o-armazenamento-de-dados">Sobre o armazenamento de dados:</h4>
+<p>Após uma reunião com um dos membros do projeto que está se usando referência (Projeto <a href="https://github.com/exoonero/extrator">Exoonero</a>), um dos tópicos mais questionados foi sobre o armazenamento dessa quantia de PDFs, .txt e dados de processamento do Regex. Foi mostrado que é possível realizar esse processo em tempo de execução de código para que não se tenha que armazenar para sempre esses dados, somente usar e apagar. Porém será necessário armazenar uma coisa: um arquivo .json que contém um "resumo" das informações, de onde será retirado os dados para montagem dos displays de dados no site.</p>
 <h3 id="camada-do-site">Camada do Site</h3>
 <p>Para disposição desses dados em um site será utilizado JavaScript e React, como já mencionado no documento de Escolhas Tecnologicas. </p>
 <h3 id="diagramas">Diagramas</h3>
@@ -1439,26 +1451,10 @@ Com as informações agora desta forma, estes dados serão salvos em um arquivo 
 </details>
 
 <details>
-    <summary>Caminho do software, webscraping:
+    <summary>Caminho do software, camada de dados:
     </summary>
     <div align="center"> 
-    <img src="/docs/images/webscraper.png" width="400" />
-</div>
-</details>
-
-<details>
-    <summary>Caminho do software, PyPDF2:
-    </summary>
-    <div align="center"> 
-    <img src="/docs/images/PyPDF.png" width="400" />
-</div>
-</details>
-
-<details>
-    <summary>Caminho do software, Regex:
-    </summary>
-    <div align="center"> 
-    <img src="/docs/images/Regex.png" width="400" />
+    <img src="/docs/images/camadaDeDados.png" width="400" />
 </div>
 </details>
 
@@ -1490,6 +1486,12 @@ Com as informações agora desta forma, estes dados serão salvos em um arquivo 
 <td style="text-align: center;">09/10/2023</td>
 <td style="text-align: center;">0.3</td>
 <td style="text-align: center;">Arrumando para o build do mkdocs</td>
+<td style="text-align: center;"><a href="https://github.com/bdebatata">Bruno Henrique</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">10/10/2023</td>
+<td style="text-align: center;">0.4</td>
+<td style="text-align: center;">Atualização da Documentação, Retirada da API do Google Drive</td>
 <td style="text-align: center;"><a href="https://github.com/bdebatata">Bruno Henrique</a></td>
 </tr>
 </tbody>

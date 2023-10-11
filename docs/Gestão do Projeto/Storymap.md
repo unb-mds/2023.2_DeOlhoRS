@@ -5,11 +5,13 @@
 | 02/10/2023 | 0.1    | Abertura do documento      | Vitor Feijó |
 | 10/10/2023 | 0.2    | Adição do quadro de storymap      | Vitor Feijó |
 
- <img src="../images/StoryMap.png"> 
+ ![storymap](../images/StoryMap.png)
 
-Uma ou duas frases para descrever algo de valor para um usuário. As histórias de usuários são normalmente escritas em linguagem natural e informal. Eles são “um lembrete para conversar com uma parte interessada”.
+É uma técnica criada por Jeff Patton no livro User Story Mapping: Discover the Whole Story, Build the Right Product. Ela se baseia na organização dos principais requisitos do produto sob a ótica da jornada do usuário.
 
 ### Histórias: 
+
+Uma ou duas frases para descrever algo de valor para um usuário. As histórias de usuários são normalmente escritas em linguagem natural e informal. Eles são “um lembrete para conversar com uma parte interessada”.
 
 <details>
     <summary>História 01</summary>

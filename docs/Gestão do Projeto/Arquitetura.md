@@ -11,9 +11,7 @@ Dado o processo de criação, foram desenvolvidos alguns diagramas para a melhor
 
 A ideia inicial da arquitetura se baseia em: 
 
-<div align="center"> 
-    <img src="/docs/images/diagramaDePacotes.png" width="400" />
-</div>
+![Arquitetura](/docs/images/Arquitetura.png)
 
 Tal esboço de um diagrama de pacotes representa os pacotes necessários para a implementação do projeto.
 
@@ -45,37 +43,21 @@ Para disposição desses dados em um site será utilizado JavaScript e React, co
 
 A partir desse raciocínio e da elicitação de requisitos é possível realizar um diagrama sequencial, que mostra o caminho do usuário ou do software. Caso seja necessário os requisitos estão documentados em [Requisitos](/docs/DesignSprint/Requisitos.md)
 
-<details>
-    <summary>Caminho do usuário, página Home:
-    </summary>
-    <div align="center"> 
-    <img src="/docs/images/home.png" width="400" />
-</div>
-</details>
+Caminho do Usuário, pagina Home:
 
-<details>
-    <summary>Caminho do usuário, página Sobre:
-    </summary>
-    <div align="center"> 
-    <img src="/docs/images/sobre.png" width="400" />
-</div>
-</details>
+![home](/docs/images/home.png)
 
-<details>
-    <summary>Caminho do usuário, página de Pesquisa Avançada:
-    </summary>
-    <div align="center"> 
-    <img src="/docs/images/pesquisa.png" width="400" />
-</div>
-</details>
+Caminho do Usuário, pagina Sobre:
 
-<details>
-    <summary>Caminho do software, camada de dados:
-    </summary>
-    <div align="center"> 
-    <img src="/docs/images/camadaDeDados.png" width="400" />
-</div>
-</details>
+![sobre](/docs/images/sobre.png)
+
+Caminho do Usuário, pagina Pesquisa Avançada:
+
+![sobre](/docs/images/pesquisa.png)
+
+Caminho do Software, camada de dados:
+
+![sobre](/docs/images/camadaDeDados.png)
 
 
 Além disso as tecnologias escolhidas para as implementações desse software estão documentadas em: [Escolhas Tecnológicas](/docs/Tecnologias/EscolhasTecnologicas.md)
@@ -88,6 +70,7 @@ Além disso as tecnologias escolhidas para as implementações desse software es
 | 9/10/2023 |  0.2   | Acréscimo do detalhamento de cada camada | [Bruno Henrique Duarte](https://github.com/bdebatata) e   [Bianca Patrocinio](https://github.com/BiancaPatrocinio7)|
 |09/10/2023|0.3| Arrumando para o build do mkdocs | [Bruno Henrique](https://github.com/bdebatata) |
 |10/10/2023|0.4| Atualização da Documentação, Retirada da API do Google Drive | [Bruno Henrique](https://github.com/bdebatata) |
+|10/10/2023| 0.5 |Modificações propostas pela equipe | [Bruno Henrique](https://github.com/bdebatata), [Larissa Vieira](https://github.com/VieiraLaris) e [Vitor Feijó](https://github.com/vitorfleonardo) |
 
 
 

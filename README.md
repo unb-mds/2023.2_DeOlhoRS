@@ -14,6 +14,12 @@ git checkout front-end
 git pull
 ```
 
+* Entre na pasta "implementacao-front"
+
+```
+cd implementacao-front
+```
+
 * Baixe a pasta node_modules com as dependências necessárias para rodar o projeto na sua máquina:
 
 ```

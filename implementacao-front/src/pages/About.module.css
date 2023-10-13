@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.content {
+    height: 200vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    gap: 70px;
+}
+
+h1 {
+    font-size: 50px;
+    width: 60%;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+hr {
+    height: 0.2px;
+    width: 90%;
+    background-color: black;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.teamContainer {
+    background-color: #8FD053;
+    height: 40%;
+    width: 80%;
+    border-radius: 30px;
+}

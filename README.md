@@ -1,19 +1,27 @@
-# 2023-2-Squad08
+## Como rodar o projeto
 
-# Projeto de Coleta e Análise de Diários Oficiais Municipais
-## Introdução
-Este é um projeto desenvolvido como parte da disciplina de Métodos de Desenvolvimento de Software. O objetivo principal do projeto é coletar diários oficiais municipais de diferentes municípios do Rio Grande do Sul e analisar informações relacionadas a nomeações e exonerações de servidores públicos.
+* Baixe o nodejs, ele pode ser baixado pelo [site](https://nodejs.org/en/download) ou pelo terminal (recomendo pelo terminal).
 
-## Contexto
-A coleta e análise de informações em diários oficiais municipais desempenham um papel crucial na transparência e responsabilidade governamental. Esses documentos contêm informações vitais sobre a nomeação e exoneração de funcionários públicos, contratos públicos, licitações e outras atividades administrativas relevantes. Portanto, é fundamental ter uma ferramenta que possa automatizar esse processo e extrair informações relevantes para análise.
+* Mude para essa brach com o seguinte comando:
 
-## Funcionalidades
-O projeto possui as seguintes funcionalidades principais:
+```
+git checkout front-end
+```
 
-- Coleta de Diários Oficiais: O sistema é capaz de coletar diários oficiais de diferentes municípios, considerando suas fontes e formatos específicos.
+* Verifique se ela está atualizada
 
-- Extração de Nomeações e Exonerações: O sistema extrai informações relevantes sobre nomeações e exonerações de servidores públicos presentes nos diários oficiais coletados.
+```
+git pull
+```
 
-- Análise Estatística: O projeto realiza uma análise estatística dos dados extraídos, gerando relatórios e gráficos que destacam tendências e padrões.
+* Baixe a pasta node_modules com as dependências necessárias para rodar o projeto na sua máquina:
 
-- Interface de Usuário: Uma interface de usuário amigável permite que os usuários pesquisem e visualizem os dados coletados de forma intuitiva.
+```
+npm install
+```
+
+* Agora é só criar um servidor local para acompanhar suas mudanças em tempo real:
+
+```
+npm run dev
+```

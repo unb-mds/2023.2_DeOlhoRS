@@ -18,12 +18,14 @@
 }
 
 h1 {
+    font-family: 'Sansation';
     font-size: 50px;
     width: 60%;
     text-align: center;
 }
 
 p {
+    font-family: 'Niramit';
     font-size: 20px;
     width: 80%;
     text-align: center;

@@ -5,7 +5,6 @@
   As personas do “Querido Diário” acabam coincidindo com as personas do nosso projeto. Os mesmos interessados na plataforma da OKBR poderão acessar nosso dashboard e consultar de forma mais sucinta alguns dados coletados dos diários oficiais de diferentes municípios do Rio Grande do Sul.
 
 
-
 ## 1-Cidadão Engajado:  
 
 Motivações: Interessado em entender como o dinheiro público é gasto para promover transparência e responsabilização.
@@ -32,6 +31,7 @@ O gestor público teria as mesmas necessidades das personas acima. Acredito que 
 Motivações: Deseja utilizar os dados disponibilizados pelo projeto para criar aplicações, visualizações ou ferramentas que facilitem o acesso e a compreensão das informações.
 Comportamento: Acessa a API do projeto, contribui para desenvolvimentos externos e cria soluções inovadoras baseadas nos dados.
 Como o projeto da OKBR já é open source, esse deve ser um dos nossos objetivos: manter a clareza e as boas práticas no nosso trabalho, a fim de que os próximos desenvolvedores consigam reutilizar nossos processos. 
+
 
 
 

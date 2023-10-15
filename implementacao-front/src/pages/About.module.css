@@ -18,7 +18,7 @@
 }
 
 h1 {
-    font-family: 'Sansation';
+    font-family: 'Sansation', sans-serif;
     font-size: 50px;
     width: 60%;
     text-align: center;
@@ -38,6 +38,7 @@ hr {
 }
 
 h2 {
+    font-family: 'Niramit';
     font-size: 25px;
 }
 

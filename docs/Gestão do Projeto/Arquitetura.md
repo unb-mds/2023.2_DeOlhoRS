@@ -11,7 +11,9 @@ Dado o processo de criação, foram desenvolvidos alguns diagramas para a melhor
 
 A ideia inicial da arquitetura se baseia em: 
 
-![Arquitetura](/docs/images/Arquitetura.png)
+<div align="center"> 
+    <img src="/site/assets/images/diagramaDePacotes.png" width="400" />
+</div>
 
 Tal esboço de um diagrama de pacotes representa os pacotes necessários para a implementação do projeto.
 
@@ -31,9 +33,9 @@ A busca por expressões regulares vai ser o que vai procurar de forma automatiza
 4. Database
 Com as informações agora desta forma, estes dados serão salvos em um arquivo .json para fácil acesso e manipulação pelas camadas a seguir.
 
-#### Sobre o armazenamento de dados:
+### API do Google Drive
 
-Após uma reunião com um dos membros do projeto que está se usando referência (Projeto [Exoonero](https://github.com/exoonero/extrator)), um dos tópicos mais questionados foi sobre o armazenamento dessa quantia de PDFs, .txt e dados de processamento do Regex. Foi mostrado que é possível realizar esse processo em tempo de execução de código para que não se tenha que armazenar para sempre esses dados, somente usar e apagar. Porém será necessário armazenar uma coisa: um arquivo .json que contém um "resumo" das informações, de onde será retirado os dados para montagem dos displays de dados no site.
+O ultimo tópico traz uma problemática grande quando pensado no armazenamento. Usando o Rio Grande do Sul como exemplo, são arquivos desde 2009 todos os dias menos finais de semana e sendo sempre atualizados, para armazenar esses dados enquanto são processados pela camada de dados, foi escolhido se usar uma API do Google Drive que permite salva-los na Nuvem do Google. 
 
 ### Camada do Site
 
@@ -43,22 +45,53 @@ Para disposição desses dados em um site será utilizado JavaScript e React, co
 
 A partir desse raciocínio e da elicitação de requisitos é possível realizar um diagrama sequencial, que mostra o caminho do usuário ou do software. Caso seja necessário os requisitos estão documentados em [Requisitos](/docs/DesignSprint/Requisitos.md)
 
-Caminho do Usuário, pagina Home:
+<details>
+    <summary>Caminho do usuário, página Home:
+    </summary>
+    <div align="center"> 
+    <img src="/site/assets/images/home.png" width="400" />
+</div>
+</details>
 
-![home](/docs/images/home.png)
+<details>
+    <summary>Caminho do usuário, página Sobre:
+    </summary>
+    <div align="center"> 
+    <img src="/site/assets/images/sobre.png" width="400" />
+</div>
+</details>
 
-Caminho do Usuário, pagina Sobre:
+<details>
+    <summary>Caminho do usuário, página de Pesquisa Avançada:
+    </summary>
+    <div align="center"> 
+    <img src="/site/assets/images/pesquisa.png" width="400" />
+</div>
+</details>
 
-![sobre](/docs/images/sobre.png)
+<details>
+    <summary>Caminho do software, webscraping:
+    </summary>
+    <div align="center"> 
+    <img src="/site/assets/images/webscraping.png" width="400" />
+</div>
+</details>
 
-Caminho do Usuário, pagina Pesquisa Avançada:
+<details>
+    <summary>Caminho do software, PyPDF2:
+    </summary>
+    <div align="center"> 
+    <img src="/site/assets/images/PyPDF.png" width="400" />
+</div>
+</details>
 
-![sobre](/docs/images/pesquisa.png)
-
-Caminho do Software, camada de dados:
-
-![sobre](/docs/images/camadaDeDados.png)
-
+<details>
+    <summary>Caminho do software, Regex:
+    </summary>
+    <div align="center"> 
+    <img src="/site/assets/images/regex.png" width="400" />
+</div>
+</details>
 
 Além disso as tecnologias escolhidas para as implementações desse software estão documentadas em: [Escolhas Tecnológicas](/docs/Tecnologias/EscolhasTecnologicas.md)
 
@@ -68,9 +101,6 @@ Além disso as tecnologias escolhidas para as implementações desse software es
 | :--------: | :----: | :-------------------: | :-------------: |
 | 8/10/2023 |  0.1   | Abertura do documento | [Bruno Henrique Duarte](https://github.com/bdebatata) e   [Bianca Patrocinio](https://github.com/BiancaPatrocinio7)|
 | 9/10/2023 |  0.2   | Acréscimo do detalhamento de cada camada | [Bruno Henrique Duarte](https://github.com/bdebatata) e   [Bianca Patrocinio](https://github.com/BiancaPatrocinio7)|
-|09/10/2023|0.3| Arrumando para o build do mkdocs | [Bruno Henrique](https://github.com/bdebatata) |
-|10/10/2023|0.4| Atualização da Documentação, Retirada da API do Google Drive | [Bruno Henrique](https://github.com/bdebatata) |
-|10/10/2023| 0.5 |Modificações propostas pela equipe | [Bruno Henrique](https://github.com/bdebatata), [Larissa Vieira](https://github.com/VieiraLaris) e [Vitor Feijó](https://github.com/vitorfleonardo) |
 
 
 

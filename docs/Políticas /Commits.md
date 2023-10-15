@@ -33,7 +33,7 @@ Por ser um projeto voltado totalmente para um público brasileiro e por toda equ
 - :cool: quando melhorias de formato/estrutura do código
 - :racehorse: quando melhorar o desempenho
 - 🚱  quando resolver memory leaks
-- :pencil: quando escrever documentação
+- :memo: quando escrever documentação
 - :bug: quando consertar um problema
 - :fire: quando remover código ou arquivos
 - :green_heart: quando consertar problemas de Integração Contínua

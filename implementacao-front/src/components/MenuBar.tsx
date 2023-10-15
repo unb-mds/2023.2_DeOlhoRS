@@ -1,5 +1,5 @@
 import styles from './MenuBar.module.css'
-import logo from "./imagens/logo.png"
+import logo from "../assets/logo.png"
 
 function MenuBar() {
   return (

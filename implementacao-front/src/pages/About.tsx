@@ -1,4 +1,5 @@
 import MenuBar from "../components/MenuBar"
+import Profile from "../components/Profile"
 import styles from "./About.module.css"
 
 function About() {
@@ -13,7 +14,10 @@ function About() {
            <hr />
            <h2>Equipe de estudantes desenvolvedores:</h2>
            <div className={styles.teamContainer}>
-            aaaaaaaaaa
+            <div className={styles.upperProfiles}>
+              <Profile name = 'Ana Borges' photo = 'https://avatars.githubusercontent.com/u/109738757?v=4'/>
+              <Profile name = 'Bianca Patrocínio' photo = 'https://avatars.githubusercontent.com/u/70040539?v=4'/>
+            </div>
            </div>
         </section>
     </div>

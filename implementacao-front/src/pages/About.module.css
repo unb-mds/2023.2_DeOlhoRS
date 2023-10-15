@@ -46,4 +46,11 @@ h2 {
     height: 40%;
     width: 80%;
     border-radius: 30px;
+    padding: 20px;
+}
+
+.upperProfiles {
+    display: flex;
+    height: 50%;
+    gap: 10px;
 }

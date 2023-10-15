@@ -4,15 +4,40 @@
 }
 
 .menuBar {
+    display: flex;
+    flex-direction: column;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     height: 100vh;
     width: 360px;
     background-color: #207F16;
     align-items: center;
+    padding-top: 25px;
 }
 
-.logo {
-    display: block;
-    margin-left: 10px;
+.links {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    align-items: center;
+    gap: 25px;
 }
+
+a {
+    padding: 14px 25px;
+    color: black;
+    border-radius: 15px;
+    font-size: 1.2em;
+}
+
+a:link {
+    text-decoration: none; 
+    font-weight: bold;
+}
+a:visited, a:hover, a:active {
+    text-decoration: none;
+    background-color: #8FD053;
+}
+
+

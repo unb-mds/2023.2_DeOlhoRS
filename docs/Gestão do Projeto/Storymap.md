@@ -5,7 +5,7 @@
 | 02/10/2023 | 0.1    | Abertura do documento      | Vitor Feijó |
 | 10/10/2023 | 0.2    | Adição do quadro de storymap      | Vitor Feijó |
 
- ![storymap](../images/StoryMap.png)
+ ![storymap](https://live.staticflickr.com/65535/53259088413_179c038aa2_z.jpg) 
 
 É uma técnica criada por Jeff Patton no livro User Story Mapping: Discover the Whole Story, Build the Right Product. Ela se baseia na organização dos principais requisitos do produto sob a ótica da jornada do usuário.
 

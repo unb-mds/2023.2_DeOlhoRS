@@ -23,6 +23,8 @@ nav:
     - Código de conduta: "Políticas /Código de conduta.md"
     - Commits: "Políticas /Commits.md"
     - Issues: "Políticas /Issues.md"
+  - Tecnologias:
+    - Escolhas Tecnológicas: "Tecnologias/EscolhasTecnologicas.md"
   - Sprints:
     - Sprint 00: 
       - Planejamento: "Sprints/Sprint 00/Planejamento.md"
@@ -33,6 +35,12 @@ nav:
     - Sprint 02:
       - Planejamento: "Sprints/Sprint 02/Planejamento.md"
       - Resultados: "Sprints/Sprint 02/Resultados.md"
+    - Sprint 03:
+      - Planejamento: "Sprints/Sprint 03/Planejamento.md"
+      - Resultados: "Sprints/Sprint 03/Resultados.md"
+    - Sprint 04:
+      - Planejamento: "Sprints/Sprint 04/Planejamento.md"
+      - Resultados: "Sprints/Sprint 04/Resultados.md"
 
 
 

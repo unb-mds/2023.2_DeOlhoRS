@@ -1,6 +1,7 @@
 import MenuBar from "../components/MenuBar"
 import Profile from "../components/Profile"
 import styles from "./About.module.css"
+import { AiFillGithub } from "react-icons/ai"
 
 function About() {
   return (
@@ -27,6 +28,11 @@ function About() {
               <Profile name='Vitor Feijó' photo='https://avatars.githubusercontent.com/u/69637300?v=4' />
             </div>
            </div>
+
+           <div className={styles.repository}>
+              <AiFillGithub size={50}/>
+              <a className={styles.repositoryLink} target="_blank" href="https://github.com/unb-mds/2023-2-Squad08">GitHub: Clique aqui e acesse o repositório do Projeto!</a>
+            </div>
         </section>
     </div>
   )

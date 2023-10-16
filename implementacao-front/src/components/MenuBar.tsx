@@ -9,11 +9,11 @@ function MenuBar() {
         <img src={logo} className="logo" alt="" width="220" height="185"/>
       </div>
       <div className={styles.links}>
-        <a href="url">Home</a>
-        <a href="url">Pesquisa</a>
-        <a href="url">Municípios</a>
-        <a href="url">Anomalias</a>
-        <a href="url">Sobre</a>
+        <a className={styles.link} href="/">Home</a>
+        <a className={styles.link} href="url">Pesquisa</a>
+        <a className={styles.link} href="url">Municípios</a>
+        <a className={styles.link} href="url">Anomalias</a>
+        <a className={styles.link} href="/about">Sobre</a>
       </div>
     </div>
   )

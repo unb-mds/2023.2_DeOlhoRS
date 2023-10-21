@@ -42,8 +42,8 @@ def extrair_pdf(ano, mes, dia):
 def altera_diretorio():
     padrao = r"(\d{4})-(\d{2})-(\d{2})"
     # Alterar os diretórios caso seja usado por outro membro. #
-    arquivos = os.listdir("/home/bdebatata/Downloads")
-    caminho = "/home/bdebatata/Downloads"
+    arquivos = os.listdir("/home/bibia/Downloads")
+    caminho = "/home/bibia/Downloads"
     for arq in arquivos:
             correspondencia = re.findall(padrao, os.path.basename(arq))
             for match in correspondencia:
@@ -123,8 +123,8 @@ while contador_ano <= 2023:
                         altera_diretorio()
                         #extrair texto
                         extrair_pdf(contador_ano, contador_mes, contador_dia)
-                        if os.path.exists(f'/home/bdebatata/MétodosDeDesenvolvimentoDeSoftware/2023-2-Squad08/{contador_ano}-0{contador_mes}-0{contador_dia-1}.pdf'):
-                            os.remove(f'/home/bdebatata/MétodosDeDesenvolvimentoDeSoftware/2023-2-Squad08/{contador_ano}-0{contador_mes}-0{contador_dia-1}.pdf')
+                        if os.path.exists(f'./2023-2-Squad08/{contador_ano}-0{contador_mes}-0{contador_dia-1}.pdf'):
+                            os.remove(f'./2023-2-Squad08/{contador_ano}-0{contador_mes}-0{contador_dia-1}.pdf')
                        
                     if driver.find_element(By.XPATH, "//*[@id='containerDownloadNova']").get_attribute("style") == "display: block;" and driver.find_element(By.LINK_TEXT, str(contador_dia)).find_element(By.XPATH, './ancestor::td').get_attribute("class") == "weekday ":
                        

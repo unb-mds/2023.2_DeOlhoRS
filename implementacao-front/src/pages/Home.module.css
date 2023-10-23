@@ -6,3 +6,10 @@
 .container {
     display: flex;
 }
+
+.graphs {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 20px;
+}

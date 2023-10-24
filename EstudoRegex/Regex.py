@@ -55,5 +55,20 @@ with open("2011-01-04.txt", 'r') as arquivo:
         else:   
             exoneracao = False
         # Escrita no .json   
+        dados_novos = {
+            "nomeMunicipio": nomeDoMunicipio,
+            "dataPost": data,
+            "haNomeacao": nomeacao,
+            "haExoneracao": exoneracao,
+            "dadosNomeacao": dadosNomeacao,
+            "dadosExoneracao": None  # Placeholder
+        }
+
+        with open("database.json", "r", encoding="utf-8") as file:
+            dados_escritos = json.load(file)
+
+        dados_escritos.append(dados_novos)
+        with open("database.json", "w", encoding="utf-8") as file:
+            json.dump(dados_escritos, file, indent=4, ensure_ascii=False)
         
 

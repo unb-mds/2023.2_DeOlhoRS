@@ -1,4 +1,6 @@
 import MenuBar from "../components/MenuBar"
+import Rank from "../components/Rank"
+import Total from "../components/Total"
 import styles from "./Home.module.css"
 import Chart from "react-apexcharts"
 
@@ -30,14 +32,28 @@ const pie = {
   labels: ['Nomeações', 'Exonerações'],
 }
 
+const cities = ['Porto Alegre', 'Caxias do Sul', 'Canoas', 'Pelotas', 'Santa Maria']
+
+const quantity = [7282, 5321, 3293, 3124, 2130]
+const n = [87465, 84577]
+
 function Home() {
   return (
     <div className={styles.container}>
       <MenuBar />
-      <h1>Home Page</h1>
-      <div className={styles.graphs}>
-        <Chart options={pie.options} series={pie.series} type="pie" width={350} />
-        <Chart options={column.options} series={column.series} type="bar" width={400} height={300} />
+      <div className={styles.content}>
+        <div className={styles.upperDiv}>
+          <div className={styles.left}>
+            <h1 className={styles.title}>Dashboard</h1>
+            <h1 className={styles.title}>Rio Grande do Sul</h1>   
+            <Total quantity={n}/>         
+          </div>
+          <Chart options={pie.options} series={pie.series} type="pie" width={400} />
+          <Rank title='Municípios que mais nomeiam' cities={cities} quantity={quantity}/>
+        </div>
+        <div className={styles.lowerDiv}>
+          <Chart options={column.options} series={column.series} type="bar" width={700} height={300} />
+      </div>
       </div>
     </div>
   )

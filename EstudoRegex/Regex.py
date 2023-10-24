@@ -1,4 +1,5 @@
 import regex as re
+import json
 """"
         {
             municipio: nome do munucipio
@@ -24,11 +25,17 @@ with open("2011-01-04.txt", 'r') as arquivo:
         bloco = bloco.strip()
         nomeacao = None
         exoneracao = None
-        # Municipio 
-        padraoMunicipio = r'DE(.*?)\n'
+        # Nome do Municipio 
+        padraoMunicipio = r'DE\s*([A-ZÁÀÃÉÈÍÏÓÒÕÚÇ ]+)(?:\s+([A-ZÁÀÃÉÈÍÏÓÒÕÚÇ ]+))?'
         municipio = re.search(padraoMunicipio, bloco)
         nomeDoMunicipio = municipio.group(1).strip()
-        
+        try:
+            segundaPalavra = municipio.group(2).strip()
+        except:
+            pass
+        if "SECRETARIA" not in segundaPalavra and "ASSESSORIA" not in segundaPalavra and "GABINETE" not in segundaPalavra and "CONSULTORIA" not in segundaPalavra:
+            nomeDoMunicipio += " " + segundaPalavra
+        dadosNomeacao = None
         if re.search(re.escape("nomeia"), bloco, re.IGNORECASE):
             entreNome = r"Sr\. (.*?),"
             nomeado = re.search(entreNome, texto)
@@ -37,24 +44,16 @@ with open("2011-01-04.txt", 'r') as arquivo:
             padraoCargo = r"para exercer o Cargo de (.*?)(?:\n|$)"
             cargo = re.search(padraoCargo, texto)
             cargoNomeado = cargo.group(1).strip()
-            print(cargoNomeado)
+            dadosNomeacao = f'{nomeDoNomeado} / {cargoNomeado}'
             nomeacao = True
         else:
+            dadosNomeacao = None
             nomeacao = False
 
         if re.search(re.escape("exonera"), bloco, re.IGNORECASE):
             exoneracao = True
         else:   
             exoneracao = False
-            
         # Escrita no .json   
-        print("Separação")      
-        print(data)
-        print("Municipio: ", nomeDoMunicipio)
-        print("Há nomeação: ", nomeacao)
-        if nomeacao == True:
-            print("Nome do nomeado: ", nomeDoNomeado)
-            print("Cargo do nomeado: ", cargoNomeado)
-        print("Há exoneração: ", exoneracao)
-        print('\n\n')
-    
+        
+

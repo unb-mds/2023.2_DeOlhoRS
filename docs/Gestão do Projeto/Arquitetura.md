@@ -11,7 +11,7 @@ Dado o processo de criação, foram desenvolvidos alguns diagramas para a melhor
 
 A ideia inicial da arquitetura se baseia em: 
 
-![Arquitetura](https://live.staticflickr.com/65535/53259088423_f70513cbc2_z.jpg) 
+![Arquitetura](https://live.staticflickr.com/65535/53282499672_0a84d0b761_c.jpg) 
 
 Tal esboço de um diagrama de pacotes representa os pacotes necessários para a implementação do projeto.
 
@@ -72,5 +72,6 @@ Além disso as tecnologias escolhidas para as implementações desse software es
 |10/10/2023|0.4| Atualização da Documentação, Retirada da API do Google Drive | [Bruno Henrique](https://github.com/bdebatata) |
 |10/10/2023| 0.5 |Modificações propostas pela equipe | [Bruno Henrique](https://github.com/bdebatata), [Larissa Vieira](https://github.com/VieiraLaris) e [Vitor Feijó](https://github.com/vitorfleonardo) |
 |15/10/2023| 0.6 | Correção das imagens no build | [Bruno Henrique](https://github.com/bdebatata) e [Bianca Patrocinio](https://github.com/BiancaPatrocinio7)|
+|24/10/2023|0.7|Correção da arquitetura | [Bruno Henrique](https://github.com/bdebatata) |
 
 

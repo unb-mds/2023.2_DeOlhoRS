@@ -5,7 +5,7 @@ function Total(props) {
     <div className={styles.totalTable}>
       <h2>Total</h2>
       <ol>
-        <li>{props.quantity[0]} Exonerados</li>
+        <li>{props.quantity[0]} Exonerações</li>
         <li>{props.quantity[1]} Nomeações</li>
       </ol>
     </div>

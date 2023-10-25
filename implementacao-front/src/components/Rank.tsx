@@ -4,7 +4,7 @@ function Rank(props) {
   return (
     <div className={styles.RankTable}>
       <h2>{props.title}</h2>
-      <ol>
+      <ol type='1'>
         <li>{props.cities[0]} ................. {props.quantity[0]}</li>
         <li>{props.cities[1]} ................. {props.quantity[1]}</li>
         <li>{props.cities[2]} ................. {props.quantity[2]}</li>

@@ -7,6 +7,14 @@
     align-items: center;
     border: 1px solid black;
     font-family: 'Niramit', sans-serif;
-    gap: 15px;
-    padding: 20px;
+    gap: 30px;
+    padding: 20px 20px;
+    height: 70%;
+    justify-content: space-around;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }

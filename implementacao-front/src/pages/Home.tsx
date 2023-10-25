@@ -27,9 +27,11 @@ const column = {
 }
 
 const pie = {
-  options: {},
+  options: {
+    labels: ['Nomeações', 'Exonerações'],
+    colors: ["#FCA622", "#A11208"]
+  },
   series: [30, 70],
-  labels: ['Nomeações', 'Exonerações'],
 }
 
 const cities = ['Porto Alegre', 'Caxias do Sul', 'Canoas', 'Pelotas', 'Santa Maria']
@@ -45,14 +47,20 @@ function Home() {
         <div className={styles.upperDiv}>
           <div className={styles.left}>
             <h1 className={styles.title}>Dashboard</h1>
-            <h1 className={styles.title}>Rio Grande do Sul</h1>   
+            <h1 className={styles.subTitle}>Rio Grande do Sul</h1>
+            <br></br>
+            <br></br>   
             <Total quantity={n}/>         
           </div>
-          <Chart options={pie.options} series={pie.series} type="pie" width={400} />
-          <Rank title='Municípios que mais nomeiam' cities={cities} quantity={quantity}/>
+          <div className={styles.pieGraph}>
+            <h2 className={styles.graphTitle}>Exonerações x Nomeações em 2023</h2>
+            <Chart options={pie.options} series={pie.series}type="pie" width={400}/>            
+          </div>
+          <Rank title='Municípios que mais nomeiam:' cities={cities} quantity={quantity}/>
         </div>
         <div className={styles.lowerDiv}>
-          <Chart options={column.options} series={column.series} type="bar" width={700} height={300} />
+          <Chart options={column.options} series={column.series} type="bar" labels="" width={750} height={400} />
+          <Rank title='Municípios que mais exoneram:' cities={cities} quantity={quantity}/>
       </div>
       </div>
     </div>

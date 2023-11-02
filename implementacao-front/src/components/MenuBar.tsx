@@ -10,7 +10,7 @@ function MenuBar() {
       </div>
       <div className={styles.links}>
         <a className={styles.link} href="/">Home</a>
-        <a className={styles.link} href="url">Pesquisa</a>
+        <a className={styles.link} href="/pesquisaAvancada">Pesquisa</a>
         <a className={styles.link} href="url">Municípios</a>
         <a className={styles.link} href="url">Anomalias</a>
         <a className={styles.link} href="/about">Sobre</a>

@@ -3,10 +3,19 @@
     border-radius: 15px;
     text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     border: 1px solid black;
     font-family: 'Niramit', sans-serif;
-    gap: 15px;
+    row-gap: 15px;
+    padding: 20px;
+    border-collapse: collapse;
+    border: 1px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+}
+
+td {
+    text-align: center;
     padding: 20px;
 }
+

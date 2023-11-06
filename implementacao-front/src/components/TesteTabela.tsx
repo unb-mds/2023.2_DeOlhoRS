@@ -2,6 +2,7 @@ import { DataTable } from 'primereact/datatable'
 import { Column } from 'primereact/column'
 import 'primereact/resources/themes/lara-light-indigo/theme.css'
 import 'primereact/resources/primereact.min.css'
+import styles from './TesteTabela.module.css'
 
 import { useState } from 'react'
 import { FilterMatchMode } from 'primereact/api'
@@ -9,7 +10,7 @@ import { InputText } from 'primereact/inputtext'
 
 function TesteTabela() {
 
-    const [filter, setFilter] = useState()
+    const [filtro, setFiltro] = useState()
 
     const data = [
         {
@@ -32,22 +33,42 @@ function TesteTabela() {
             cargo: 'Analista de Processos',
             acao: 'Exoneração',
             dia: '25/09/2010'
-        }
+        },
+        {
+            nome: 'Cleiton Arrasta',
+            cpf: '000.000.000-02',
+            cargo: 'Analista de Processos',
+            acao: 'Exoneração',
+            dia: '25/09/2010'
+        },
+        {
+            nome: 'Cleiton Arrasta',
+            cpf: '000.000.000-02',
+            cargo: 'Analista de Processos',
+            acao: 'Exoneração',
+            dia: '25/09/2010'
+        },
     ]
 
-
   return (
-    <div>
-        <input type="text" name="nome" id="nome" />
-        <input type="submit" value="Buscar"/>
-
-        <DataTable value={data} filters={filter}>
-            <Column field='nome' header='Nome' />
-            <Column field='cpf' header='CPF' />
-            <Column field='cargo' header='Cargo' />
-            <Column field='acao' header='Ação' />
-            <Column field='dia' header='Data' />
-        </DataTable>
+    <div className={styles.container}>
+        <div className={styles.inputs}>
+            <form>
+                <input type="text" name="nome" id="nome" placeholder="Nome ou CPF..."/>
+                <input type="text" name="cargo" id="cargo" placeholder="Cargo..." />
+                <input type="submit" value="Buscar"/>      
+            </form>
+                     
+        </div>
+        <div className={styles.tabela}>
+           <DataTable value={data} filters={filtro}>
+                <Column field='nome' header='Nome' />
+                <Column field='cpf' header='CPF' />
+                <Column field='cargo' header='Cargo' />
+                <Column field='acao' header='Ação' />
+                <Column field='dia' header='Data' />
+            </DataTable> 
+        </div>
     </div>
   )
 }

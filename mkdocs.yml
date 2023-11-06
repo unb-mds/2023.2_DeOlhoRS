@@ -9,11 +9,22 @@ nav:
     - Arquitetura: "Gestão do Projeto/Arquitetura.md"
     - Comunicação: "Gestão do Projeto/Comunicação.md"
     - MVV: "Gestão do Projeto/MVV.md"
+    - Personas : "Gestão do Projeto/PersonasQD.md"
+    - Storymap: "Gestão do Projeto/Storymap.md"
+    - Design Sprint:
+      - O que é: "DesignSprint/DesignSprint.md"
+      - Decidir: "DesignSprint/Decidir.md"
+      - Design: "DesignSprint/Design.md"
+      - Ideação: "DesignSprint/Ideação.md"
+      - Mapeamento: "DesignSprint/Mapeamento.md"
+      - Requisitos: "DesignSprint/Requisitos.md"
   - Políticas:
     - Branches: "Políticas /Branches.md"
     - Código de conduta: "Políticas /Código de conduta.md"
     - Commits: "Políticas /Commits.md"
     - Issues: "Políticas /Issues.md"
+  - Tecnologias:
+    - Escolhas Tecnológicas: "Tecnologias/EscolhasTecnologicas.md"
   - Sprints:
     - Sprint 00: 
       - Planejamento: "Sprints/Sprint 00/Planejamento.md"
@@ -21,6 +32,15 @@ nav:
     - Sprint 01: 
       - Planejamento: "Sprints/Sprint 01/Planejamento.md"
       - Resultados: "Sprints/Sprint 01/Resultados.md"
+    - Sprint 02:
+      - Planejamento: "Sprints/Sprint 02/Planejamento.md"
+      - Resultados: "Sprints/Sprint 02/Resultados.md"
+    - Sprint 03:
+      - Planejamento: "Sprints/Sprint 03/Planejamento.md"
+      - Resultados: "Sprints/Sprint 03/Resultados.md"
+    - Sprint 04:
+      - Planejamento: "Sprints/Sprint 04/Planejamento.md"
+      - Resultados: "Sprints/Sprint 04/Resultados.md"
 
 
 

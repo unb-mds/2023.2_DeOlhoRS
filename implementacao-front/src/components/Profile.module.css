@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+    gap: 15px;
+}
+
+.profilePictures {
+    height: 70%;
+    width: 80%;
+    border-radius: 50%;
+}

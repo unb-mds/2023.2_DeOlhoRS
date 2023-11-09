@@ -6,8 +6,8 @@ import json
             data: data do dia de extração
             nomeação: bool indicando se há 
             extração: bool indicando se há
-            nomeado: nome/cargo/cpf ou None 
-            exonerado: nome/cargo/cpf ou None 
+            nomeado: nome/cargo ou None 
+            exonerado: nome/cargo ou None 
 
         }
 """

@@ -4,6 +4,7 @@ import About from './pages/About'
 import Home from './pages/Home';
 import PesquisaAvancada from './pages/PesquisaAvancada';
 import PesquisaMunicipios from './pages/PesquisaMunicipios';
+import Anomalias from './pages/Anomalias';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/pesquisaAvancada" element={<PesquisaAvancada />} />
         <Route path="/pesquisaMunicipios" element={<PesquisaMunicipios />} />
+        <Route path='/anomalias' element={<Anomalias />} />
       </Routes>
     </BrowserRouter>
   )

@@ -1,4 +1,3 @@
-import axios from "axios";
 import {
   MDBCol,
   MDBContainer,
@@ -7,21 +6,11 @@ import {
   MDBTableBody,
   MDBTableHead,
 } from "mdb-react-ui-kit";
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import { Pessoas } from "../data/db";
 
 function Tabela() {
-  const [data, setData] = useState([]);
-
-  useEffect(() => {
-    loadDataBase();
-  }, []);
-
-  const loadDataBase = async () => {
-    return await axios
-      .get("http://localhost:5000/dataBase")
-      .then((response) => setData(response.data))
-      .catch((err) => console.log(err));
-  };
+  const [data] = useState(Pessoas);
 
   return (
     <MDBContainer>
@@ -47,14 +36,14 @@ function Tabela() {
                   </tr>
                 </MDBTableBody>
               ) : (
-                data.map((item, index) => (
+                data.map((item) => (
                   <MDBTableBody>
                     <tr>
                       <td>{item.nome}</td>
+                      <td>{item.cpf}</td>
                       <td>{item.cargo}</td>
                       <td>{item.acao}</td>
                       <td>{item.dia}</td>
-                      <td>{item.cpf}</td>
                     </tr>
                   </MDBTableBody>
                 ))

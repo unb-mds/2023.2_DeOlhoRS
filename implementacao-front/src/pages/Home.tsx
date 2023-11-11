@@ -3,6 +3,7 @@ import Rank from "../components/Rank"
 import Total from "../components/Total"
 import styles from "./Home.module.css"
 import Chart from "react-apexcharts"
+//import { Qtd_RS } from "../data/totalPorAno";
 
 const column = {
   options: {

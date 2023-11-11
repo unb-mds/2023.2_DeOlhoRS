@@ -2,6 +2,9 @@ import MenuBar from "../components/MenuBar"
 import Total from "../components/Total"
 import styles from "./PesquisaMunicipios.module.css"
 import Chart from "react-apexcharts"
+//import BarChart from "../components/graficoTotalPorAno";
+//import { Qtd_RS } from '../data/totalPorAno.ts';
+
 import { DataTable } from 'primereact/datatable'
 import { useState } from 'react'
 import { FilterMatchMode } from 'primereact/api'

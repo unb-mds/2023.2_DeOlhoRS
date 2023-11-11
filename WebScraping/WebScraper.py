@@ -9,7 +9,8 @@ import shutil
 import time
 import re
 
-
+from Regex import ExtratorDeDados 
+regex = ExtratorDeDados()
 
 def extrair_pdf(arq):
     reader = PdfReader(arq)
@@ -118,6 +119,8 @@ while contador_ano <= 2023:
                         #extrair texto
                         extrair_pdf(f'{anoPdf}-{mesPdf}-{diaPdf}.pdf')
                         apaga_pdf(f'{anoPdf}-{mesPdf}-{diaPdf}.pdf')
+                        regex.extrairDados(f'{anoPdf}-{mesPdf}-{diaPdf}.txt')
+
                     if driver.find_element(By.XPATH, "//*[@id='containerDownloadNova']").get_attribute("style") == "display: block;" and driver.find_element(By.LINK_TEXT, str(contador_dia)).find_element(By.XPATH, './ancestor::td').get_attribute("class") == "weekday ":
                        
                         element = WebDriverWait(driver, 20).until(
@@ -132,7 +135,8 @@ while contador_ano <= 2023:
                         ## Extração de texto (PyPDF2)
                         extrair_pdf(f'{anoPdf}-{mesPdf}-{diaPdf}.pdf')
                         apaga_pdf(f'{anoPdf}-{mesPdf}-{diaPdf}.pdf')
-                            
+                        regex.extrairDados(f'{anoPdf}-{mesPdf}-{diaPdf}.txt')
+                        
                 element = WebDriverWait(driver, 20).until(
                                     EC.presence_of_element_located((By.XPATH, "//*[@id='popup']/div/article/a"))
                                     )

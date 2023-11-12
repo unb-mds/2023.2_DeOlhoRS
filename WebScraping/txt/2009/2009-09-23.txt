@@ -1,0 +1,427 @@
+ 
+Rio Grande do Sul, 24 de Setembro de 2009   •  Diário Oficial dos Municípios do Estado do Rio Grande do Sul   •   ANO 1 | Nº 01 38 
+ 
+                                                                     www.diariomunicipal.com.br/famurs                                                                              1 ESTADO DO RIO GRANDE DO SUL 
+MUNICÍPIO DE ARARICÁ 
+ 
+SECRETARIA DA ADMINISTRAÇÃO 
+EXTRATO DE CONTRATO 
+ 
+2º TERMO ALTERAÇÃO E PRORROGA ÇÃO DO 
+CONTRATO DE PRESTAÇÃO DE SERVIÇOS 
+Nº039/2007. Termo assinado 4 de setembro de 2009. 
+Contratante: Município de Ararica. Contratada: 
+Tecnosistemas Sistemas De Computadores. Resolve em 
+prorrogar até 03 de setembro de 2010. Objeto do presente contrato os seguintes serviços:  
+1.1.1        O fornecimento com reservas de sistemas para 
+computadores eletrônicos;  
+1.1.2        Implementação da metodolog ia de Cadastro Único 
+para os setores determinados;  
+1.1.3        Instalação e utilização de Banco de Dados 
+PostgreSQL;  
+1.1.4        Conversão dos dados cadastrais e financeiros dos 
+sistemas que farão parte do Cadastro Único.  
+1.1.5        Treinamento dos servidores/usuários;  
+1.1.6        Manutenção dos sistemas e assessoria aos 
+usuários.  
+1.2 Entende-se pôr sistema de computador o material 
+legível pôr máquina, di retamente carregável no 
+equipamento de processamento utilizado pelo 
+CONTRATANTE, doravante denominado SISTEMA.  
+1.3 Os SISTEMAS, objeto deste contrato, são os seguintes:  
+1.3.1 Para funcionamento em metodologia de Cadastro 
+Único com Banco de Dados PostgreSQL:  
+-          Arrecadação de Tributos Municipais.  
+-          Orçamento, Contabilidade e Empenhos;  
+-          Controle de Tesouraria;  
+-          Controle de Patrimônio;  
+-          Folha de Pagamento (para controle de até 430 
+servidores);  
+-          Controle de Saúde;  
+           Cadastro Único.  Araricá, 24 de setembro de 2009    
+  
+FLÁVIO LUIZ FOSS               
+Prefeito Municipal. 
+Publicado por:  
+Valdir Von Dentz 
+Código Identificador: 18C08FCF 
+ 
+ESTADO DO RIO GRANDE DO SUL 
+MUNICÍPIO DE CAIBATÉ 
+ 
+SECRETARIA MUN DE ADMINISTRAÇAO E 
+PLANEJAMENTO 
+DECRETO Nº 2721 DE 22 DE SETEMBRO DE 2009 
+ 
+AUTORIZA A ABERTURA DE CRÉDITO ADICIONAL 
+E SUPLEMENTAR E DÁ OUTRAS PROVIDÊNCIAS.  
+  
+            EVANDO HERTER DA SILVA, Prefeito Municipal 
+do Município de Caibaté, Estado do Rio Grande do Sul, no uso 
+de suas atribuições legais, autorizado pela Lei nº 2135/2008, de 
+24 de Dezembro de 2008(Lei do Orçamento): 
+  
+DECRETA:                                                   
+  
+Art. 1º  - Fica Aberto Crédito Suplementar no 
+Orçamento vigente, no valor de R$ 19.462,60 (Dezenove Mil, 
+Quatrocentos E Sessenta E Dois Reais E Sessenta Centavos), 
+sob a seguinte classificação: 
+GOVERNO MUNICIPAL  
+CÓDIGO:  0201.041220003 
+ATIVIDADE:  2.002 – MANUTENÇÃO DO GOVERNO 
+MUNICIPAL 
+3.3.90.30.00.00 – Material de Consumo.......................R$  
+1.500,00 
+SECRETARIA DA ADMINISTRAÇÃO E 
+PLANEJAMENTO  
+CÓDIGO:  0301.041220006 
+ATIVIDADE:  2.004 – MANUT. DA SEC. DA 
+ADMINISTRAÇÃO/PLANEJAMENTO 
+3.1.90.13.02.01 – INSS – 
+Servidores........................................R$  1.600,00 
+3.3.90.14.14.00 – Diárias no País..................................R$     500,00 
+3.3.90.30.00.00 – Material de Co nsumo.......................R$     
+500,00 3.3.90.36.06.00 – Serviços Técnicos Profissionais........R$     
+500,00 
+3.3.90.39.59.00 – Serviços de Áudio, Vídeo e Foto......R$     260,00 
+3.3.90.39.99.05 – Outros Serviços de Terceiros – Pessoa 
+Jurídica...............................R$     700,00 
+SECRETARIA DA OBRAS, SANEAMENTO E 
+TRÂNSITO  
+CÓDIGO:
+ 0501.154510052 
+PROJETO:  1.001 – PAVIMENTAÇÃO DE VIAS URBANAS 
+4.4.90.51.99.00 – Outras Obra s e Instalações...............R$  
+1.822,79 CÓDIGO:
+ 0501.154520072  
+Expediente: 
+Federação das Associações de Muni cípios do Rio Grande do Sul - 
+FAMURS 
+ 
+Diretoria 2009/2010 
+ 
+Presidente:  Marcus Vinicius Vieira de Almeida - Sentinela do Sul 
+ 
+1º Vice-Presidente: Joel Gh isio - Mariana Pimentel 
+2º Vice-Presidente:       Valdir José Zasso - Alpestre 3º Vice-Presidente: Décio Antônio Colla - São Francisco de Paula 
+1º Secretário:       João Carlos Brum - Alvorada 
+2º Secretário:               Carlos Alberto Bohn - Mato Leitão 1º Tesoureiro:             Pedro Paulo Prezzotto - Getúlio Vargas 2º Tesoureiro: Wainer Viana Machado - Santana do Livramento 
+  
+Jornalista Responsável: Sandra Domit - MTB 6290 
+ 
+O Diário Oficial dos Municípios do Estado do Rio Grande do Sul   é uma 
+solução voltada à modernização e tran sparência da gestão municipal. Rio Grande do Sul, 24 de Setembro de 2009   •  Diário Oficial dos Municípios do Estado do Rio Grande do Sul   •   ANO 1 | Nº 01 38 
+ 
+www.diariomunicipal.com.br/famurs                                                                              2 ATIVIDADE:  2.012 – MANUTENÇÃO DA ILUMINAÇÃO 
+PÚBLICA 
+3.3.90.30.00.00 – Material de C onsumo....................R$     
+800,00 
+CÓDIGO:  0501.267820054 
+ATIVIDADE:  2.019 – CONSERV. E RECUPERAÇÃO DE 
+ESTRADAS MUNICIPAIS 
+3.3.90.39.99.05 – Outros Serviços de Terceiros – Pessoa 
+Jurídica................R$  2.000,00 
+SECRETARIA DE EDUCAÇÃO, CULTURA E 
+TURISMO  
+CÓDIGO:  0604.123610033 
+ATIVIDADE:  2.038 – REP. DO ESTADO P/ TRANSP. ESC. 
+– ENS. FUNDAMENTAL 
+3.3.90.39.99.04 – Serviços de Transporte....................R$  7.086,70 
+CÓDIGO:
+ 0604.123610033 
+ATIVIDADE:  2.040 – MANUTENÇÃO DO P.D.D.E. 
+3.3.90.30.00.00 – Material de Cons umo......................R$         
+2,28 
+SECRETARIA DA SAÚDE E AÇÃO SOCIAL  
+CÓDIGO:  0701.103010071 
+ATIVIDADE:  2.044 – MANUTENÇÃO DA SECRETARIA 
+DA SAÚDE 
+3.3.90.30.00.00 – Material de Consumo.......................R$  
+1.890,83 CÓDIGO:
+ 0702.103010071 
+ATIVIDADE:  2.046 – MANUTENÇÃO DAS AÇÕES DO 
+PSF 3.3.90.30.00.00 – Material de Consumo.......................R$    
+ 
+300,00  
+TOTAL ..............................R$ 19.462,60            
+  
+Art. 2º  - Servirá de recurso financeiro para a cobertura 
+das despesas autorizadas no artigo anterior, o valor de R$ 
+1.825,07 , proveniente dos Rendimentos de Aplicação 
+Financeira dos Programas Desenvolvimento Faixas 
+Fronteiras – PDFF(R$ 1.822,79) e Programa Dinheiro 
+Direto Na Escola – P.D.D.E.(R$ 2,28) e R$ 7.086,70 , 
+proveniente de recursos do Repasse do Estado para 
+Transporte Escolar – Ensino Fundamental , e o valor de R$ 
+10.550,83  das seguintes dotações orçamentárias: 
+SECRETARIA DA ADMINISTRAÇÃO E 
+PLANEJAMENTO  
+CÓDIGO:  0301.041220006 
+ATIVIDADE:  2.004 – MANUT. DA SEC. DA 
+ADMINISTRAÇÃO/PLANEJAMENTO 
+3.1.90.11.01.01 – Vencimentos e Vantagens Fixas – 
+Servidores...................R$  2.100,00 
+SECRETARIA DA OBRAS, SANEAMENTO E 
+TRÂNSITO  
+CÓDIGO:  0501.041220006 
+ATIVIDADE:  2.009 – MANUTENÇÃO DA SECRETARIA 
+DE OBRAS 
+3.3.90.39.43.00 – Serviços de En ergia Elétrica..............R$     
+500,00 
+CÓDIGO:  0501.154520072 
+ATIVIDADE:  2.012 – MANUTENÇÃO DA ILUMINAÇÃO 
+PÚBLICA 
+3.3.90.39.43.00 – Serviços de Energia Elétrica..............R$  
+2.760,00 
+CÓDIGO:  0501.175110075 
+ATIVIDADE:  2.015 – MANUTENÇÃO DO 
+ABASTECIMENTO DE ÁGUA 
+4.4.90.52.34.00 – Máquinas, Utensílios e Equipamentos 
+Diversos................R$     500,00 
+SECRETARIA DA SAÚDE E AÇÃO SOCIAL  CÓDIGO:  0701.103010071 
+ATIVIDADE:  2.044 – MANUTENÇÃO DA SECRETARIA 
+DA SAÚDE 3.3.90.39.05.00 – Serviços Técnicos Profissionais........R$  
+1.000,00 
+4.4.90.51.99.00 – Outras Obras e Instalações...............R$     
+445,98 
+4.4.90.52.34.00 – Máquinas, Utensílios e Equipamentos 
+Diversos...................................R$     482,45 CÓDIGO:
+ 0702.103010071 
+ATIVIDADE:  2.046 – MANUTENÇÃO DAS AÇÕES DO 
+PSF 3.3.90.36.15.0 0 – Locação de Imóveis......... ............... ..R$       
+54,40 
+3.3.90.39.20.00 – Manutenção e Conservação de Bens Móveis de Outras....................R$     500,00 
+4.4.90.52.34.00 – Máquinas, Utensílios e Equipamentos 
+Diversos...................................R$     208,00 CÓDIGO:
+ 0704.082430024 
+ATIVIDADE:  2.062 – MANUTENÇÃO DO CONSELHO 
+TUTELAR 
+3.3.90.39.43.00 – Serviços de En ergia Elétrica..............R$     
+500,00 CÓDIGO:
+ 0705.082440063 
+ATIVIDADE:  2.068 – MANUTENÇÃO DA ASSISTENCIA 
+SOCIAL GERAL 3.3.90.30.00.00 – Material de  Consumo.......................R$ 
+ 
+1.500,00  
+SUB-TOTAL........ ............... ......... R$10.550,83  
+AUXÍLIOS/CONVÊNIOS............R$  8.911,77  
+TOTAL.............. ............... .............R$19.462,60  
+  
+Art. 3º  - Este Decreto entrará em vigor na data da sua 
+publicação. 
+  
+GABINETE DO PREFEI TO MUNICIPAL DE 
+CAIBATÉ – RS.  
+  
+Aos Vinte e Dois Dias do Mês de Setembro do Ano de 
+Dois Mil e Nove. 
+   
+EVANDO HERTER DA SILVA  
+Prefeito Municipal 
+  
+Registre-se, Publique-se e Cumpra-se 
+  Carlos Rogério Ames 
+Secr. Mun. De administração 
+Publicado por:  
+Gustavan Pizzolotto 
+Código Identificador: 7D9815FC 
+ 
+ESTADO DO RIO GRANDE DO SUL 
+MUNICÍPIO DE IBIRUBÁ 
+ 
+GABINETE DO PREFEITO 
+LEI MUNICIPAL N.º 2.244/2009, DE 23.09.09 
+ 
+Abre Crédito Especial. 
+  
+CARLOS JANDREY, Pr efeito Municipal de Ibirubá - RS, em 
+exercício, no uso de suas atri buições legais, faz saber que a 
+Câmara Municipal de Vereadores aprovou e o mesmo sanciona 
+e promulga a seguinte Lei Municipal que, naquela Casa tramitou como Projeto de Lei do Executivo Municipal nº. 
+029/2009, de 18 de setembro de 2009: Rio Grande do Sul, 24 de Setembro de 2009   •  Diário Oficial dos Municípios do Estado do Rio Grande do Sul   •   ANO 1 | Nº 01 38 
+ 
+www.diariomunicipal.com.br/famurs                                                                              3  Art. 1º  Fica o Poder Executivo autorizado a abrir um Crédito 
+Especial no montante de R$ 9.500,00 (NOVE MIL E 
+QUINHENTOS REAIS), com as  seguintes classificações 
+funcionais e econômicas: 
+06 –     Sec. Educação, Cultura, Turismo e Desporto 
+10 –     Manutenção Ensino com Recursos Convênios e Auxílios 
+12 –     Educação 
+362 -    Ensino Médio 41   -    Assistência ao Educando 
+4933 - Convênio Pradem 
+2160 - CONVÊNIO PROGRAMA PRADEM 33190.11.00.00.00.00 – Vencimentos e Vantagens Fixas – 
+Pessoal Civil –R$ 7.000,00 
+33190.13.00.00.00.00 – Obrigações Patronais      - R$ 2.500,00 OBJETIVOS: ATENDER OS OBJETIVOS DO CONVÊNIO 
+DO PRADEM. 
+  Art. 2º Para dar cobertura ao Crédito  aberto no artigo anterior, 
+serão utilizados recursos do Convênio – Pradem, celebrado 
+entre o Município de Ibirubá e o Estado do Rio Grande do Sul, 
+através da Secretaria da Edu cação, conforme Lei Municipal nº 
+2.236/2009 de 30 de junho de 2009. Art. 3º Fica o presente crédito especial, incluído nas Leis 
+Municipais 2028/2005 de 17 de agosto de 2005 (Lei 
+Plurianual- PPA), 2.192/2008 de 30 de outubro de 2008 (Lei de Diretrizes Orçamentárias – LDO) e 2.205/2008 de 16 de 
+dezembro de 2008 ( Lei Orçamentária Anual – LOA). 
+Art. 4°  Esta Lei entra em vigor na data de sua publicação. 
+  
+GABINETE DO PREFEITO MUNICIPAL DE IBIRUBÁ, EM 
+23 DE SETEMBRO DE 2009.   
+CARLOS JANDREY,  
+Prefeito em Exercício. 
+  
+Registra-se, Publique-se, Cumpre-se. 
+  Lucia Fernanda Wohlenberg de Souza, 
+Secretária Geral. 
+Publicado por:  
+Lucia Fernanda Wohlenberg de Souza 
+Código Identificador: CB8360E6 
+ 
+SECRETARIA DA ADMINISTRAÇÃO 
+TERMO DE HOMOLOGAÇÃO 
+ 
+CARLOS JANDREY, Prefeito Municipal de Ibirubá, à vista 
+dos autos ora analisados, HOMO LOGA o resultado do Pregão 
+Presencial PMI016-2009, referente a Aquisição de 
+Equipamentos de Informática - Fragoso & Von Dentz Ltda-ME 
+- CNPJ 07.800.156/0001-04 pelo valor de R$ 9.434,40 e Walter Alberto Kempin - CNPJ 09.342.687/0001-18 pelo valo 
+de R$ 2.319,00, totalizando R$  11.753,40 (onze mil setecentos 
+e cinquenta e três reais e quarenta centavos) que, conforme adjudicação e parecer jurídico, em perfeita legalidade, 
+obedecidas em especial, os preceitos do Decreto Municipal 
+3.368/09, das Leis Federais 10.520 e 8.666/93 e suas alterações posteriores. 
+  
+Ibirubá-RS, 23 de setembro de 2009. 
+  
+CARLOS JANDREY  
+Prefeito Municipal 
+Publicado por:  
+Martin Luiz Wilke Becker 
+Código Identificador: 15D8A35D ESTADO DO RIO GRANDE DO SUL 
+MUNICÍPIO DE MONTE ALEGRE DOS CAMPOS 
+ 
+EDITAL 9/2009 
+ 
+BRENO SILVEIRA DE CAMARGO, Prefeito Municipal em 
+exercício de Monte Alegre dos Campos, Estado do Rio Grande do Sul, no uso de suas atribuições legais, informa que foram 
+sancionadas e publicadas no mural da Prefeitura Municipal as 
+seguintes Leis assim Ementadas: LEI N. 583 de 8 de julho de 2009 – Autoriza a abertura de 
+crédito suplementar 
+LEI N. 584 de 22 de julho de 2009 – Autoriza firmar convênio para prestação de mútua colaboração entre o Tribunal Regional 
+Eleitoral e o Município 
+LEI N. 585 de 22 de julho de 2009 – Suplementa Dotações do Orçamento em Execução 
+LEI N. 586 de 5 de agosto de 2009 – Dispõem sobre a Lei n. 
+569/2009 e sobre o regime de horário normal das categorias funcionais e dá outras providências 
+LEI N. 587 de 5 de agosto de 2009 – Dispõe sobre a Lei n. 
+538/2009 que autoriza a contrat ação temporária de excepcional 
+interesse público de prestadores de serviços para trabalhar no 
+Programa de Atenção Inte gral à Família – PAIF 
+LEI N. 588 de 5 de agosto de 2009 – Autoriza a abertura de 
+crédito suplementar 
+LEI N. 589 de 19 de agosto de 2009 – Dispõem sobre os limites dos distritos do Município de Monte Alegre dos 
+Campos e dá outras providências 
+LEI N. 590 de 19 de agosto de 2009 – Dispõe sobre o difícil acesso e altera o artigo 27 da Lei n. 281/2002 
+LEI N. 591 de 19 de agosto de 2009 – Autoriza a contratação 
+temporária de excepcional interesse público de um (a) enfermeiro (a) e dá outras providências 
+LEI N. 592 de 19 de agosto de 2009 – Autoriza a abertura de 
+crédito suplementar   
+Monte Alegre dos Campos, 23 de setembro de 2009. 
+  
+BRENO SILVEIRA DE CAMARGO  
+Prefeito Municipal em exercício 
+Publicado por:  
+Ricardo Bueno e Silva 
+Código Identificador: C88AFDA2 
+ 
+EDITAL N 8/2009 
+ 
+EDITAL  Nº 8/2009 DE CONVOCAÇÃO AUDIÊNCIA 
+PÚBLICA  
+  
+O MUNICÍPIO DE  MONTE ALEGRE DOS CAMPOS , 
+pessoa jurídica de direito público, inscrito no CNPJ sob nº. 
+01.615.314/0001-61, com sede na Av. Pedro Zamban, n.º 1000, neste ato representado pelo Prefe ito Municipal em exercício, de 
+Monte Alegre dos Campos –RS, BRENO SILVEIRA DE 
+CAMARGO, CONVOCA todos os munícipes para Audiência Pública, a realizar-se no dia 06 de outubro de 2009, terça-feira, 
+a partir das 19horas, junto a Câmara Municipal de Vereadores, 
+para elaboração e apresent ação da Lei de Diretrizes 
+Orçamentária – LDO e Lei Orçamentária Anual – LOA, 
+exercício 2010. 
+  
+Monte Alegre dos Campos-RS, 23 de setembro de 2009. 
+  
+BRENO SILVEIRA DE CAMARGO  
+Prefeito Municipal em exercício Rio Grande do Sul, 24 de Setembro de 2009   •  Diário Oficial dos Municípios do Estado do Rio Grande do Sul   •   ANO 1 | Nº 01 38 
+ 
+www.diariomunicipal.com.br/famurs                                                                              4 Publicado por:  
+Ricardo Bueno e Silva 
+Código Identificador: 4325DA24 
+ 
+ESTADO DO RIO GRANDE DO SUL 
+MUNICÍPIO DE SANTO ANTÔNIO DA PATRULHA 
+ 
+SECRETARIA MUNICIPAL DE ADMINISTRAÇÃO 
+SÚMULA DE ADITIVO 
+MODALIDADE: Pregão Presencial 003/2009 
+N°: 2º Aditivo ao contrato de prestação de serviços nº 
+024/2009. CONTRATADA: C. P. dos Santos Transporte - ME; 
+OBJETO:  Prestação de serviços de Terceirização do 
+Transporte Escolar do Ensino Fundamental. ADITIVO: Valor 
+ 
+VALOR:  R$ 4.922,00                           PRAZO:  100 (cem) 
+dias letivos 
+ 
+Publicado por:  
+Edna Muniz dos Santos 
+Código Identificador: 4425F43E 
+ 
+ESTADO DO RIO GRANDE DO SUL 
+MUNICÍPIO DE MONTE ALEGRE DOS CAMPOS 
+ 
+EDITAL 7/2009 
+ 
+Gabinete do Prefeito 
+EDITAL Nº 7/2009 
+  
+BRENO SILVEIRA DE CAMARGO, Prefeito Municipal em exercício de Monte Alegre dos Campos – RS, no uso de suas 
+atribuições legais e com fundamento no artigo 61 da Lei Federal nº 8.666/93, torna público que foram formalizados os seguintes contratos: 
+  
+Nº 
+contrato n. contrato/Contratado Objeto Prazo de 
+vigência Valor R$ 
+115 115 - UNIMED ALTOS 
+DA SERRA Termo aditivo ao contrato 
+n. 48/2006, consultas da especialidade clinica 
+médica passa de 75 para 
+135, mensais Assinado em 
+10/07/2009, vigendo a 
+partir de 
+15/07/2009 25,90 por 
+consulta 
+128 128 - UNIMED ALTO DA 
+SERRA Termo aditivo ao 
+contrato de prestação de serviços n. 48/2006, 
+aditivos 12 e 115/2009, 
+tomada de preços n. 6/2006, retificada em 
+3/10/2006. Passa de 175 
+para 300 consultas da especialidade clinica 
+medica e de 130, 
+permanece em 130 para ginecológica e 180 para 
+clínica pediátrica 17/08/2009 a 
+30/11/2009 25,90 por 
+consulta 
+129 129 - TRANSPORTE 
+PINTO LTDA Termo aditivo ao 
+contrato de prestação de serviços n. 79/2009, 
+acresce 15 hs maquina de 
+rolo compactador e 20 hs maquina de retro 
+escavadeira hidráulica, 
+licitação modalidade convite n. 25/2009 60 dias a 
+contar de 01/09/2009 3.977,50 
+do aditivo 
+  Monte Alegre dos Campos, 23 de setembro de 2009. 
+  
+BRENO SILVEIRA DE CAMARGO  
+Prefeito Municipal em Exercício 
+ Publicado por:  
+Ricardo Bueno e Silva 
+Código Identificador: A8EB758D
+ 

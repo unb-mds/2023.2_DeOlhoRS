@@ -1,3 +1,104 @@
 [
-   
+    {
+        "nomeMunicipio": "BOA VISTA DO CADEADO",
+        "dataPost": "2009-07-03",
+        "haNomeacao": false,
+        "haExoneracao": true
+    },
+    {
+        "nomeMunicipio": "BOA VISTA DO CADEADO",
+        "dataPost": "2009-07-03",
+        "haNomeacao": false,
+        "haExoneracao": true
+    },
+    {
+        "nomeMunicipio": "BOA VISTA DO CADEADO",
+        "dataPost": "2009-07-03",
+        "haNomeacao": true,
+        "haExoneracao": false
+    },
+    {
+        "nomeMunicipio": "BOA VISTA DO CADEADO",
+        "dataPost": "2009-07-03",
+        "haNomeacao": true,
+        "haExoneracao": false
+    },
+    {
+        "nomeMunicipio": "BOA VISTA DO CADEADO",
+        "dataPost": "2009-07-03",
+        "haNomeacao": false,
+        "haExoneracao": false
+    },
+    {
+        "nomeMunicipio": "Ibirubá",
+        "dataPost": "2009-07-03",
+        "haNomeacao": true,
+        "haExoneracao": false
+    },
+    {
+        "nomeMunicipio": "Ibirubá",
+        "dataPost": "2009-07-03",
+        "haNomeacao": false,
+        "haExoneracao": false
+    },
+    {
+        "nomeMunicipio": "Ibirubá",
+        "dataPost": "2009-07-03",
+        "haNomeacao": false,
+        "haExoneracao": false
+    },
+    {
+        "nomeMunicipio": "Ibirubá",
+        "dataPost": "2009-07-03",
+        "haNomeacao": false,
+        "haExoneracao": false
+    },
+    {
+        "nomeMunicipio": "Ibirubá",
+        "dataPost": "2009-07-03",
+        "haNomeacao": false,
+        "haExoneracao": false
+    },
+    {
+        "nomeMunicipio": "Ibirubá",
+        "dataPost": "2009-07-03",
+        "haNomeacao": true,
+        "haExoneracao": false
+    },
+    {
+        "nomeMunicipio": "Ibirubá",
+        "dataPost": "2009-07-03",
+        "haNomeacao": true,
+        "haExoneracao": false
+    },
+    {
+        "nomeMunicipio": "Ibirubá",
+        "dataPost": "2009-07-03",
+        "haNomeacao": true,
+        "haExoneracao": false
+    },
+    {
+        "nomeMunicipio": "SANTO ANTONIO DA PATRULHA",
+        "dataPost": "2009-07-03",
+        "haNomeacao": false,
+        "haExoneracao": false
+    },
+    {
+        "nomeMunicipio": "SANTO ANTONIO DA PATRULHA",
+        "dataPost": "2009-07-03",
+        "haNomeacao": false,
+        "haExoneracao": false
+    },
+    {
+        "nomeMunicipio": "SANTO ANTONIO DA PATRULHA",
+        "dataPost": "2009-07-03",
+        "haNomeacao": false,
+        "haExoneracao": false
+    },
+    {
+        "nomeMunicipio": "Tuparendi",
+        "dataPost": "2009-07-03",
+        "haNomeacao": false,
+        "haExoneracao": false
+    }
 ]

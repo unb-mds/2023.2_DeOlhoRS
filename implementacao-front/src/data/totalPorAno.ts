@@ -45,3 +45,11 @@ export const Qtd_RS = [
       nomeacoes: "457",
     },
   ]
+
+  export const Qtd_2023 = [
+    {
+      exoneracoes: "286",
+      nomeacoes: "457",
+      total: "743",
+    }
+  ]

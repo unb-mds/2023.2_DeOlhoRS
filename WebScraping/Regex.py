@@ -384,7 +384,7 @@ class ExtratorDeDados:
     def extrairDados(self, nomeDoArquivo):
         with open(nomeDoArquivo, 'r') as arquivo: 
             texto = arquivo.read()
-            padrao = re.compile(r'(NOMEIA|EXONERA|resolve nomear|decide nomear|decide exonerar|resolve exonerar)', re.IGNORECASE)
+            padrao = re.compile(r'(NOMEIA|EXONERA )', re.IGNORECASE)
 
             resultados = padrao.finditer(texto)
         
@@ -394,9 +394,9 @@ class ExtratorDeDados:
 
                 contexto = texto[inicio_contexto:fim_contexto]
 
-                print("Correspondência:", correspondencia.group())
+                """print("Correspondência:", correspondencia.group())
                 print("Contexto:", contexto)
-                print("-----")
+                print("-----")"""
 
                 # Restante do seu código aqui
                 nomeDoMunicipio = self.extrairNomeMunicipio(contexto)
@@ -405,12 +405,12 @@ class ExtratorDeDados:
                 data = data[-10:]
                 nomeacao = False
                 exoneracao = False
-
-                if correspondencia.group(1).lower() in ["nomeia", "resolve nomear", "decide nomear"]:
+                
+                if correspondencia.group(1).lower().strip() in ["nomeia", "resolve nomear", "decide nomear"]:
                     nomeacao = True
-                elif correspondencia.group(1).lower() in ["exonera", "resolve exonerar", "decide exonerar"]:
+                if correspondencia.group(1).lower().strip() in ["exonera", "resolve exonerar", "decide exonerar"]:
                     exoneracao = True 
-
+                
                 dados_novos = {
                     "nomeMunicipio": nomeDoMunicipio,
                     "dataPost": data,

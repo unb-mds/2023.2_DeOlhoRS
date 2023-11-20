@@ -365,20 +365,18 @@ class ExtratorDeDados:
     def extrairNomeMunicipio(self, bloco):
         # Extrair nome do município com flexibilidade para padrões diferentes
         padrao = re.compile(r'\b(?:' + '|'.join(map(re.escape, self.nomeDosMunicipios)) + r')\b(?! \w)', re.IGNORECASE)
-        correspondencias = padrao.findall(bloco)
+        textoSemDuploEspacamento = re.sub(r'\s+', ' ', bloco )
+        correspondencias = padrao.findall(textoSemDuploEspacamento)
         if correspondencias:
-            if correspondencias[0] == "Rio Grande":
-                return correspondencias[1]
-            else:
-                return correspondencias[0]
+            return correspondencias[0]
         else:
             return "Publicado por Gabinete ou afins"
     def escritaDatabase(self, dados):
-        with open("database.json", "r", encoding="utf-8") as file:
+        with open("2009.json", "r", encoding="utf-8") as file:
             dados_escritos = json.load(file)
 
         dados_escritos.append(dados)
-        with open("database.json", "w", encoding="utf-8") as file:
+        with open("2009.json", "w", encoding="utf-8") as file:
             json.dump(dados_escritos, file, indent=4, ensure_ascii=False)
 
     def extrairDados(self, nomeDoArquivo):

@@ -390,7 +390,9 @@ class ExtratorDeDados:
                 inicio_contexto = max(correspondencia.start() - 150, 0)  
                 fim_contexto = min(correspondencia.end() +250, len(texto))  
 
+                # Aqui está armazenado o texto ao redor da palavra encontrada, seja ela nomeação ou exoneração 
                 contexto = texto[inicio_contexto:fim_contexto]
+                # Chamada do Spacy para extração do nome do nomeado/exonerado
 
                 """print("Correspondência:", correspondencia.group())
                 print("Contexto:", contexto)
@@ -414,6 +416,7 @@ class ExtratorDeDados:
                     "dataPost": data,
                     "haNomeacao": nomeacao,
                     "haExoneracao": exoneracao,
+                    #NomeDoQueSofreuAAção
                     
                 }
                 self.escritaDatabase(dados_novos)

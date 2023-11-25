@@ -46,4 +46,4 @@ def processar_dados(input_file, output_file):
 
 
 # Chama a função com os nomes dos arquivos de entrada e saída
-processar_dados('2009.json', 'dados_grafico_2009.json')
+processar_dados('2021.json', 'dados_grafico_2021.json')

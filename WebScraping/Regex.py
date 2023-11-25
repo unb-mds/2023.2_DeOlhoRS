@@ -429,9 +429,9 @@ class ExtratorDeDados:
             arqPath = f'/home/bdebatata/MétodosDeDesenvolvimentoDeSoftware/2023-2-Squad08/WebScraping/txt/2009/{arq}'
             self.extrairDados(arqPath)
 
-
+"""
 regex = ExtratorDeDados()
-regex.extraiGeral()
+regex.extraiGeral()"""
 
 
 

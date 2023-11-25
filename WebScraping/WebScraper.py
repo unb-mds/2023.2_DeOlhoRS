@@ -9,8 +9,6 @@ import shutil
 import time
 import re
 
-from Regex import ExtratorDeDados 
-regex = ExtratorDeDados()
 
 def extrair_pdf(arq):
     reader = PdfReader(arq)
@@ -69,7 +67,7 @@ month_selector = Select(calendar_month)
 year_selector = Select(calendar_year)
 
 # Contador para o while
-contador_ano = 2012 # Um ano antes de ter os primeiros diarios
+contador_ano = 2019 # Um ano antes de ter os primeiros diarios
 contador_mes = 0 # um mês antes de ter os diario
 contador_dia = 0 # um dia antes de ter os diarios
 

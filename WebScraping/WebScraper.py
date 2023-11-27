@@ -10,7 +10,6 @@ import time
 import re
 
 
-
 def extrair_pdf(arq):
     reader = PdfReader(arq)
     text = ""
@@ -45,7 +44,16 @@ def altera_diretorio():
                 os.rename(caminhoArq, f'{ano}-{mes}-{dia}.pdf')
                 print(os.path.basename(arq))
                 return ano, mes, dia
-
+            
+def moveTxt(ano):
+    pastaOrigem = '/home/bdebatata/MétodosDeDesenvolvimentoDeSoftware/2023-2-Squad08/'
+    pasta_destino = f'/home/bdebatata/MétodosDeDesenvolvimentoDeSoftware/2023-2-Squad08/WebScraping/txt/{ano}/'
+    arquivos_txt = [arquivo for arquivo in os.listdir(pastaOrigem) if arquivo.endswith('.txt')]
+    for arq in arquivos_txt:
+        origem_arquivo = os.path.join(pastaOrigem, arq)
+        destino_arquivo = os.path.join(pasta_destino, arq)
+        shutil.move(origem_arquivo, destino_arquivo)
+    
 
 driver = webdriver.Chrome()
 driver.get("https://www.diariomunicipal.com.br/famurs/o-que-e")
@@ -59,7 +67,7 @@ month_selector = Select(calendar_month)
 year_selector = Select(calendar_year)
 
 # Contador para o while
-contador_ano = 2010 # Um ano antes de ter os primeiros diarios
+contador_ano = 2019 # Um ano antes de ter os primeiros diarios
 contador_mes = 0 # um mês antes de ter os diario
 contador_dia = 0 # um dia antes de ter os diarios
 
@@ -118,6 +126,9 @@ while contador_ano <= 2023:
                         #extrair texto
                         extrair_pdf(f'{anoPdf}-{mesPdf}-{diaPdf}.pdf')
                         apaga_pdf(f'{anoPdf}-{mesPdf}-{diaPdf}.pdf')
+                        moveTxt(anoPdf)
+                        #regex.extrairDados(f'{anoPdf}-{mesPdf}-{diaPdf}.txt')
+
                     if driver.find_element(By.XPATH, "//*[@id='containerDownloadNova']").get_attribute("style") == "display: block;" and driver.find_element(By.LINK_TEXT, str(contador_dia)).find_element(By.XPATH, './ancestor::td').get_attribute("class") == "weekday ":
                        
                         element = WebDriverWait(driver, 20).until(
@@ -132,8 +143,10 @@ while contador_ano <= 2023:
                         ## Extração de texto (PyPDF2)
                         extrair_pdf(f'{anoPdf}-{mesPdf}-{diaPdf}.pdf')
                         apaga_pdf(f'{anoPdf}-{mesPdf}-{diaPdf}.pdf')
-                            
-                element = WebDriverWait(driver, 20).until(
+                        moveTxt(anoPdf)
+                        #regex.extrairDados(f'{anoPdf}-{mesPdf}-{diaPdf}.txt')
+                        
+                element = WebDriverWait(driver, 40).until(
                                     EC.presence_of_element_located((By.XPATH, "//*[@id='popup']/div/article/a"))
                                     )
                 driver.find_element(By.XPATH, "//*[@id='popup']/div/article/a").click()

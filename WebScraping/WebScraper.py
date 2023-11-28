@@ -9,7 +9,21 @@ import shutil
 import time
 import re
 
+
+
 class ColetorDePDF:
+
+    def __init__(self):
+        self.driver = None
+
+    def iniciar_driver(self):
+        self.driver = webdriver.Chrome()
+
+    def encerrar_driver(self):
+        if self.driver:
+            self.driver.quit()
+
+
     def extrair_pdf(self, arq):
         reader = PdfReader(arq)
         text = ""
@@ -27,30 +41,32 @@ class ColetorDePDF:
         #colocando no aquivo
         arquivo.write(text)
         arquivo.close()
-    # OBS: Tem de ser o path inteiro, não está reconhecendo o path reduzido.
+
     def apaga_pdf(self, arq):
-        os.remove(f'/home/bdebatata/MétodosDeDesenvolvimentoDeSoftware/2023-2-Squad08/{arq}')
+       diretorio_atual = os.path.dirname(os.path.abspath(__file__))
+       caminho_atual = os.path.dirname(diretorio_atual)
+       os.remove(f'{caminho_atual}/{arq}')
         
     def altera_diretorio(self):
         padrao = r"(\d{4})-(\d{2})-(\d{2})"
-        # Alterar os diretórios caso seja usado por outro membro. #
-        arquivos = os.listdir("/home/bdebatata/Downloads")
-        caminho = "/home/bdebatata/Downloads"
+        caminho_downloads = os.path.join(os.path.expanduser("~"), "Downloads")
+        arquivos = os.listdir(f"{caminho_downloads}")
         for arq in arquivos:
                 correspondencia = re.findall(padrao, os.path.basename(arq))
                 for match in correspondencia:
                     ano, mes, dia = match  
-                    caminhoArq = os.path.join(caminho, arq)
+                    caminhoArq = os.path.join(caminho_downloads, arq)
                     os.rename(caminhoArq, f'{ano}-{mes}-{dia}.pdf')
                     print(os.path.basename(arq))
                     return ano, mes, dia
                 
     def moveTxt(self, ano):
-        pastaOrigem = '/home/bdebatata/MétodosDeDesenvolvimentoDeSoftware/2023-2-Squad08/'
-        pasta_destino = f'/home/bdebatata/MétodosDeDesenvolvimentoDeSoftware/2023-2-Squad08/WebScraping/txt/{ano}/'
-        arquivos_txt = [arquivo for arquivo in os.listdir(pastaOrigem) if arquivo.endswith('.txt')]
+        diretorio_atual = os.path.dirname(os.path.abspath(__file__))
+        pasta_origem = os.path.dirname(diretorio_atual)
+        pasta_destino = f'{diretorio_atual}/txt/{ano}/'
+        arquivos_txt = [arquivo for arquivo in os.listdir(pasta_origem) if arquivo.endswith('.txt')]
         for arq in arquivos_txt:
-            origem_arquivo = os.path.join(pastaOrigem, arq)
+            origem_arquivo = os.path.join(pasta_origem, arq)
             destino_arquivo = os.path.join(pasta_destino, arq)
             shutil.move(origem_arquivo, destino_arquivo)
             
@@ -158,6 +174,5 @@ class ColetorDePDF:
                 driver.find_element(By.XPATH, "//*[@id='popup']/div/article/a").click()
             
 
-extrator = ColetorDePDF()
-extrator.coletaPDF(2012)
-    
+#extrator = ColetorDePDF()
+#extrator.coletaPDF(2014)

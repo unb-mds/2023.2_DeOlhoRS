@@ -2,7 +2,6 @@ import { Column } from "primereact/column";
 import { DataTable } from "primereact/datatable";
 import "primereact/resources/primereact.min.css";
 import "primereact/resources/themes/lara-light-indigo/theme.css";
-import { useState } from "react";
 import styles from "./TesteTabela.module.css";
 
 {
@@ -12,7 +11,6 @@ import { InputText } from 'primereact/inputtext'*/
 }
 
 function TesteTabela() {
-  const [filtro, setFiltro] = useState();
 
   const data = [
     {
@@ -67,7 +65,7 @@ function TesteTabela() {
         </form>
       </div>
       <div className={styles.tabela}>
-        <DataTable value={data} filters={filtro}>
+        <DataTable value={data}>
           <Column field="nome" header="Nome" />
           <Column field="cpf" header="CPF" />
           <Column field="cargo" header="Cargo" />

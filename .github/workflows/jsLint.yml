@@ -23,10 +23,12 @@ jobs:
     - name: Install dependencies
       run: |
         cd implementacao-front &&
+        npm init @eslint/config &&
         npm install &&
         npm install primereact
         
     - name: Run ESLint
       run: 
+        cd implementacao-front &&
         npx eslint . --ext .ts &&
         npm run lint

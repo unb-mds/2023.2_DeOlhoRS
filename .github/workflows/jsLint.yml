@@ -20,11 +20,9 @@ jobs:
       with:
         node-version: '16.14.0'
 
-    - name: Change to Project Directory
-      run: cd implementacao-front
-
     - name: Install dependencies
       run: |
+        cd implementacao-front &&
         npm install &&
         npm install primereact
         

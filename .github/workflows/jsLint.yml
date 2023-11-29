@@ -22,10 +22,11 @@ jobs:
 
     - name: Change to Project Directory
       run: cd implementacao-front
-      
+
     - name: Install dependencies
       run: |
-        npm install
+        npm install &&
+        npm install primereact
         
     - name: Run ESLint
       run: 

@@ -20,12 +20,14 @@ jobs:
       with:
         node-version: '16.14.0'
 
+    - name: Change to Project Directory
+      run: cd implementacao-front
+      
     - name: Install dependencies
       run: |
         npm install
         
     - name: Run ESLint
       run: 
-        cd implementacao-front &&
         npx eslint . --ext .ts &&
         npm run lint

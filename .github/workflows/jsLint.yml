@@ -1,0 +1,31 @@
+name: Python CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - front-end
+  
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Instalando o node
+      uses: actions/setup-node@v4
+      with:
+        node-version: '16.14.0'
+
+    - name: Install dependencies
+      run: |
+        npm install
+        
+    - name: Run ESLint
+      run: 
+        cd implementacao-front &&
+        npx eslint . --ext .ts &&
+        npm run lint

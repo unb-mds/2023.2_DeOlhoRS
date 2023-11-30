@@ -95,15 +95,17 @@ class ExtratorDeDados:
             return correspondencias[0]
         else:
             return "Publicado por Gabinete ou afins"
-    def escritaDatabase(self, dados):
-        with open("2021.json", "r", encoding="utf-8") as file:
+    
+    def escrita_data_base(self, dados, arquivo):
+            
+        with open(arquivo, "r", encoding="utf-8") as file:
             dados_escritos = json.load(file)
 
         dados_escritos.append(dados)
-        with open("2021.json", "w", encoding="utf-8") as file:
+        with open(arquivo, "w", encoding="utf-8") as file:
             json.dump(dados_escritos, file, indent=4, ensure_ascii=False)
 
-    def extrairDados(self, nomeDoArquivo):
+    def extrairDados(self, nomeDoArquivo, arq_salvo):
         with open(nomeDoArquivo, 'r') as arquivo: 
             texto = arquivo.read()
             padrao = re.compile(r'(NOMEIA|EXONERA )', re.IGNORECASE)
@@ -129,9 +131,7 @@ class ExtratorDeDados:
                 data = data[-10:]
                 nomeacao = False
                 exoneracao = False
-                if data == "2020-03-02" and nomeDoMunicipio == "Publicado por Gabinete ou afins":
-                    print(contexto)
-                    print("Fim do Bloco\n\n\n\n\n")
+                
                 if correspondencia.group(1).lower().strip() in ["nomeia", "resolve nomear", "decide nomear"]:
                     nomeacao = True
                 if correspondencia.group(1).lower().strip() in ["exonera", "resolve exonerar", "decide exonerar"]:
@@ -145,19 +145,18 @@ class ExtratorDeDados:
                     #NomeDoQueSofreuAAção
                     
                 }
-                self.escritaDatabase(dados_novos)
+                self.escrita_data_base(dados_novos, arq_salvo)
     
-    def extraiGeral(self):
-        # Atualmente só está estraíndo 2009, que é o que se tem até o momento 
-        arquivos = "/home/bdebatata/MétodosDeDesenvolvimentoDeSoftware/2023-2-Squad08/WebScraping/txt/2021/"
-        arquivos = os.listdir("/home/bdebatata/MétodosDeDesenvolvimentoDeSoftware/2023-2-Squad08/WebScraping/txt/2021/")
+    def extraiGeral(self, ano_extraido, arq_salvo):
+        diretorio_atual = os.path.dirname(os.path.abspath(__file__))
+        arquivos = os.listdir(f'{diretorio_atual}/txt/{ano_extraido}/')
         for arq in arquivos:
-            arqPath = f'/home/bdebatata/MétodosDeDesenvolvimentoDeSoftware/2023-2-Squad08/WebScraping/txt/2021/{arq}'
-            self.extrairDados(arqPath)
-
-
+            arqPath = f'{diretorio_atual}/txt/{ano_extraido}/{arq}'
+            self.extrairDados(arqPath, arq_salvo)
+"""
 regex = ExtratorDeDados()
-regex.extraiGeral()
+regex.extraiGeral(2013, "arquivo")
+"""
 
 
 

@@ -15,27 +15,45 @@ class Test_coletor_de_PDF(unittest.TestCase):
 
     def tearDown(self):
         self.coletor.encerrar_driver()
-
+    
+    
     def test_move_txt(self):
-            # Crie um arquivo fictício
-            open('arquivo1.txt', 'w').close()
 
-            self.coletor.move_txt('testes')
+        diretorio_atual = os.path.dirname(os.path.abspath(__file__))
 
-            # Verifique se o arquivo foi movido para a pasta correta
-            self.assertFalse(os.path.exists('arquivo.txt'))
-            self.assertTrue(os.path.exists('Camada_Dados/txt/testes/arquivo.txt'))
+        # Construa o caminho para um níveis acima
+        caminho_atual = os.path.abspath(os.path.join(diretorio_atual, '..'))
+        # Crie um arquivo fictício
+        open(f'{caminho_atual}/arquivo1.txt', 'w').close()
+
+        # Chame a função para mover o arquivo
+        self.coletor.move_txt('testes')
+
+        # Verifique se o arquivo foi movido para a pasta correta
+        self.assertFalse(os.path.exists('arquivo1.txt'))  # Verifica se o arquivo original não existe mais
+        self.assertTrue(os.path.exists(os.path.join(f'{caminho_atual}/Camada_Dados/txt/testes', 'arquivo1.txt')))  # Verifica se o arquivo foi movido para o destino esperado
 
     def test_apaga_pdf(self):
         # Crie um arquivo fictício
         open('arquivo.pdf', 'w').close()
 
-        self.assertTrue(os.path.exists('arquivo.pdf'))
+        # Obtenha o diretório atual do arquivo de teste
+        diretorio_atual = os.path.dirname(os.path.abspath(__file__))
 
+        # Construa o caminho para um níveis acima
+        caminho_atual = os.path.abspath(os.path.join(diretorio_atual, '..'))
+
+        # Mova o arquivo para o diretório acima
+        shutil.move(os.path.join(diretorio_atual, 'arquivo.pdf'), os.path.join(caminho_atual, 'arquivo.pdf'))
+
+        # Verifique se o arquivo foi movido com sucesso
+        self.assertTrue(os.path.exists(os.path.join(caminho_atual, 'arquivo.pdf')))
+
+        # Chame o método que você está testando
         self.coletor.apaga_pdf('arquivo.pdf')
 
         # Verifique se o arquivo foi removido
-        self.assertFalse(os.path.exists('arquivo.pdf'))
+        self.assertFalse(os.path.exists(os.path.join(caminho_atual, 'arquivo.pdf')))
 
     def test_altera_diretorio(self):
         # Crie um arquivo fictício

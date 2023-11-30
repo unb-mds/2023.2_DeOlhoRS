@@ -1,13 +1,14 @@
+import os 
+import shutil
+import time
+import re
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from PyPDF2 import PdfReader
-import os 
-import shutil
-import time
-import re
+
 
 
 
@@ -16,7 +17,6 @@ class Coletor_de_PDF:
     def __init__(self):
         self.driver = None
         self.iniciar_driver()
-    
         
     def iniciar_driver(self):
         self.driver = webdriver.Chrome()
@@ -102,13 +102,11 @@ class Coletor_de_PDF:
             # Usado para os testes
             ano_selecionado = self.year_selector.first_selected_option.text
 
-            if unitario == True:
+            if unitario is True:
                 print(ano_selecionado)
                 self.encerrar_driver()
                 return ano_selecionado
-                
-            else:
-                self.roda_mes(contador_ano, contador_mes, self.month_selector)
+            self.roda_mes(contador_ano, contador_mes, self.month_selector)
         # Fecha o Driver após todas as iterações
         self.driver.quit()
    
@@ -126,7 +124,7 @@ class Coletor_de_PDF:
             
             mes_selecionado = self.month_selector.first_selected_option.text
             # Percorre os dias 
-            if unitario == True:
+            if unitario is True:
                 print(mes_selecionado)
                 self.encerrar_driver()
                 return mes_selecionado

@@ -30,6 +30,6 @@ jobs:
 
     - name: Run Pylint
       run: 
-        pylint WebScraping/ExtrairJson.py
-        pylint WebScraping/Regex.py
-        pylint WebScraping/WebScraper.py
+        pylint Camada_Dados/ExtrairJson.py
+        pylint Camada_Dados/Regex.py
+        pylint Camada_Dados/WebScraper.py

@@ -29,6 +29,6 @@ jobs:
         
     - name: Run unittest
       run: 
-        pytest Camada_Dados/test_ExtrairJson.py
-        pytest Camada_Dados/test_Regex.py
-        pytest Camada_Dados/test_WebScraper.py
+        pytest Testes/test_ExtrairJson.py
+        pytest Testes/test_Regex.py
+        pytest Testes/test_WebScraper.py

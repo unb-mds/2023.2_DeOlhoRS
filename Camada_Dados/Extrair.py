@@ -1,9 +1,18 @@
+# pylint: disable=missing-module-docstring
+# pylint: disable=invalid-name
 import json
 from collections import defaultdict
+# pylint: disable=trailing-whitespace
+# pylint: disable=too-many-locals
+# pylint: disable=too-few-public-methods
 
 class OrganizadorDeDados:
+   
+    # pylint: disable=missing-class-docstring
+    # pylint: disable=missing-function-docstring
     
     def processar_dados(self, input_file, output_file):
+        
         with open(input_file, 'r', encoding='utf-8') as f:
             dados_municipios = json.load(f)
 

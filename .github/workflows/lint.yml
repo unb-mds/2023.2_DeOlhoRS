@@ -30,6 +30,6 @@ jobs:
 
     - name: Run Pylint
       run: |
-        pylint Camada_Dados/Extrair_json.py &&
-        pylint Camada_Dados/Regex.py && 
+        pylint Camada_Dados/Extrair.py 
+        pylint Camada_Dados/Regex.py 
         pylint Camada_Dados/WebScraper.py 

@@ -88,13 +88,21 @@ class Extrator_de_dados:
             ]
     def extrair_nome_municipio(self, bloco):
         # Extrair nome do município com flexibilidade para padrões diferentes
-        padrao = re.compile(r'\b(?:' + '|'.join(map(re.escape, self.nome_dos_municipios)) + r')\b(?! \w)', re.IGNORECASE)
-        texto_sem_duplo_espacamento = re.sub(r'\s+', ' ', bloco )
-        correspondencias = padrao.findall(texto_sem_duplo_espacamento)
-        if correspondencias:
-            return correspondencias[0]
-        else:
-            return "Publicado por Gabinete ou afins"
+        padrao = re.compile(r'\b(?:' + '|'.join(map(re.escape, self.nome_dos_municipios)) + r')\b', re.IGNORECASE)
+
+        # Encontrar correspondências no texto
+        correspondencias = padrao.findall(bloco)
+
+        # Verificar se "Rio Grande" está presente nas correspondências
+        if 'Rio Grande' in correspondencias:
+            # Encontrar a posição da palavra "Rio Grande" no texto
+            posicao_rio_grande = bloco.find('Rio Grande')
+            # Verificar se a palavra "do Sul" segue "Rio Grande"
+            if posicao_rio_grande != -1 and bloco[posicao_rio_grande + len('Rio Grande'):].strip().startswith('do Sul'):
+                return correspondencias[1]
+            else:
+                return "Rio Grande"
+        
     
     def escrita_data_base(self, dados, arquivo):
         print(arquivo)
@@ -120,9 +128,9 @@ class Extrator_de_dados:
                 contexto = texto[inicio_contexto:fim_contexto]
                 # Chamada do Spacy para extração do nome do nomeado/exonerado
                 
-                """print("Correspondência:", correspondencia.group())
+               
                 print("Contexto:", contexto)
-                print("-----")"""
+                
 
                 # Restante do seu código aqui
                 nome_do_municipio = self.extrair_nome_municipio(contexto)
@@ -155,5 +163,11 @@ class Extrator_de_dados:
             self.extrair_dados(arq_path, arq_salvo)
 
 
-
-
+diretorio_atual = os.path.dirname(os.path.abspath(__file__))
+caminho_atual = os.path.abspath(os.path.join(diretorio_atual, '..'))
+arq_path = f'{caminho_atual}/Camada_Dados/txt/testes/2030-12-30.txt'
+open(f'{caminho_atual}/teste_extracao.json', 'w').close()
+with open(f'{caminho_atual}/teste_extracao.json', 'w') as file:
+    file.write("[\n\n]")
+regex = Extrator_de_dados()
+regex.extrair_dados(arq_path,f'{caminho_atual}/teste_extracao.json')

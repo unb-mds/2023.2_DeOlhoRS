@@ -1,7 +1,7 @@
 import unittest
 import os
 import json
-from Camada_Dados.ExtrairJson import Organizador_de_dados
+from Camada_Dados.ExtrairJson import OrganizadorDeDados
 
 
 class TestOrganizadorDeDados(unittest.TestCase):
@@ -19,7 +19,7 @@ class TestOrganizadorDeDados(unittest.TestCase):
 
         output_file = 'output_test.json'
 
-        organizador = Organizador_de_dados()
+        organizador = OrganizadorDeDados()
         organizador.processar_dados(input_file, output_file)
 
         with open(output_file, 'r', encoding='utf-8') as f:

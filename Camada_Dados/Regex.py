@@ -2,9 +2,9 @@ import re
 import json
 import os
 
-class ExtratorDeDados:
+class Extrator_de_dados:
     def __init__(self):
-        self.nomeDosMunicipios = [
+        self.nome_dos_municipios = [
                 "Aceguá", "Água Santa", "Agudo", "Ajuricaba", "Alecrim", "Alegrete", "Alegria","Almirante Tamandaré do Sul", "Alpestre", "Alto Alegre", "Alto Feliz", "Alvorada", "Amaral Ferrador",
                     "Ametista do Sul", "André da Rocha", "Anta Gorda", "Antônio Prado", "Arambaré", "Araricá",
                     "Aratiba", "Arroio do Meio", "Arroio do Padre", "Arroio do Sal", "Arroio do Tigre",
@@ -86,18 +86,18 @@ class ExtratorDeDados:
                     "Vila Maria", "Vila Nova do Sul", "Vista Alegre", "Vista Alegre do Prata",
                     "Vista Gaúcha", "Vitória das Missões", "Westfália", "Xangri-lá"
             ]
-    def extrairNomeMunicipio(self, bloco):
+    def extrair_nome_municipio(self, bloco):
         # Extrair nome do município com flexibilidade para padrões diferentes
-        padrao = re.compile(r'\b(?:' + '|'.join(map(re.escape, self.nomeDosMunicipios)) + r')\b(?! \w)', re.IGNORECASE)
-        textoSemDuploEspacamento = re.sub(r'\s+', ' ', bloco )
-        correspondencias = padrao.findall(textoSemDuploEspacamento)
+        padrao = re.compile(r'\b(?:' + '|'.join(map(re.escape, self.nome_dos_municipios)) + r')\b(?! \w)', re.IGNORECASE)
+        texto_sem_duplo_espacamento = re.sub(r'\s+', ' ', bloco )
+        correspondencias = padrao.findall(texto_sem_duplo_espacamento)
         if correspondencias:
             return correspondencias[0]
         else:
             return "Publicado por Gabinete ou afins"
     
     def escrita_data_base(self, dados, arquivo):
-            
+        print(arquivo)
         with open(arquivo, "r", encoding="utf-8") as file:
             dados_escritos = json.load(file)
 
@@ -105,8 +105,8 @@ class ExtratorDeDados:
         with open(arquivo, "w", encoding="utf-8") as file:
             json.dump(dados_escritos, file, indent=4, ensure_ascii=False)
 
-    def extrairDados(self, nomeDoArquivo, arq_salvo):
-        with open(nomeDoArquivo, 'r') as arquivo: 
+    def extrair_dados(self, nome_do_arquivo, arq_salvo):
+        with open(nome_do_arquivo, 'r') as arquivo: 
             texto = arquivo.read()
             padrao = re.compile(r'(NOMEIA|EXONERA )', re.IGNORECASE)
 
@@ -125,7 +125,7 @@ class ExtratorDeDados:
                 print("-----")"""
 
                 # Restante do seu código aqui
-                nomeDoMunicipio = self.extrairNomeMunicipio(contexto)
+                nome_do_municipio = self.extrair_nome_municipio(contexto)
                 data = arquivo.name
                 data = data[:-4]
                 data = data[-10:]
@@ -138,7 +138,7 @@ class ExtratorDeDados:
                     exoneracao = True 
                 
                 dados_novos = {
-                    "nomeMunicipio": nomeDoMunicipio,
+                    "nomeMunicipio": nome_do_municipio,
                     "dataPost": data,
                     "haNomeacao": nomeacao,
                     "haExoneracao": exoneracao,
@@ -147,16 +147,13 @@ class ExtratorDeDados:
                 }
                 self.escrita_data_base(dados_novos, arq_salvo)
     
-    def extraiGeral(self, ano_extraido, arq_salvo):
+    def extrai_geral(self, ano_extraido, arq_salvo):
         diretorio_atual = os.path.dirname(os.path.abspath(__file__))
         arquivos = os.listdir(f'{diretorio_atual}/txt/{ano_extraido}/')
         for arq in arquivos:
-            arqPath = f'{diretorio_atual}/txt/{ano_extraido}/{arq}'
-            self.extrairDados(arqPath, arq_salvo)
-"""
-regex = ExtratorDeDados()
-regex.extraiGeral(2013, "arquivo")
-"""
+            arq_path = f'{diretorio_atual}/txt/{ano_extraido}/{arq}'
+            self.extrair_dados(arq_path, arq_salvo)
+
 
 
 

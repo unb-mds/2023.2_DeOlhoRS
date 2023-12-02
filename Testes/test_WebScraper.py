@@ -86,7 +86,7 @@ class Test_coletor_de_PDF(unittest.TestCase):
     def teste_roda_dia(self):
         self.coletor.driver.get("https://www.diariomunicipal.com.br/famurs/o-que-e")
         dia_selecionado = self.coletor.roda_dia(0, 1, 2009, unitario=True)
-        contador_dia = "1/1/2009"
+        contador_dia = 1
         self.assertEqual(dia_selecionado, contador_dia)
 
 

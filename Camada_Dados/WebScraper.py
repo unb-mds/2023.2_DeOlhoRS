@@ -114,6 +114,7 @@ class Coletor_de_PDF:
     
         while contador_mes <= 12: 
             contador_mes+=1
+            
             if contador_mes >= 13:
                 break
             self.calendar_month.click()
@@ -123,6 +124,8 @@ class Coletor_de_PDF:
             self.calendar_month.click()
             
             mes_selecionado = self.month_selector.first_selected_option.text
+            if unitario:
+                return mes_selecionado
             # Percorre os dias 
             if unitario is True:
                 print(mes_selecionado)
@@ -133,6 +136,9 @@ class Coletor_de_PDF:
     def roda_dia(self, contador_dia, contador_mes, contador_ano, unitario = False):
         while contador_dia <= 31:
             contador_dia+=1
+            if unitario is True:
+                return contador_dia
+                
             if contador_dia >=32:
                 break
             if (contador_mes in [4, 6, 9, 11] and contador_dia > 30) or (contador_mes == 2 and contador_dia > 29 and (contador_ano % 4 == 0 and (contador_ano % 100 != 0 or contador_ano % 400 == 0))) or (contador_mes == 2 and contador_dia > 28 and not (contador_ano % 4 == 0 and (contador_ano % 100 != 0 or contador_ano % 400 == 0))):

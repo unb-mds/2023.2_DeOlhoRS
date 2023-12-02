@@ -1,0 +1,10 @@
+Estado do Rio Grande do Sul 
+
+Contextualização ficticia para uma nomeação ficticia que será usada para 
+testar a funcionalidade de um método criado no arquivo Regex.py. Então 
+nesse arquivo por aparecer a palavra chave NOMEIA ele irá quebrar ao redor
+dessa palavra em 400 caracteres para cima e para baixo da palavra e deve 
+escrever num arquivo os dados que filtrar nesse texto. Os dados são: o nome 
+do município, a data que será com base onde esse arquivo estará salvo e se há
+nomeação ou exoneração nesse bloco, nesse caso suponhamos que essa ação foi 
+realizada por Ibirubá.

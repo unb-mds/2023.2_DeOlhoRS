@@ -1,0 +1,4 @@
+[FORMAT]
+trailing-whitespace=no
+[MESSAGES CONTROL]
+disable=missing-import-docstring,missing-module-docstring,too-many-locals, line-too-long

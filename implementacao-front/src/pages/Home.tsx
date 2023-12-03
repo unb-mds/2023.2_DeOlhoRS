@@ -8,7 +8,7 @@ import Chart from "react-apexcharts"
 const column = {
   options: {
     chart: {
-      id: 'apexchart-example'
+      id: 'apexcrt-example'
     },
     xaxis: {
       categories: [2009, 2013, 2017, 2020, 2021]
@@ -16,12 +16,12 @@ const column = {
   },
   series: [{
     name: 'Nomeações',
-    data: [81, 219, 35, 50, 49],
+    data: [81, 217, 847, 2316, 3253],
     color: "#FCA622",
     },
     {
       name: 'Exonerações',
-      data: [16, 39, 50, 35, 45],
+      data: [16, 39, 149, 618, 708],
       color: "#A11208",
     }
   ]

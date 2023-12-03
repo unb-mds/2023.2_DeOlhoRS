@@ -38,7 +38,7 @@ const pie = {
 const cities = ['Porto Alegre', 'Caxias do Sul', 'Canoas', 'Pelotas', 'Santa Maria']
 
 const quantity = [7282, 5321, 3293, 3124, 2130]
-const n = [87465, 84577]
+const total = [6714, 1530]
 
 function Home() {
   return (
@@ -51,7 +51,7 @@ function Home() {
             <h1 className={styles.subTitle}>Rio Grande do Sul</h1>
             <br></br>
             <br></br>   
-            <Total quantity={n}/>         
+            <Total quantity={total}/>         
           </div>
           <div className={styles.pieGraph}>
             <h2 className={styles.graphTitle}>Exonerações x Nomeações em 2023</h2>

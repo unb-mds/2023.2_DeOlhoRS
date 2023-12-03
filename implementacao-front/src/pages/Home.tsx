@@ -11,17 +11,17 @@ const column = {
       id: 'apexchart-example'
     },
     xaxis: {
-      categories: [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023]
+      categories: [2009, 2013, 2017, 2020, 2021]
     }
   },
   series: [{
     name: 'Nomeações',
-    data: [30, 40, 35, 50, 49, 60, 70, 91, 125],
+    data: [81, 219, 35, 50, 49],
     color: "#FCA622",
     },
     {
       name: 'Exonerações',
-      data: [20, 60, 50, 35, 45, 55, 67, 43, 90],
+      data: [16, 39, 50, 35, 45],
       color: "#A11208",
     }
   ]

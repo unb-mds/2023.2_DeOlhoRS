@@ -175,8 +175,6 @@ class ColetorDePdf:
                         self.extrair_pdf(f'{ano_pdf}-{mes_pdf}-{dia_pdf}.pdf')
                         self.apaga_pdf(f'{ano_pdf}-{mes_pdf}-{dia_pdf}.pdf')
                         self.move_txt(ano_pdf)
-                        #regex.extrairDados(f'{ano_pdf}-{mes_pdf}-{dia_pdf}.txt')
-
                     if self.driver.find_element(By.XPATH, "//*[@id='containerDownloadNova']").get_attribute("style") == "display: block;" and self.driver.find_element(By.LINK_TEXT, str(contador_dia)).find_element(By.XPATH, './ancestor::td').get_attribute("class") == "weekday ":
                     
                         WebDriverWait(self.driver, 20).until(
@@ -189,12 +187,9 @@ class ColetorDePdf:
                         pdf.click()
                         time.sleep(2)
                         ano_pdf, mes_pdf, dia_pdf = self.altera_diretorio()
-                        ## Extração de texto (PyPDF2)
                         self.extrair_pdf(f'{ano_pdf}-{mes_pdf}-{dia_pdf}.pdf')
                         self.apaga_pdf(f'{ano_pdf}-{mes_pdf}-{dia_pdf}.pdf')
                         self.move_txt(ano_pdf)
-                        #regex.extrairDados(f'{ano_pdf}-{mes_pdf}-{dia_pdf}.txt')
-                        
                 WebDriverWait(self.driver, 40).until(
                                     EC.presence_of_element_located((By.XPATH, "//*[@id='popup']/div/article/a"))
                                     )

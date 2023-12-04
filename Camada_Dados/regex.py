@@ -1,3 +1,4 @@
+# pylint: disable=missing-module-docstring
 import re
 import json
 import os
@@ -5,6 +6,8 @@ import os
 class ExtratorDeDados:
     # pylint: disable=missing-class-docstring
     # pylint: disable=missing-function-docstring
+    # pylint: disable=W1514
+    # pylint: disable=R0914
     def __init__(self):
         self.nome_dos_municipios = [
                 "Aceguá", "Água Santa", "Agudo", "Ajuricaba", "Alecrim", "Alegrete", 

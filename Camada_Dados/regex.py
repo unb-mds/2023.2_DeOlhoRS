@@ -162,7 +162,8 @@ class ExtratorDeDados:
             # Encontrar a posição da palavra "Rio Grande" no texto
             posicao_rio_grande = bloco.find('Rio Grande')
             # Verificar se a palavra "do Sul" segue "Rio Grande"
-            if posicao_rio_grande != -1 and bloco[posicao_rio_grande + len('Rio Grande'):].strip().startswith('do Sul'):
+            if posicao_rio_grande != -1 and bloco[posicao_rio_grande +
+                                                  len('Rio Grande'):].strip().startswith('do Sul'):
                 return correspondencias[1]
             return "Rio Grande"
         return "Publicado por Gabinete ou afins"
@@ -189,9 +190,13 @@ class ExtratorDeDados:
                 data = data[-10:]
                 nomeacao = False
                 exoneracao = False
-                if correspondencia.group(1).lower().strip() in ["nomeia", "resolve nomear", "decide nomear"]:
+                if correspondencia.group(1).lower().strip() in ["nomeia",
+                                                                "resolve nomear", 
+                                                                "decide nomear"]:
                     nomeacao = True
-                if correspondencia.group(1).lower().strip() in ["exonera", "resolve exonerar", "decide exonerar"]:
+                if correspondencia.group(1).lower().strip() in ["exonera", 
+                                                                "resolve exonerar", 
+                                                                "decide exonerar"]:
                     exoneracao = True 
                 dados_novos = {
                     "nomeMunicipio": nome_do_municipio,

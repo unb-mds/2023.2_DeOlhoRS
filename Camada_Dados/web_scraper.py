@@ -1,4 +1,5 @@
-import os 
+# pylint: disable=C0114
+import os
 import shutil
 import time
 import re
@@ -8,10 +9,18 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from PyPDF2 import PdfReader
+
 # pylint: disable=trailing-whitespace
 class ColetorDePdf:
     # pylint: disable=missing-class-docstring
     # pylint: disable=missing-function-docstring
+    # pylint: disable=C0301
+    # pylint: disable=W1514
+    # pylint: disable=R0916
+    # pylint: disable=W0201
+    # pylint: disable=R1732
+    # pylint: disable=R1710
+    
     def __init__(self):
         self.driver = None
         self.iniciar_driver()

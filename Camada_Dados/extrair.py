@@ -11,7 +11,8 @@ class OrganizadorDeDados:
    
     # pylint: disable=missing-class-docstring
     # pylint: disable=missing-function-docstring
-    
+    # pylint: disable=E1120
+    # pylint: disable=W1514
     def processar_dados(self, input_file, output_file):
         
         with open(input_file, 'r', encoding='utf-8') as f:

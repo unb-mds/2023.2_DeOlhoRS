@@ -27,18 +27,18 @@ const column = {
   ]
 }
 
+const cities = ['Porto Alegre', 'Caxias do Sul', 'Canoas', 'Pelotas', 'Santa Maria']
+
+const quantity = [7282, 5321, 3293, 3124, 2130]
+const total = [6714, 1530]
+
 const pie = {
   options: {
     labels: ['Nomeações', 'Exonerações'],
     colors: ["#FCA622", "#A11208"]
   },
-  series: [30, 70],
+  series: total,
 }
-
-const cities = ['Porto Alegre', 'Caxias do Sul', 'Canoas', 'Pelotas', 'Santa Maria']
-
-const quantity = [7282, 5321, 3293, 3124, 2130]
-const total = [6714, 1530]
 
 function Home() {
   return (
@@ -54,7 +54,7 @@ function Home() {
             <Total quantity={total}/>         
           </div>
           <div className={styles.pieGraph}>
-            <h2 className={styles.graphTitle}>Exonerações x Nomeações em 2023</h2>
+            <h2 className={styles.graphTitle}>Exonerações x Nomeações nos anos analisados</h2>
             <Chart options={pie.options} series={pie.series}type="pie" width={400}/>            
           </div>
           <Rank title='Municípios que mais nomeiam:' cities={cities} quantity={quantity}/>

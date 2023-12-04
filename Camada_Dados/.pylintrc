@@ -1,4 +1,2 @@
-[FORMAT]
-trailing-whitespace=no
 [MESSAGES CONTROL]
-disable=missing-import-docstring,missing-module-docstring,too-many-locals, line-too-long
+disable=C0114,missing-module-docstring,too-many-locals, line-too-long, E1120, W1514, C0303, R1732, W0201, R1710, R0916

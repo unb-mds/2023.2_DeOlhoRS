@@ -1,7 +1,7 @@
 import unittest
 import os
 import json
-from Camada_Dados.Extrair import OrganizadorDeDados
+from Camada_Dados.extrair import OrganizadorDeDados
 
 
 class TestOrganizadorDeDados(unittest.TestCase):

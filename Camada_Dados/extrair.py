@@ -51,39 +51,31 @@ class OrganizadorDeDados:
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(dados_grafico, f, indent=2, ensure_ascii=False)
     
-    def processar_pasta(pasta):
+    def processar_pasta(self, pasta):
         resumo_por_ano = {}
-
         # Iterar sobre os arquivos na pasta
         for nome_arquivo in os.listdir(pasta):
             if nome_arquivo.endswith('.json'):
                 caminho_arquivo = os.path.join(pasta, nome_arquivo)
-
                 # Processar cada arquivo JSON
                 with open(caminho_arquivo, 'r') as arquivo_json:
                     dados_lista = json.load(arquivo_json)
-
                     # Iterar sobre os objetos na lista
                     for dados in dados_lista:
                         ano = dados.get("ano", "")
                         nomeacoes = dados.get("nomeacoes", 0)
                         exoneracoes = dados.get("exoneracoes", 0)
-
                         # Atualizar o resumo para o ano correspondente
                         if ano not in resumo_por_ano:
                             resumo_por_ano[ano] = {"nomeacoes": 0, "exoneracoes": 0}
-
                         resumo_por_ano[ano]["nomeacoes"] += nomeacoes
                         resumo_por_ano[ano]["exoneracoes"] += exoneracoes
-
         # Salvar o resumo por ano em um novo arquivo JSON
         with open('resumo_por_ano.json', 'w') as arquivo_resumo:
             json.dump(resumo_por_ano, arquivo_resumo, indent=2)   
-
     if __name__ == "__main__":
-
         # diretorio atual = /squad08/camada_dados
         diretorio_atual = os.path.dirname(os.path.abspath(__file__))
         pasta_json = f'{diretorio_atual}/dados_para_os_Graficos'
-
         processar_pasta(pasta_json)
+        

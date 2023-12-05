@@ -31,6 +31,49 @@ class TestOrganizadorDeDados(unittest.TestCase):
         os.remove(input_file)
         os.remove(output_file)
 
+    def test_processar_anos(self):
+        sua_instancia = OrganizadorDeDados()
+
+        # Criar dados de entrada para o teste
+        input_file = 'arquivo_de_entrada.json'
+        with open(input_file, 'w', encoding='utf-8') as f:
+            json.dump([
+                {"municipio": "BOA VISTA DO CADEADO","ano": "2009","mes": "07","nomeacoes": 2,"exoneracoes": 2},
+                {"municipio": "boa vista do cadeado","ano": "2009","mes": "06","nomeacoes": 10,"exoneracoes": 12},
+                {"municipio": "Ibirubá","ano": "2009","mes": "07","nomeacoes": 10,"exoneracoes": 4},
+                {"municipio": "Ibirubá","ano": "2009","mes": "10","nomeacoes": 11,"exoneracoes": 19},
+            ], f)
+
+        output_file = 'arquivo_de_comparacao.json'
+        sua_instancia.processar_anos(input_file, output_file)
+
+        # Carregar o arquivo de saída gerado pelo método
+        
+        with open(output_file, 'r', encoding='utf-8') as f:
+            resultado = json.load(f)
+
+        # Definir o resultado esperado com base nos dados de entrada
+        resultado_esperado = [
+                {
+                    "municipio": "boa vista do cadeado",
+                    "nomeacoes": 12,
+                    "exoneracoes": 14
+                },
+                {
+                    "municipio": "ibirubá",
+                    "nomeacoes": 21,
+                    "exoneracoes": 23
+                }
+        ]
+
+        # Comparar o resultado real com o resultado esperado
+        self.assertEqual(resultado, resultado_esperado)
+
+        #Linhas para romover os arquivos criados
+        os.remove(input_file)
+        os.remove(output_file)
+
+
 if __name__ == '__main__':
     unittest.main()
 

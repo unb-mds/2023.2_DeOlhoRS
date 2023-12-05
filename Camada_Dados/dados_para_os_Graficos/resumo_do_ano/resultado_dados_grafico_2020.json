@@ -1,0 +1,382 @@
+[
+  {
+    "municipio": "alegrete",
+    "nomeacoes": 9,
+    "exoneracoes": 2
+  },
+  {
+    "municipio": "alegria",
+    "nomeacoes": 86,
+    "exoneracoes": 35
+  },
+  {
+    "municipio": "alvorada",
+    "nomeacoes": 8,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "araricá",
+    "nomeacoes": 7,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "arroio dos ratos",
+    "nomeacoes": 17,
+    "exoneracoes": 3
+  },
+  {
+    "municipio": "augusto pestana",
+    "nomeacoes": 55,
+    "exoneracoes": 42
+  },
+  {
+    "municipio": "barra do guarita",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "barra funda",
+    "nomeacoes": 2,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "barracão",
+    "nomeacoes": 29,
+    "exoneracoes": 7
+  },
+  {
+    "municipio": "barros cassal",
+    "nomeacoes": 30,
+    "exoneracoes": 24
+  },
+  {
+    "municipio": "barão de cotegipe",
+    "nomeacoes": 1,
+    "exoneracoes": 2
+  },
+  {
+    "municipio": "braga",
+    "nomeacoes": 3,
+    "exoneracoes": 3
+  },
+  {
+    "municipio": "camargo",
+    "nomeacoes": 4,
+    "exoneracoes": 3
+  },
+  {
+    "municipio": "campo bom",
+    "nomeacoes": 345,
+    "exoneracoes": 52
+  },
+  {
+    "municipio": "canoas",
+    "nomeacoes": 4,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "capão da canoa",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "caseiros",
+    "nomeacoes": 4,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "cerro grande",
+    "nomeacoes": 2,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "cerro largo",
+    "nomeacoes": 12,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "coronel bicaco",
+    "nomeacoes": 90,
+    "exoneracoes": 15
+  },
+  {
+    "municipio": "cotiporã",
+    "nomeacoes": 3,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "coxilha",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "crissiumal",
+    "nomeacoes": 3,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "cristal",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "cândido godói",
+    "nomeacoes": 52,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "derrubadas",
+    "nomeacoes": 54,
+    "exoneracoes": 17
+  },
+  {
+    "municipio": "eldorado do sul",
+    "nomeacoes": 17,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "esteio",
+    "nomeacoes": 3,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "fagundes varela",
+    "nomeacoes": 4,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "faxinalzinho",
+    "nomeacoes": 5,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "formigueiro",
+    "nomeacoes": 2,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "glorinha",
+    "nomeacoes": 76,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "guarani das missões",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "harmonia",
+    "nomeacoes": 7,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "ibiraiaras",
+    "nomeacoes": 28,
+    "exoneracoes": 10
+  },
+  {
+    "municipio": "ibirubá",
+    "nomeacoes": 131,
+    "exoneracoes": 34
+  },
+  {
+    "municipio": "imbé",
+    "nomeacoes": 7,
+    "exoneracoes": 3
+  },
+  {
+    "municipio": "independência",
+    "nomeacoes": 138,
+    "exoneracoes": 29
+  },
+  {
+    "municipio": "lajeado do bugre",
+    "nomeacoes": 2,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "marcelino ramos",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "morro reuter",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "nova pádua",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "novo hamburgo",
+    "nomeacoes": 2,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "osório",
+    "nomeacoes": 4,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "palmeira das missões",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "palmitinho",
+    "nomeacoes": 28,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "passo fundo",
+    "nomeacoes": 0,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "pedras altas",
+    "nomeacoes": 8,
+    "exoneracoes": 12
+  },
+  {
+    "municipio": "pelotas",
+    "nomeacoes": 33,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "publicado por gabinete ou afins",
+    "nomeacoes": 369,
+    "exoneracoes": 78
+  },
+  {
+    "municipio": "quaraí",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "sananduva",
+    "nomeacoes": 15,
+    "exoneracoes": 3
+  },
+  {
+    "municipio": "santa bárbara do sul",
+    "nomeacoes": 7,
+    "exoneracoes": 2
+  },
+  {
+    "municipio": "santa cruz do sul",
+    "nomeacoes": 0,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "santana da boa vista",
+    "nomeacoes": 93,
+    "exoneracoes": 101
+  },
+  {
+    "municipio": "santo antônio da patrulha",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "santo augusto",
+    "nomeacoes": 8,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "santo ângelo",
+    "nomeacoes": 174,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "sapucaia do sul",
+    "nomeacoes": 6,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "seberi",
+    "nomeacoes": 2,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "selbach",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "são gabriel",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "são josé do ouro",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "são leopoldo",
+    "nomeacoes": 37,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "são martinho",
+    "nomeacoes": 3,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "são pedro do sul",
+    "nomeacoes": 118,
+    "exoneracoes": 35
+  },
+  {
+    "municipio": "são sebastião do caí",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "são valério do sul",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "travesseiro",
+    "nomeacoes": 63,
+    "exoneracoes": 30
+  },
+  {
+    "municipio": "triunfo",
+    "nomeacoes": 4,
+    "exoneracoes": 5
+  },
+  {
+    "municipio": "três coroas",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "tupanciretã",
+    "nomeacoes": 31,
+    "exoneracoes": 65
+  },
+  {
+    "municipio": "venâncio aires",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "veranópolis",
+    "nomeacoes": 46,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "vila flores",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "xangri-lá",
+    "nomeacoes": 6,
+    "exoneracoes": 0
+  }
+]

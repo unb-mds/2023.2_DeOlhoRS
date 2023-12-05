@@ -1,0 +1,2159 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://unb-mds.github.io/2023-2-Squad08/Pol%C3%ADticas%20/Branches/">
+      
+      
+        <link rel="prev" href="../../DesignSprint/Requisitos/">
+      
+      
+        <link rel="next" href="../C%C3%B3digo%20de%20conduta/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.14">
+    
+    
+      
+        <title>Branches - MDS-Squad08</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.fad675c6.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#padronizacao-das-branches-no-projeto" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="MDS-Squad08" class="md-header__button md-logo" aria-label="MDS-Squad08" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MDS-Squad08
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Branches
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="MDS-Squad08" class="md-nav__button md-logo" aria-label="MDS-Squad08" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    MDS-Squad08
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Comece por aqui :)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Backlog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backlog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Gestão do Projeto
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Gestão do Projeto
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gest%C3%A3o%20do%20Projeto/Arquitetura/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Arquitetura
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gest%C3%A3o%20do%20Projeto/Comunica%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Comunicação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gest%C3%A3o%20do%20Projeto/MVV/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MVV
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gest%C3%A3o%20do%20Projeto/PersonasQD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Personas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gest%C3%A3o%20do%20Projeto/Storymap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Storymap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Design Sprint
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            Design Sprint
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DesignSprint/DesignSprint/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    O que é
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DesignSprint/Decidir/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Decidir
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DesignSprint/Design/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Design
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DesignSprint/Idea%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ideação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DesignSprint/Mapeamento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mapeamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DesignSprint/Requisitos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Requisitos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Políticas
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Políticas
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Branches
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Branches
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#padronizacao-das-branches-no-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Padronização das branches no projeto.
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Padronização das branches no projeto.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#clareza-e-organizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clareza e Organização:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#colaboracao-simplificada" class="md-nav__link">
+    <span class="md-ellipsis">
+      Colaboração Simplificada:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#implementacao-de-fluxos-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementação de Fluxos de Trabalho:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rastreamento-de-recursos-e-problemas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rastreamento de Recursos e Problemas:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#maior-qualidade-do-codigo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Maior Qualidade do Código:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#facilitacao-da-integracao-continua" class="md-nav__link">
+    <span class="md-ellipsis">
+      Facilitação da Integração Contínua:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historico-de-desenvolvimento-mais-limpo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Desenvolvimento Mais Limpo:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemplo-de-como-usar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo de como usar
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../C%C3%B3digo%20de%20conduta/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Código de conduta
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Commits/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Commits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Issues/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Issues
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Tecnologias
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Tecnologias
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tecnologias/EscolhasTecnologicas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Escolhas Tecnológicas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprints
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Sprints
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_1" id="__nav_6_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprint 00
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 00
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2000/Planejamento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2000/Resultados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resultados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprint 01
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 01
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2001/Planejamento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2001/Resultados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resultados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprint 02
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 02
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2002/Planejamento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2002/Resultados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resultados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprint 03
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 03
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2003/Planejamento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2003/Resultados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resultados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprint 04
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_5">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 04
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2004/Planejamento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2004/Resultados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resultados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_6" id="__nav_6_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprint 05
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_6">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 05
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2005/Planejamento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2005/Resultados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resultados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_7" id="__nav_6_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprint 06
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_7">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 06
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2006/Planejamento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2006/Resultados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resultados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_8" id="__nav_6_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprint 07
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_8">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 07
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2007/Planejamento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2007/Resultados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resultados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_9" id="__nav_6_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprint 08
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_9">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 08
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2008/Planejamento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2008/Resultados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resultados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_10" id="__nav_6_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprint 09
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_10">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 09
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2009/Planejamento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2009/Resultados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resultados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_11" id="__nav_6_11_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprint 10
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_11">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 10
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2010/Planejamento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2010/Resultados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resultados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_12" id="__nav_6_12_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sprint 11
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_12">
+            <span class="md-nav__icon md-icon"></span>
+            Sprint 11
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2011/Planejamento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planejamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Sprints/Sprint%2011/Resultados/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Resultados
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#padronizacao-das-branches-no-projeto" class="md-nav__link">
+    <span class="md-ellipsis">
+      Padronização das branches no projeto.
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Padronização das branches no projeto.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#clareza-e-organizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clareza e Organização:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#colaboracao-simplificada" class="md-nav__link">
+    <span class="md-ellipsis">
+      Colaboração Simplificada:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#implementacao-de-fluxos-de-trabalho" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementação de Fluxos de Trabalho:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rastreamento-de-recursos-e-problemas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rastreamento de Recursos e Problemas:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#maior-qualidade-do-codigo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Maior Qualidade do Código:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#facilitacao-da-integracao-continua" class="md-nav__link">
+    <span class="md-ellipsis">
+      Facilitação da Integração Contínua:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#historico-de-desenvolvimento-mais-limpo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Desenvolvimento Mais Limpo:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemplo-de-como-usar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exemplo de como usar
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Branches</h1>
+
+<h2 id="padronizacao-das-branches-no-projeto">Padronização das branches no projeto.</h2>
+<p>A padronização das branches no GitHub e em qualquer sistema de controle de versão é uma prática altamente benéfica para o desenvolvimento de software colaborativo e eficiente. Ela traz uma série de vantagens que contribuem para uma melhor organização, colaboração e qualidade do código-fonte. Neste texto, exploraremos os benefícios de padronizar as branches no Git e como isso pode melhorar a eficiência do desenvolvimento de software.</p>
+<div align="center">
+<img width="80%"  src="data:image/png;base64,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"/>
+</div>
+
+<h3 id="clareza-e-organizacao">Clareza e Organização:</h3>
+<p>Padronizar as branches significa que todos os desenvolvedores seguem um conjunto comum de convenções para nomear e criar branches. Isso resulta em um ambiente mais organizado, onde é fácil entender o propósito de cada branch e como ela se encaixa no contexto do projeto. Nomes consistentes e descritivos ajudam a evitar confusões e erros.</p>
+<h3 id="colaboracao-simplificada">Colaboração Simplificada:</h3>
+<p>Quando todos seguem o mesmo padrão, a colaboração se torna mais simples e eficaz. Os desenvolvedores podem facilmente entender o que os outros estão fazendo, tornando a revisão de código mais eficiente e facilitando a resolução de conflitos.</p>
+<h3 id="implementacao-de-fluxos-de-trabalho">Implementação de Fluxos de Trabalho:</h3>
+<p>A padronização das branches permite que as equipes definam e implementem fluxos de trabalho específicos para o desenvolvimento. Por exemplo, pode-se adotar o GitFlow, GitHub Flow ou outro modelo personalizado, dependendo das necessidades do projeto. Isso ajuda a manter um processo consistente para desenvolvimento, revisão e implantação.</p>
+<h3 id="rastreamento-de-recursos-e-problemas">Rastreamento de Recursos e Problemas:</h3>
+<p>Ao seguir uma convenção comum de nomenclatura, é mais fácil rastrear e associar branches a recursos específicos ou problemas relatados. Isso facilita a identificação de onde uma determinada funcionalidade ou correção está sendo desenvolvida.</p>
+<h3 id="maior-qualidade-do-codigo">Maior Qualidade do Código:</h3>
+<p>Com um processo de colaboração mais suave e revisões de código mais eficientes, a qualidade do código tende a melhorar. A identificação e correção de problemas se tornam mais rápidas, reduzindo a probabilidade de bugs.</p>
+<h3 id="facilitacao-da-integracao-continua">Facilitação da Integração Contínua:</h3>
+<p>A padronização das branches é essencial para a implementação eficaz da integração contínua (CI). Com a estrutura de branches consistente, é mais fácil configurar pipelines de CI/CD que automatizam a construção, testes e implantação do código.</p>
+<h3 id="historico-de-desenvolvimento-mais-limpo">Histórico de Desenvolvimento Mais Limpo:</h3>
+<p>Ao manter o controle de versão organizado com branches padronizadas, o histórico do repositório fica mais limpo e coerente, tornando-o mais fácil de navegar e entender.</p>
+<p>Em resumo, a padronização das branches no GitHub é uma prática fundamental para aprimorar a eficiência do desenvolvimento de software em equipe. Ela proporciona uma base sólida para a colaboração, organização e automação, resultando em código de melhor qualidade e entregas mais previsíveis. Portanto, ao iniciar um novo projeto ou adotar uma nova equipe, considere a implementação de diretrizes de padronização de branches como parte integrante de seu fluxo de trabalho de desenvolvimento.</p>
+<h2 id="exemplo-de-como-usar">Exemplo de como usar</h2>
+<p>Quando estiver trabalhando sozinho em alguma Issue o nome da branch será o seu o seu apelido e em seguida o número da Issue.</p>
+<pre><code>- Exemplo: nome/issue-2
+</code></pre>
+<p>Se for mais de uma pessoa, é possível colocar o apelido de todos os integrantes que estão trabalhando separando através de uma '/'(barra).</p>
+<pre><code>- Exemplo: nome1/nome2/nome3/issue-7
+</code></pre>
+<p>Caso seja uma branch em que todos irão usar, digite somente a função dela.</p>
+<pre><code>- Exemplo: documentacao
+</code></pre>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.cd18aaf1.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "2017": {
+    "nomeacoes": 847,
+    "exoneracoes": 149
+  },
+  "2013": {
+    "nomeacoes": 217,
+    "exoneracoes": 39
+  },
+  "2009": {
+    "nomeacoes": 81,
+    "exoneracoes": 16
+  },
+  "2020": {
+    "nomeacoes": 2316,
+    "exoneracoes": 618
+  },
+  "2021": {
+    "nomeacoes": 3253,
+    "exoneracoes": 708
+  },
+  "Total":{
+    "nomeacoes": 6714,
+    "exoneracoes": 1530
+  }
+}

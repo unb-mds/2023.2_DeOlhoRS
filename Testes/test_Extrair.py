@@ -1,7 +1,9 @@
 import unittest
 import os
 import json
+
 from Camada_Dados.extrair import OrganizadorDeDados
+
 
 
 class TestOrganizadorDeDados(unittest.TestCase):
@@ -72,6 +74,7 @@ class TestOrganizadorDeDados(unittest.TestCase):
         #Linhas para romover os arquivos criados
         os.remove(input_file)
         os.remove(output_file)
+
 
 
 if __name__ == '__main__':

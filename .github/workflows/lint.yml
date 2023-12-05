@@ -33,3 +33,4 @@ jobs:
         pylint Camada_Dados/extrair.py 
         pylint Camada_Dados/regex.py 
         pylint Camada_Dados/web_scraper.py 
+

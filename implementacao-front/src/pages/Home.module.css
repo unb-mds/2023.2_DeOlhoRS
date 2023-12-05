@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 80%;
+    margin-left: 20%;
+}
+
+.upperDiv {
+    height: 50%;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    width: 33%;
+}
+
+.title {
+    width: 100%;
+    text-align: left;
+}
+
+.subTitle {
+    width: 100%;
+    text-align: left;
+    font-weight: 300;
+}
+
+.lowerDiv {
+    height: 50%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    justify-content: space-around;
+
+}
+
+.pieGraph {
+    height: 80%;
+    background-color: rgba(236, 231, 231, 0.8);
+    border-radius: 15px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.graphTitle {
+    width: 90%;
+    text-align: center;
+}
+
+/*.graphs {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 20px;
+}*/

@@ -1,0 +1,56 @@
+{
+  "municipios_com_mais_nomeacoes": [
+    {
+      "municipio": "campo bom",
+      "nomeacoes": 700,
+      "exoneracoes": 116
+    },
+    {
+      "municipio": "ibirubá",
+      "nomeacoes": 598,
+      "exoneracoes": 100
+    },
+    {
+      "municipio": "santo ângelo",
+      "nomeacoes": 459,
+      "exoneracoes": 55
+    },
+    {
+      "municipio": "augusto pestana",
+      "nomeacoes": 398,
+      "exoneracoes": 107
+    },
+    {
+      "municipio": "independência",
+      "nomeacoes": 350,
+      "exoneracoes": 149
+    }
+  ],
+  "municipios_com_mais_exoneracoes": [
+    {
+      "municipio": "independência",
+      "nomeacoes": 350,
+      "exoneracoes": 149
+    },
+    {
+      "municipio": "campo bom",
+      "nomeacoes": 700,
+      "exoneracoes": 116
+    },
+    {
+      "municipio": "santana da boa vista",
+      "nomeacoes": 194,
+      "exoneracoes": 111
+    },
+    {
+      "municipio": "augusto pestana",
+      "nomeacoes": 398,
+      "exoneracoes": 107
+    },
+    {
+      "municipio": "ibirubá",
+      "nomeacoes": 598,
+      "exoneracoes": 100
+    }
+  ]
+}

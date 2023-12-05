@@ -1,0 +1,16 @@
+[
+  {
+    "municipio": "Municipio1",
+    "ano": "2022",
+    "mes": "01",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "Municipio2",
+    "ano": "2022",
+    "mes": "01",
+    "nomeacoes": 0,
+    "exoneracoes": 1
+  }
+]

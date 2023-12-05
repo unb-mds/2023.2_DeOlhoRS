@@ -1,0 +1,982 @@
+[
+  {
+    "municipio": "ALVORADA",
+    "ano": "2017",
+    "mes": "01",
+    "nomeacoes": 0,
+    "exoneracoes": 6
+  },
+  {
+    "municipio": "ALVORADA",
+    "ano": "2017",
+    "mes": "03",
+    "nomeacoes": 2,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "ALVORADA",
+    "ano": "2017",
+    "mes": "05",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "ALVORADA",
+    "ano": "2017",
+    "mes": "06",
+    "nomeacoes": 0,
+    "exoneracoes": 3
+  },
+  {
+    "municipio": "ALVORADA",
+    "ano": "2017",
+    "mes": "12",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "AUGUSTO PESTANA",
+    "ano": "2017",
+    "mes": "01",
+    "nomeacoes": 41,
+    "exoneracoes": 7
+  },
+  {
+    "municipio": "AUGUSTO PESTANA",
+    "ano": "2017",
+    "mes": "02",
+    "nomeacoes": 4,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "AUGUSTO PESTANA",
+    "ano": "2017",
+    "mes": "03",
+    "nomeacoes": 19,
+    "exoneracoes": 3
+  },
+  {
+    "municipio": "AUGUSTO PESTANA",
+    "ano": "2017",
+    "mes": "04",
+    "nomeacoes": 2,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "AUGUSTO PESTANA",
+    "ano": "2017",
+    "mes": "05",
+    "nomeacoes": 16,
+    "exoneracoes": 3
+  },
+  {
+    "municipio": "AUGUSTO PESTANA",
+    "ano": "2017",
+    "mes": "06",
+    "nomeacoes": 13,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "AUGUSTO PESTANA",
+    "ano": "2017",
+    "mes": "07",
+    "nomeacoes": 13,
+    "exoneracoes": 3
+  },
+  {
+    "municipio": "AUGUSTO PESTANA",
+    "ano": "2017",
+    "mes": "08",
+    "nomeacoes": 7,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "AUGUSTO PESTANA",
+    "ano": "2017",
+    "mes": "09",
+    "nomeacoes": 18,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "AUGUSTO PESTANA",
+    "ano": "2017",
+    "mes": "11",
+    "nomeacoes": 2,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "AUGUSTO PESTANA",
+    "ano": "2017",
+    "mes": "12",
+    "nomeacoes": 11,
+    "exoneracoes": 2
+  },
+  {
+    "municipio": "BARRA DO GUARITA",
+    "ano": "2017",
+    "mes": "06",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "BARRA DO GUARITA",
+    "ano": "2017",
+    "mes": "08",
+    "nomeacoes": 2,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "BARRACÃO",
+    "ano": "2017",
+    "mes": "09",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "BARRACÃO",
+    "ano": "2017",
+    "mes": "10",
+    "nomeacoes": 2,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "BARRACÃO",
+    "ano": "2017",
+    "mes": "11",
+    "nomeacoes": 1,
+    "exoneracoes": 2
+  },
+  {
+    "municipio": "BARRACÃO",
+    "ano": "2017",
+    "mes": "12",
+    "nomeacoes": 0,
+    "exoneracoes": 8
+  },
+  {
+    "municipio": "BARROS CASSAL",
+    "ano": "2017",
+    "mes": "01",
+    "nomeacoes": 6,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "BARROS CASSAL",
+    "ano": "2017",
+    "mes": "02",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "BARROS CASSAL",
+    "ano": "2017",
+    "mes": "03",
+    "nomeacoes": 6,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "BARROS CASSAL",
+    "ano": "2017",
+    "mes": "04",
+    "nomeacoes": 10,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "BARROS CASSAL",
+    "ano": "2017",
+    "mes": "05",
+    "nomeacoes": 4,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "BARROS CASSAL",
+    "ano": "2017",
+    "mes": "06",
+    "nomeacoes": 5,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "BARROS CASSAL",
+    "ano": "2017",
+    "mes": "07",
+    "nomeacoes": 4,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "BARROS CASSAL",
+    "ano": "2017",
+    "mes": "08",
+    "nomeacoes": 3,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "BARROS CASSAL",
+    "ano": "2017",
+    "mes": "09",
+    "nomeacoes": 4,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "BARROS CASSAL",
+    "ano": "2017",
+    "mes": "12",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "CAMARGO",
+    "ano": "2017",
+    "mes": "01",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "CENTENÁRIO",
+    "ano": "2017",
+    "mes": "06",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "CORONEL BARROS",
+    "ano": "2017",
+    "mes": "07",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "CORONEL BICACO",
+    "ano": "2017",
+    "mes": "05",
+    "nomeacoes": 13,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "CORONEL BICACO",
+    "ano": "2017",
+    "mes": "06",
+    "nomeacoes": 6,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "CORONEL BICACO",
+    "ano": "2017",
+    "mes": "07",
+    "nomeacoes": 6,
+    "exoneracoes": 2
+  },
+  {
+    "municipio": "CORONEL BICACO",
+    "ano": "2017",
+    "mes": "08",
+    "nomeacoes": 2,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "CORONEL BICACO",
+    "ano": "2017",
+    "mes": "09",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "CORONEL BICACO",
+    "ano": "2017",
+    "mes": "10",
+    "nomeacoes": 3,
+    "exoneracoes": 2
+  },
+  {
+    "municipio": "CORONEL BICACO",
+    "ano": "2017",
+    "mes": "11",
+    "nomeacoes": 3,
+    "exoneracoes": 3
+  },
+  {
+    "municipio": "CORONEL BICACO",
+    "ano": "2017",
+    "mes": "12",
+    "nomeacoes": 3,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "COXILHA",
+    "ano": "2017",
+    "mes": "08",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "COXILHA",
+    "ano": "2017",
+    "mes": "09",
+    "nomeacoes": 0,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "COXILHA",
+    "ano": "2017",
+    "mes": "10",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "CRISSIUMAL",
+    "ano": "2017",
+    "mes": "01",
+    "nomeacoes": 2,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "CRISSIUMAL",
+    "ano": "2017",
+    "mes": "09",
+    "nomeacoes": 0,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "CRISSIUMAL",
+    "ano": "2017",
+    "mes": "10",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "DERRUBADAS",
+    "ano": "2017",
+    "mes": "07",
+    "nomeacoes": 3,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "DERRUBADAS",
+    "ano": "2017",
+    "mes": "08",
+    "nomeacoes": 10,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "DERRUBADAS",
+    "ano": "2017",
+    "mes": "09",
+    "nomeacoes": 2,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "DERRUBADAS",
+    "ano": "2017",
+    "mes": "10",
+    "nomeacoes": 5,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "DERRUBADAS",
+    "ano": "2017",
+    "mes": "11",
+    "nomeacoes": 2,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "DERRUBADAS",
+    "ano": "2017",
+    "mes": "12",
+    "nomeacoes": 2,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "DOIS IRMÃOS DAS MISSÕES",
+    "ano": "2017",
+    "mes": "09",
+    "nomeacoes": 0,
+    "exoneracoes": 2
+  },
+  {
+    "municipio": "DOIS IRMÃOS DAS MISSÕES",
+    "ano": "2017",
+    "mes": "11",
+    "nomeacoes": 0,
+    "exoneracoes": 3
+  },
+  {
+    "municipio": "DOIS IRMÃOS DAS MISSÕES",
+    "ano": "2017",
+    "mes": "12",
+    "nomeacoes": 3,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "ERVAL SECO",
+    "ano": "2017",
+    "mes": "11",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "FARROUPILHA",
+    "ano": "2017",
+    "mes": "08",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "FAXINALZINHO",
+    "ano": "2017",
+    "mes": "02",
+    "nomeacoes": 0,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "FORMIGUEIRO",
+    "ano": "2017",
+    "mes": "06",
+    "nomeacoes": 0,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "IBIRUBÁ",
+    "ano": "2017",
+    "mes": "01",
+    "nomeacoes": 40,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "IBIRUBÁ",
+    "ano": "2017",
+    "mes": "02",
+    "nomeacoes": 16,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "IBIRUBÁ",
+    "ano": "2017",
+    "mes": "03",
+    "nomeacoes": 8,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "IBIRUBÁ",
+    "ano": "2017",
+    "mes": "04",
+    "nomeacoes": 3,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "IBIRUBÁ",
+    "ano": "2017",
+    "mes": "05",
+    "nomeacoes": 6,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "IBIRUBÁ",
+    "ano": "2017",
+    "mes": "06",
+    "nomeacoes": 4,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "IBIRUBÁ",
+    "ano": "2017",
+    "mes": "07",
+    "nomeacoes": 11,
+    "exoneracoes": 2
+  },
+  {
+    "municipio": "IBIRUBÁ",
+    "ano": "2017",
+    "mes": "08",
+    "nomeacoes": 5,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "IBIRUBÁ",
+    "ano": "2017",
+    "mes": "09",
+    "nomeacoes": 5,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "IBIRUBÁ",
+    "ano": "2017",
+    "mes": "10",
+    "nomeacoes": 18,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "IBIRUBÁ",
+    "ano": "2017",
+    "mes": "11",
+    "nomeacoes": 4,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "IBIRUBÁ",
+    "ano": "2017",
+    "mes": "12",
+    "nomeacoes": 9,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "INDEPENDÊNCIA",
+    "ano": "2017",
+    "mes": "01",
+    "nomeacoes": 52,
+    "exoneracoes": 60
+  },
+  {
+    "municipio": "INDEPENDÊNCIA",
+    "ano": "2017",
+    "mes": "11",
+    "nomeacoes": 16,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "INDEPENDÊNCIA",
+    "ano": "2017",
+    "mes": "12",
+    "nomeacoes": 1,
+    "exoneracoes": 2
+  },
+  {
+    "municipio": "INHACORÁ",
+    "ano": "2017",
+    "mes": "05",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "IVORÁ",
+    "ano": "2017",
+    "mes": "10",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "MONTE ALEGRE DOS CAMPOS",
+    "ano": "2017",
+    "mes": "06",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "MORRO REUTER",
+    "ano": "2017",
+    "mes": "01",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "PALMITINHO",
+    "ano": "2017",
+    "mes": "04",
+    "nomeacoes": 2,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "PALMITINHO",
+    "ano": "2017",
+    "mes": "06",
+    "nomeacoes": 4,
+    "exoneracoes": 2
+  },
+  {
+    "municipio": "PALMITINHO",
+    "ano": "2017",
+    "mes": "09",
+    "nomeacoes": 6,
+    "exoneracoes": 2
+  },
+  {
+    "municipio": "PIRATINI",
+    "ano": "2017",
+    "mes": "03",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "PIRATINI",
+    "ano": "2017",
+    "mes": "04",
+    "nomeacoes": 2,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "PIRATINI",
+    "ano": "2017",
+    "mes": "06",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "PUBLICADO POR GABINETE OU AFINS",
+    "ano": "2017",
+    "mes": "01",
+    "nomeacoes": 3,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "PUBLICADO POR GABINETE OU AFINS",
+    "ano": "2017",
+    "mes": "02",
+    "nomeacoes": 6,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "PUBLICADO POR GABINETE OU AFINS",
+    "ano": "2017",
+    "mes": "03",
+    "nomeacoes": 7,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "PUBLICADO POR GABINETE OU AFINS",
+    "ano": "2017",
+    "mes": "04",
+    "nomeacoes": 4,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "PUBLICADO POR GABINETE OU AFINS",
+    "ano": "2017",
+    "mes": "05",
+    "nomeacoes": 6,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "PUBLICADO POR GABINETE OU AFINS",
+    "ano": "2017",
+    "mes": "06",
+    "nomeacoes": 8,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "PUBLICADO POR GABINETE OU AFINS",
+    "ano": "2017",
+    "mes": "07",
+    "nomeacoes": 14,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "PUBLICADO POR GABINETE OU AFINS",
+    "ano": "2017",
+    "mes": "08",
+    "nomeacoes": 9,
+    "exoneracoes": 2
+  },
+  {
+    "municipio": "PUBLICADO POR GABINETE OU AFINS",
+    "ano": "2017",
+    "mes": "09",
+    "nomeacoes": 7,
+    "exoneracoes": 3
+  },
+  {
+    "municipio": "PUBLICADO POR GABINETE OU AFINS",
+    "ano": "2017",
+    "mes": "10",
+    "nomeacoes": 9,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "PUBLICADO POR GABINETE OU AFINS",
+    "ano": "2017",
+    "mes": "11",
+    "nomeacoes": 2,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "PUBLICADO POR GABINETE OU AFINS",
+    "ano": "2017",
+    "mes": "12",
+    "nomeacoes": 1,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "SANTANA DA BOA VISTA",
+    "ano": "2017",
+    "mes": "08",
+    "nomeacoes": 4,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "SANTANA DA BOA VISTA",
+    "ano": "2017",
+    "mes": "09",
+    "nomeacoes": 3,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SANTANA DA BOA VISTA",
+    "ano": "2017",
+    "mes": "10",
+    "nomeacoes": 6,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SANTANA DA BOA VISTA",
+    "ano": "2017",
+    "mes": "12",
+    "nomeacoes": 0,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "SANTO ANTÔNIO DA PATRULHA",
+    "ano": "2017",
+    "mes": "01",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SANTO ANTÔNIO DA PATRULHA",
+    "ano": "2017",
+    "mes": "02",
+    "nomeacoes": 3,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SANTO ANTÔNIO DA PATRULHA",
+    "ano": "2017",
+    "mes": "04",
+    "nomeacoes": 2,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SANTO ANTÔNIO DA PATRULHA",
+    "ano": "2017",
+    "mes": "05",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SANTO ANTÔNIO DA PATRULHA",
+    "ano": "2017",
+    "mes": "11",
+    "nomeacoes": 2,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SANTO AUGUSTO",
+    "ano": "2017",
+    "mes": "07",
+    "nomeacoes": 5,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SANTO AUGUSTO",
+    "ano": "2017",
+    "mes": "08",
+    "nomeacoes": 5,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SANTO AUGUSTO",
+    "ano": "2017",
+    "mes": "09",
+    "nomeacoes": 6,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SANTO AUGUSTO",
+    "ano": "2017",
+    "mes": "11",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SÃO JOSÉ DO INHACORÁ",
+    "ano": "2017",
+    "mes": "09",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SÃO JOÃO DO POLÊSINE",
+    "ano": "2017",
+    "mes": "10",
+    "nomeacoes": 2,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SÃO LEOPOLDO",
+    "ano": "2017",
+    "mes": "01",
+    "nomeacoes": 8,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SÃO LEOPOLDO",
+    "ano": "2017",
+    "mes": "03",
+    "nomeacoes": 33,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SÃO LEOPOLDO",
+    "ano": "2017",
+    "mes": "04",
+    "nomeacoes": 9,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SÃO LEOPOLDO",
+    "ano": "2017",
+    "mes": "05",
+    "nomeacoes": 68,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SÃO LEOPOLDO",
+    "ano": "2017",
+    "mes": "06",
+    "nomeacoes": 25,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SÃO LEOPOLDO",
+    "ano": "2017",
+    "mes": "07",
+    "nomeacoes": 19,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SÃO LEOPOLDO",
+    "ano": "2017",
+    "mes": "08",
+    "nomeacoes": 15,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SÃO LEOPOLDO",
+    "ano": "2017",
+    "mes": "09",
+    "nomeacoes": 12,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SÃO LEOPOLDO",
+    "ano": "2017",
+    "mes": "10",
+    "nomeacoes": 9,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SÃO LEOPOLDO",
+    "ano": "2017",
+    "mes": "11",
+    "nomeacoes": 2,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SÃO LEOPOLDO",
+    "ano": "2017",
+    "mes": "12",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SÃO MARTINHO",
+    "ano": "2017",
+    "mes": "06",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SÃO MARTINHO",
+    "ano": "2017",
+    "mes": "07",
+    "nomeacoes": 5,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SÃO MARTINHO",
+    "ano": "2017",
+    "mes": "10",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "SÃO SEPÉ",
+    "ano": "2017",
+    "mes": "07",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "TAQUARA",
+    "ano": "2017",
+    "mes": "07",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "TAVARES",
+    "ano": "2017",
+    "mes": "06",
+    "nomeacoes": 3,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "TAVARES",
+    "ano": "2017",
+    "mes": "07",
+    "nomeacoes": 5,
+    "exoneracoes": 2
+  },
+  {
+    "municipio": "TRÊS COROAS",
+    "ano": "2017",
+    "mes": "08",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "TUPANCIRETÃ",
+    "ano": "2017",
+    "mes": "09",
+    "nomeacoes": 2,
+    "exoneracoes": 1
+  },
+  {
+    "municipio": "TUPARENDI",
+    "ano": "2017",
+    "mes": "02",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "VALE VERDE",
+    "ano": "2017",
+    "mes": "09",
+    "nomeacoes": 7,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "VALE VERDE",
+    "ano": "2017",
+    "mes": "10",
+    "nomeacoes": 3,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "VALE VERDE",
+    "ano": "2017",
+    "mes": "11",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "VENÂNCIO AIRES",
+    "ano": "2017",
+    "mes": "12",
+    "nomeacoes": 1,
+    "exoneracoes": 0
+  },
+  {
+    "municipio": "XANGRI-LÁ",
+    "ano": "2017",
+    "mes": "12",
+    "nomeacoes": 2,
+    "exoneracoes": 0
+  }
+]

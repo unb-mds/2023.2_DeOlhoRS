@@ -1,11 +1,11 @@
 import unittest
 import os
 import json
-from Camada_Dados.Regex import Extrator_de_dados
+from Camada_Dados.regex import ExtratorDeDados
 
 class Test_extrator_de_dados(unittest.TestCase):
     def setUp(self):
-        self.extrator = Extrator_de_dados()
+        self.extrator = ExtratorDeDados()
         
     def test_escrita_database(self):
         # Criação do arquivo temporario na pasta geral do projeto
@@ -30,7 +30,7 @@ class Test_extrator_de_dados(unittest.TestCase):
         self.assertEqual(dados_lidos[0], dados_ficticios)
         
         os.remove(f'{caminho_atual}/testeRegex.json')
-    def test_estrair_nome_municipio_final(self):
+    def test_estrair_nome_municipio(self):
         diretorio_atual = os.path.dirname(os.path.abspath(__file__))
         caminho_atual = os.path.abspath(os.path.join(diretorio_atual, '..'))
         arq_path = f'{caminho_atual}/Camada_Dados/txt/testes/2030-12-30.txt'
@@ -38,9 +38,7 @@ class Test_extrator_de_dados(unittest.TestCase):
             texto = file.read()
         print(texto)
         self.assertEqual(self.extrator.extrair_nome_municipio(texto), "Ibirubá")
-        os.remove(f'{caminho_atual}/teste_extracao.json')
     
-        
     def test_extrair_dados_nomeacao(self):
         diretorio_atual = os.path.dirname(os.path.abspath(__file__))
         caminho_atual = os.path.abspath(os.path.join(diretorio_atual, '..'))

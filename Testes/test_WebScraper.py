@@ -1,7 +1,7 @@
 import unittest
 from unittest.mock import patch, MagicMock
 from selenium import webdriver
-from Camada_Dados.WebScraper import Coletor_de_PDF
+from Camada_Dados.web_scraper import ColetorDePdf
 import os 
 import shutil
 import time
@@ -11,7 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class Test_coletor_de_PDF(unittest.TestCase):
     def setUp(self):
-        self.coletor = Coletor_de_PDF()
+        self.coletor = ColetorDePdf()
 
     def tearDown(self):
         self.coletor.encerrar_driver()

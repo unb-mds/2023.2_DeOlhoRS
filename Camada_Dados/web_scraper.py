@@ -1,4 +1,5 @@
-import os 
+# pylint: disable=C0114
+import os
 import shutil
 import time
 import re
@@ -9,11 +10,17 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from PyPDF2 import PdfReader
 
-
-
-
-class Coletor_de_PDF:
-
+# pylint: disable=trailing-whitespace
+class ColetorDePdf:
+    # pylint: disable=missing-class-docstring
+    # pylint: disable=missing-function-docstring
+    # pylint: disable=C0301
+    # pylint: disable=W1514
+    # pylint: disable=R0916
+    # pylint: disable=W0201
+    # pylint: disable=R1732
+    # pylint: disable=R1710
+    
     def __init__(self):
         self.driver = None
         self.iniciar_driver()
@@ -39,9 +46,7 @@ class Coletor_de_PDF:
             nova_extensao = "txt"
             nova_string = arq[:-3] + nova_extensao
             nome = nova_string
-
         arquivo = open(nome,'w')  
-
         # Itere pelas páginas do PDF
         for page in reader.pages:
             text += page.extract_text()
@@ -51,24 +56,24 @@ class Coletor_de_PDF:
         arquivo.close()
 
     def apaga_pdf(self, arq):
-    # diretorio atual = /squad08/camada_dados
-       diretorio_atual = os.path.dirname(os.path.abspath(__file__))
-    # caminho atual = /squad08/
-       caminho_atual = os.path.dirname(diretorio_atual)
-       os.remove(f'{caminho_atual}/{arq}')
+        # diretorio atual = /squad08/camada_dados
+        diretorio_atual = os.path.dirname(os.path.abspath(__file__))
+        # caminho atual = /squad08/
+        caminho_atual = os.path.dirname(diretorio_atual)
+        os.remove(f'{caminho_atual}/{arq}')
         
     def altera_diretorio(self):
         padrao = r"(\d{4})-(\d{2})-(\d{2})"
         caminho_downloads = os.path.join(os.path.expanduser("~"), "Downloads")
         arquivos = os.listdir(f"{caminho_downloads}")
         for arq in arquivos:
-                correspondencia = re.findall(padrao, os.path.basename(arq))
-                for match in correspondencia:
-                    ano, mes, dia = match  
-                    caminhoArq = os.path.join(caminho_downloads, arq)
-                    os.rename(caminhoArq, f'{ano}-{mes}-{dia}.pdf')
-                    print(os.path.basename(arq))
-                    return ano, mes, dia
+            correspondencia = re.findall(padrao, os.path.basename(arq))
+            for match in correspondencia:
+                ano, mes, dia = match  
+                caminho_arq = os.path.join(caminho_downloads, arq)
+                os.rename(caminho_arq, f'{ano}-{mes}-{dia}.pdf')
+                print(os.path.basename(arq))
+                return ano, mes, dia
                 
     def move_txt(self, ano):
         diretorio_atual = os.path.dirname(os.path.abspath(__file__))
@@ -148,8 +153,8 @@ class Coletor_de_PDF:
                     EC.presence_of_element_located((By.LINK_TEXT, str(contador_dia)))
                 )
                 
-                PDF = self.driver.find_element(By.LINK_TEXT, str(contador_dia))
-                PDF.click()
+                pdf = self.driver.find_element(By.LINK_TEXT, str(contador_dia))
+                pdf.click()
                 time.sleep(2)
                 if self.driver.find_element(By.XPATH, "//*[@id='materia-aviso']").get_attribute("style") == "display: block;" or self.driver.find_element(By.LINK_TEXT, str(contador_dia)).find_element(By.XPATH, './ancestor::td').get_attribute("class") == "weekend ":
                     print(f'Não tem matéria pra esse dia: {contador_dia}/{contador_mes}/{contador_ano}')
@@ -159,39 +164,32 @@ class Coletor_de_PDF:
                         WebDriverWait(self.driver, 20).until(
                                     EC.presence_of_element_located((By.XPATH, "//*[@id='btDownloadSimples']"))
                                     )
-                        PDF = self.driver.find_element(By.XPATH, "//*[@id='btDownloadSimples']")
+                        pdf = self.driver.find_element(By.XPATH, "//*[@id='btDownloadSimples']")
                         print(f'Edição: {contador_dia}/{contador_mes}/{contador_ano}')
-                        if unitario == True:
+                        if unitario is True:
                             return f'{contador_dia}/{contador_mes}/{contador_ano}'
-                        else:
-                            PDF.click()
-                            time.sleep(2)
-                            ano_pdf, mes_pdf, dia_pdf = self.altera_diretorio()
-                            #extrair texto
-                            self.extrair_pdf(f'{ano_pdf}-{mes_pdf}-{dia_pdf}.pdf')
-                            self.apaga_pdf(f'{ano_pdf}-{mes_pdf}-{dia_pdf}.pdf')
-                            self.move_txt(ano_pdf)
-                        #regex.extrairDados(f'{ano_pdf}-{mes_pdf}-{dia_pdf}.txt')
-
+                        pdf.click()
+                        time.sleep(2)
+                        ano_pdf, mes_pdf, dia_pdf = self.altera_diretorio()
+                        #extrair texto
+                        self.extrair_pdf(f'{ano_pdf}-{mes_pdf}-{dia_pdf}.pdf')
+                        self.apaga_pdf(f'{ano_pdf}-{mes_pdf}-{dia_pdf}.pdf')
+                        self.move_txt(ano_pdf)
                     if self.driver.find_element(By.XPATH, "//*[@id='containerDownloadNova']").get_attribute("style") == "display: block;" and self.driver.find_element(By.LINK_TEXT, str(contador_dia)).find_element(By.XPATH, './ancestor::td').get_attribute("class") == "weekday ":
                     
                         WebDriverWait(self.driver, 20).until(
                                     EC.presence_of_element_located((By.XPATH, "//*[@id='btDownloadSimples2']"))
                                     )
-                        PDF = self.driver.find_element(By.XPATH, "//*[@id='btDownloadSimples2']")
+                        pdf = self.driver.find_element(By.XPATH, "//*[@id='btDownloadSimples2']")
                         print(f'Edição: {contador_dia}/{contador_mes}/{contador_ano}')
-                        if unitario == True:
+                        if unitario is True:
                             return f'{contador_dia}/{contador_mes}/{contador_ano}'
-                        else:
-                            PDF.click()
-                            time.sleep(2)
-                            ano_pdf, mes_pdf, dia_pdf = self.altera_diretorio()
-                            ## Extração de texto (PyPDF2)
-                            self.extrair_pdf(f'{ano_pdf}-{mes_pdf}-{dia_pdf}.pdf')
-                            self.apaga_pdf(f'{ano_pdf}-{mes_pdf}-{dia_pdf}.pdf')
-                            self.move_txt(ano_pdf)
-                        #regex.extrairDados(f'{ano_pdf}-{mes_pdf}-{dia_pdf}.txt')
-                        
+                        pdf.click()
+                        time.sleep(2)
+                        ano_pdf, mes_pdf, dia_pdf = self.altera_diretorio()
+                        self.extrair_pdf(f'{ano_pdf}-{mes_pdf}-{dia_pdf}.pdf')
+                        self.apaga_pdf(f'{ano_pdf}-{mes_pdf}-{dia_pdf}.pdf')
+                        self.move_txt(ano_pdf)
                 WebDriverWait(self.driver, 40).until(
                                     EC.presence_of_element_located((By.XPATH, "//*[@id='popup']/div/article/a"))
                                     )

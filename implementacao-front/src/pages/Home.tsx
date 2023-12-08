@@ -27,9 +27,11 @@ const column = {
   ]
 }
 
-const cities = ['Porto Alegre', 'Caxias do Sul', 'Canoas', 'Pelotas', 'Santa Maria']
+const cidades_nomeiam = ['Campo Bom', 'Ibirubá', 'Santo Ângelo', 'Augusto Pestana', 'Independência']
+const cidades_exoneram = ['Independência', 'Campo Bom', 'Santana da Boa Vista', 'Augusto Pestana', 'Ibirubá']
 
-const quantity = [7282, 5321, 3293, 3124, 2130]
+const quantidade_nomeacoes = [700, 598, 459, 398, 350]
+const quantidade_exoneracoes = [149, 116, 111, 107, 100]
 const total = [6714, 1530]
 
 const pie = {
@@ -57,11 +59,11 @@ function Home() {
             <h2 className={styles.graphTitle}>Exonerações x Nomeações nos anos analisados</h2>
             <Chart options={pie.options} series={pie.series}type="pie" width={400}/>            
           </div>
-          <Rank title='Municípios que mais nomeiam:' cities={cities} quantity={quantity}/>
+          <Rank title='Municípios que mais nomeiam:' cities={cidades_nomeiam} quantity={quantidade_nomeacoes}/>
         </div>
         <div className={styles.lowerDiv}>
           <Chart options={column.options} series={column.series} type="bar" labels="" width={750} height={400} />
-          <Rank title='Municípios que mais exoneram:' cities={cities} quantity={quantity}/>
+          <Rank title='Municípios que mais exoneram:' cities={cidades_exoneram} quantity={quantidade_exoneracoes}/>
       </div>
       </div>
     </div>

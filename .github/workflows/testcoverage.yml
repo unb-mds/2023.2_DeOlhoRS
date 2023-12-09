@@ -24,6 +24,7 @@ jobs:
         pip install pylint
         pip install selenium
         pip install PyPDF2
+        pip install pytest
 
     - name: Run Tests and Coverage
       run: |

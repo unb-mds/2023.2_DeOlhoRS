@@ -11,12 +11,12 @@ jobs:
 
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
-        python-version: 3.10
+        python-version: '3.10'
 
     - name: Install Dependencies
       run: |
@@ -27,7 +27,7 @@ jobs:
 
     - name: Run Tests and Coverage
       run: |
-        pytest --cov=your_module --cov-report=xml
+        pytest --cov=Testes --cov-report=xml
         cc-test-reporter format-coverage --input-type coverage.py --output .coverage/codeclimate.json
         cc-test-reporter upload-coverage
       env:

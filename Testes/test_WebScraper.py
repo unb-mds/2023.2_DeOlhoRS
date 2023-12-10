@@ -28,7 +28,7 @@ class Test_coletor_de_PDF(unittest.TestCase):
 
         # Chame a função para mover o arquivo
         self.coletor.move_txt('testes')
-
+        print(diretorio_atual)
         # Verifique se o arquivo foi movido para a pasta correta
         self.assertFalse(os.path.exists('arquivo1.txt'))  # Verifica se o arquivo original não existe mais
         self.assertTrue(os.path.exists(os.path.join(f'{caminho_atual}/Camada_Dados/txt/testes', 'arquivo1.txt')))  # Verifica se o arquivo foi movido para o destino esperado
@@ -44,29 +44,39 @@ class Test_coletor_de_PDF(unittest.TestCase):
         caminho_atual = os.path.abspath(os.path.join(diretorio_atual, '..'))
 
         # Mova o arquivo para o diretório acima
-        shutil.move(os.path.join(diretorio_atual, 'arquivo.pdf'), os.path.join(caminho_atual, 'arquivo.pdf'))
-
+        try:
+            shutil.move(os.path.join(diretorio_atual, 'arquivo.pdf'), os.path.join(caminho_atual, 'arquivo.pdf'))
+        except:
+            pass
         # Verifique se o arquivo foi movido com sucesso
         self.assertTrue(os.path.exists(os.path.join(caminho_atual, 'arquivo.pdf')))
 
         # Chame o método que você está testando
-        self.coletor.apaga_pdf('arquivo.pdf')
-
+        try:
+            self.coletor.apaga_pdf(f'{caminho_atual}/arquivo.pdf')
+        except:
+            self.coletor.apaga_pdf(f'arquivo.pdf')
+            
         # Verifique se o arquivo foi removido
         self.assertFalse(os.path.exists(os.path.join(caminho_atual, 'arquivo.pdf')))
 
     def test_altera_diretorio(self):
+        diretorio_atual = os.path.dirname(os.path.abspath(__file__))
         # Crie um arquivo fictício
-        open('2023-01-01.pdf', 'w').close()
+        open(f'{diretorio_atual}/2023-01-01.pdf', 'w').close()
         caminho_downloads = os.path.join(os.path.expanduser("~"), "Downloads")
         
         diretorio_atual = os.path.dirname(os.path.abspath(__file__))
 
-        shutil.move(f'{diretorio_atual}/2023-01-01.pdf', caminho_downloads)
-        
+        try:
+            shutil.move(f'{diretorio_atual}/2023-01-01.pdf', caminho_downloads)
+        except:
+            pass
         # Execute o método altera_diretorio
         ano, mes, dia = self.coletor.altera_diretorio()
-
+        print (ano)
+        print (mes)
+        print (dia)
         self.assertEqual(ano, '2023')
         self.assertEqual(mes, '01')
         self.assertEqual(dia, '01')

@@ -21,4 +21,8 @@
 .titulo {
     width: 100%;
     text-align: left;
-} 
+}
+
+.lowerDiv {
+    align-items: center;
+}

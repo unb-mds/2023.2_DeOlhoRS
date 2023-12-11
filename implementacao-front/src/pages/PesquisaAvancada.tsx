@@ -10,10 +10,10 @@ function PesquisaAvancada() {
       <MenuBar />
       {<div className={styles.content}>
         <h1 className={styles.titulo}>Pesquisa Avançada</h1>
-          <div className={styles.lowerDiv}>
-            <Tabela></Tabela>
-          </div>
-          <p>Atenção: Os dados referidos são apenas do ano de 2017.</p>
+        <div className={styles.lowerDiv}>
+          <Tabela></Tabela>
+        </div>
+        <p>Atenção: Os dados referidos são apenas do ano de 2017.</p>
       </div>}
       <div className={styles.lowerDiv}>
         {/*<form>

@@ -1,5 +1,5 @@
 import MenuBar from "../components/MenuBar"
-import Total from "../components/Total"
+// import Total from "../components/Total"
 import styles from "./PesquisaMunicipios.module.css"
 import Chart from "react-apexcharts"
 //import { useState } from "react"
@@ -47,14 +47,14 @@ const pie = {
   series: [nome_porcen, exo_porcen]
 }
 
-const total = [exo_2023, nome_2023]
+// const total = [exo_2023, nome_2023]
 
 function PesquisaMunicipios() {
   return (
     <div className={styles.container}>
       <MenuBar />
       <div className={styles.content}>
-        <div className={styles.upperDiv}>
+        <div className={styles.upperDiv}> 
           <div className={styles.left}>
             <h1 className={styles.subTitle}>Pesquisa por município</h1>
             <br></br>
@@ -67,7 +67,7 @@ function PesquisaMunicipios() {
         </div>
         <div className={styles.middleDiv}>
             <div className={styles.left}>  
-                <Total quantity={total}/>
+                {/* <Total quantity={total}/> */}
             </div>         
         </div>
         <div className={styles.lowerDiv}>

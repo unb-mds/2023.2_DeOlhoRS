@@ -16,7 +16,6 @@
     "chai": "^4.3.10",
     "chart.js": "^4.4.0",
     "mdb-react-ui-kit": "^7.0.0",
-    "mocha": "^10.2.0",
     "primereact": "^10.2.1",
     "react": "^18.2.0",
     "react-apexcharts": "^1.4.1",
@@ -36,6 +35,7 @@
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "mocha": "^10.2.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   }

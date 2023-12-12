@@ -3,6 +3,7 @@ import { useEffect, useState, ChangeEvent } from "react";
 import MenuBar from "../components/MenuBar";
 import styles from "./PesquisaMunicipios.module.css";
 import Chart from "react-apexcharts";
+import { Qtd_2009, Qtd_2013, Qtd_2017, Qtd_2020, Qtd_2021 } from "../data/municipioDados";
 
 interface Municipio {
   nome: string;
@@ -48,35 +49,54 @@ function PesquisaMunicipios(): JSX.Element {
     apiIBGE();
   }, []);
 
-    // função para gerar dados aleatórios para os municípios
-    const generateRandomData = () => {
-      const nomeacoes = [];
-      const exoneracoes = [];
-      for (let i = 0; i < 5; i++) {
-        nomeacoes.push(Math.floor(Math.random() * 1000)); // gera um número inteiro entre 0 e 999
-        exoneracoes.push(Math.floor(Math.random() * 1000)); // gera um número inteiro entre 0 e 999
+    // função para buscar os dados do município selecionado no arquivo municipioDados.ts
+  const getDataFromMunicipio = (municipio: string) => {
+    const nomeacoes = [];
+    const exoneracoes = [];
+    // criando um array com os dados de cada ano
+    const dados = [Qtd_2009, Qtd_2013, Qtd_2017, Qtd_2020, Qtd_2021];
+    // iterando sobre o array de dados
+    for (let i = 0; i < dados.length; i++) {
+      // buscando o município no array de dados do ano correspondente
+      const found = dados[i].find(
+        (item) => item.municipio.toLowerCase() === municipio.toLowerCase()
+      );
+      // se encontrou o município, adiciona as nomeações e exonerações aos arrays
+      if (found) {
+        nomeacoes.push(Number(found.nomeacoes));
+        exoneracoes.push(Number(found.exoneracoes));
+      } else {
+        // se não encontrou o município, adiciona zero aos arrays
+        nomeacoes.push(0);
+        exoneracoes.push(0);
       }
-      return {nomeacoes, exoneracoes};
-    };
+    }
+    return { nomeacoes, exoneracoes };
+  };
 
-    const handleMunicipio = (event: ChangeEvent<{}>, selectedValue: string) => {
+    const handleMunicipio = (event: ChangeEvent<{}>, selectedValue: string | null) => {
+      event.preventDefault(); // evita que o formulário seja enviado
       if (selectedValue) {
         setSelectedMunicipio(selectedValue);
         console.log(selectedValue); // mostra o município selecionado no console
-        const {nomeacoes, exoneracoes} = generateRandomData(); // gera dados aleatórios para o município
-        setChartData({ // atualiza o estado do gráfico com os novos dados
+        const { nomeacoes, exoneracoes } = getDataFromMunicipio(
+          selectedValue
+        ); // busca os dados do município no arquivo
+        setChartData({
+          // atualiza o estado do gráfico com os novos dados
           ...chartData,
-          series: [{
-            name: 'Nomeações',
-            data: nomeacoes,
-            color: "#FCA622",
+          series: [
+            {
+              name: "Nomeações",
+              data: nomeacoes,
+              color: "#FCA622",
             },
             {
-              name: 'Exonerações',
+              name: "Exonerações",
               data: exoneracoes,
               color: "#A11208",
-            }
-          ]
+            },
+          ],
         });
       }
     };

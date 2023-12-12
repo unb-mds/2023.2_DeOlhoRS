@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "nyc mocha test/**/*.js",
+    "test-coverage": "nyc --reporter=lcov mocha test/**/*.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +15,14 @@
     "mocha": "^10.2.0",
     "promised": "^0.2.2",
     "selenium": "^2.20.0"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0"
+  },
+  "nyc": {
+    "include": ["implementacao-front/**/*.tsx", "test/**/*.js"],
+    "exclude": ["node_modules"],
+    "extension": [".tsx", ".js"],
+    "reporter": ["lcov", "text"]
   }
 }

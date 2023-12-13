@@ -12,7 +12,6 @@ function MenuBar() {
         <a className={styles.link} href="/">Home</a>
         <a className={styles.link} href="/pesquisaAvancada">Pesquisa</a>
         <a className={styles.link} href="/pesquisaMunicipios">Municípios</a>
-        <a className={styles.link} href="/anomalias">Anomalias</a>
         <a className={styles.link} href="/about">Sobre</a>
       </div>
     </div>

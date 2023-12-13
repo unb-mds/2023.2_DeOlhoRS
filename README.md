@@ -1,8 +1,9 @@
 # 👥 2023-2-Squad08
+[![GitHub contributors](https://img.shields.io/github/contributors/unb-mds/2023-2-Squad08)](https://img.shields.io/github/contributors/unb-mds/2023-2-Squad08)
+[![GitHub stars](https://img.shields.io/github/stars/unb-mds/2023-2-Squad08)](https://img.shields.io/github/stars/unb-mds/2023-2-Squad08)[![GitHub issues](https://img.shields.io/github/issues/unb-mds/2023-2-Squad08)](https://img.shields.io/github/issues/unb-mds/2023-2-Squad08)
+<a name="readme-top"></a>
 <a name="readme-top"></a>
 
-![GitHub repo size](https://img.shields.io/github/repo-size/unb-mds/2023-2-Squad08?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/unb-mds/2023-2-Squad08?style=for-the-badge)
 
 # 🔎 Projeto DeOlhoRS - Extrator de Nomeações e Exonerações de Diários Oficiais do Rio Grande do Sul
 ## 📍 Introdução

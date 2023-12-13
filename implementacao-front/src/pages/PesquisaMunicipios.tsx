@@ -1,11 +1,9 @@
-
 import { Autocomplete, TextField } from "@mui/material";
 import { useEffect, useState, ChangeEvent } from "react";
 import MenuBar from "../components/MenuBar";
 import styles from "./PesquisaMunicipios.module.css";
 import Chart from "react-apexcharts";
 import { Qtd_2009, Qtd_2013, Qtd_2017, Qtd_2020, Qtd_2021 } from "../data/municipioDados";
-
 
 interface Municipio {
   nome: string;
@@ -103,12 +101,31 @@ function PesquisaMunicipios(): JSX.Element {
       }
     };
 
-        <div className={styles.middleDiv}>
-            <div className={styles.left}>  
-                {/* <Total quantity={total}/> */}
-            </div>         
+  return (
+    <div className={styles.container}>
+      <MenuBar />
+      <div className={styles.content}>
+        <div className={styles.upperDiv}>
+          <div className={styles.left}>
+            <h1 className={styles.subTitle}>Pesquisa por município</h1>
+            <br></br>
+            <br></br>
+            <div className={styles.inputs}>
+              <Autocomplete
+                disablePortal
+                id="combo-box-demo"
+                options={municipios}
+                value={selectedMunicipio}
+                isOptionEqualToValue={(option, value) => option === value}
+                sx={{ width: 300 }}
+                renderInput={(params) => (
+                  <TextField {...params} label="Busque um município..." />
+                )}
+                onChange={handleMunicipio}
+              />
+            </div>
+          </div>
         </div>
-
         <div className={styles.lowerDiv}>
           <Chart
             options={chartData.options}

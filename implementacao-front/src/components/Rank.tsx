@@ -1,15 +1,21 @@
 import styles from './Rank.module.css'
 
-function Rank(props) {
+interface RankProps {
+  title: string;
+  cities: string[];
+  quantity: number[];
+}
+
+function Rank({title, cities, quantity}: RankProps) {
   return (
     <div className={styles.RankTable}>
-      <h2>{props.title}</h2>
+      <h2 className={styles.titleRank}>{title}</h2>
       <ol type='1'>
-        <li>{props.cities[0]} ................. {props.quantity[0]}</li>
-        <li>{props.cities[1]} ................. {props.quantity[1]}</li>
-        <li>{props.cities[2]} ................. {props.quantity[2]}</li>
-        <li>{props.cities[3]} ................. {props.quantity[3]}</li>
-        <li>{props.cities[4]} ................. {props.quantity[4]}</li>
+        <li>{cities[0]} ................. {quantity[0]}</li>
+        <li>{cities[1]} ................. {quantity[1]}</li>
+        <li>{cities[2]} .......... {quantity[2]}</li>
+        <li>{cities[3]} ................. {quantity[3]}</li>
+        <li>{cities[4]} ................. {quantity[4]}</li>
       </ol>
     </div>
   )

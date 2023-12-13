@@ -1,10 +1,15 @@
 import styles from './Profile.module.css'
 
-function Profile(props) {
+interface ProfileProps {
+  name: string;
+  photo: string;
+}
+
+function Profile({name, photo}: ProfileProps) {
   return (
     <div className={styles.profile}>
-        <p>{props.name}</p>
-        <img className={styles.profilePictures} src={props.photo} alt="anaBorges" />
+        <p>{name}</p>
+        <img className={styles.profilePictures} src={photo} alt="fotoDeMembro" />
     </div>
   )
 }

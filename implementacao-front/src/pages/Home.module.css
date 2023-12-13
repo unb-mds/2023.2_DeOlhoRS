@@ -22,10 +22,11 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 1%;
 }
 
 .left {
-    width: 33%;
+    width: 30%;
 }
 
 .title {
@@ -41,10 +42,10 @@
 
 .lowerDiv {
     height: 50%;
-    width: 95%;
+    width: 85%;
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 20%;
     justify-content: space-around;
 
 }

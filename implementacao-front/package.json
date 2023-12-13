@@ -11,19 +11,25 @@
     "server": "json-server --watch db.json --port 5000"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.0",
     "apexcharts": "^3.44.0",
     "axios": "^1.6.1",
+    "chai": "^4.3.10",
     "chart.js": "^4.4.0",
     "mdb-react-ui-kit": "^7.0.0",
-    "primereact": "^10.0.9",
+    "primereact": "^10.2.1",
     "react": "^18.2.0",
     "react-apexcharts": "^1.4.1",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
-    "react-router-dom": "^6.17.0"
+    "react-router-dom": "^6.17.0",
+    "selenium-webdriver": "^4.16.0"
   },
   "devDependencies": {
     "@types/chart.js": "^2.9.40",
+    "@types/node": "^20.10.4",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
@@ -32,6 +38,7 @@
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "mocha": "^10.2.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   }

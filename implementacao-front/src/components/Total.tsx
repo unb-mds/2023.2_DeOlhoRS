@@ -1,12 +1,16 @@
 import styles from './Total.module.css'
 
-function Total(props) {
+interface TotalProps {
+  quantity: number[];
+}
+
+function Total({quantity} : TotalProps) {
   return (
     <div className={styles.totalTable}>
       <h2>Total Mapeado</h2>
-      <ol>
-        <li>{props.quantity[0]} Exonerações</li>
-        <li>{props.quantity[1]} Nomeações</li>
+      <ol className={styles.list}>
+        <li>{quantity[0]} Nomeações</li>
+        <li>{quantity[1]} Exonerações</li>
       </ol>
     </div>
   )

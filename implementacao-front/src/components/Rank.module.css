@@ -7,14 +7,19 @@
     align-items: center;
     border: 1px solid black;
     font-family: 'Niramit', sans-serif;
-    gap: 30px;
+    gap: 5%;
     padding: 20px 20px;
     height: 70%;
     justify-content: space-around;
 }
 
+.titleRank {
+    text-align: center;
+}
+
 ol {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 60%;
+    font-size: 1rem;
 }

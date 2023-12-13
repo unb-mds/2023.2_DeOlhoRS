@@ -1,6 +1,5 @@
 import MenuBar from "../components/MenuBar";
 import styles from "./PesquisaAvancada.module.css";
-//import TesteTabela from '../components/TesteTabela.tsx';
 import Tabela from "../components/Tabela";
 
 function PesquisaAvancada() {

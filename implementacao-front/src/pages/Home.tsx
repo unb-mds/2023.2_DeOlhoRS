@@ -49,19 +49,17 @@ function Home() {
         <div className={styles.upperDiv}>
           <div className={styles.left}>
             <h1 className={styles.title}>Dashboard</h1>
-            <h1 className={styles.subTitle}>Rio Grande do Sul</h1>
-            <br></br>
-            <br></br>   
+            <h1 className={styles.subTitle}>Rio Grande do Sul</h1>  
             <Total quantity={total}/>         
           </div>
           <div className={styles.pieGraph}>
             <h2 className={styles.graphTitle}>Exonerações x Nomeações nos anos analisados</h2>
-            <Chart options={pie.options} series={pie.series}type="pie" width={400}/>            
+            <Chart options={pie.options} series={pie.series}type="pie" width={350}/>            
           </div>
           <Rank title='Municípios que mais nomeiam:' cities={cidades_nomeiam} quantity={quantidade_nomeacoes}/>
         </div>
         <div className={styles.lowerDiv}>
-          <Chart options={column.options} series={column.series} type="bar" labels="" width={750} height={400} />
+          <Chart options={column.options} series={column.series} type="bar" labels="" width={730} height={345} />
           <Rank title='Municípios que mais exoneram:' cities={cidades_exoneram} quantity={quantidade_exoneracoes}/>
       </div>
       </div>

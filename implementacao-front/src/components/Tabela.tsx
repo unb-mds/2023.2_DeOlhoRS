@@ -9,6 +9,7 @@ import {
 } from "mdb-react-ui-kit";
 import { useState, useEffect } from "react";
 import { data2 } from "../data/nomesLimpos2";
+import styles from "./Tabela.module.css";
 
 // Interface para a estrutura dos dados a serem exibidos na tabela
 interface TabelaData {
@@ -57,8 +58,8 @@ function Tabela() {
 
   return (
     <MDBContainer style={{ marginTop: "10px" }}>
-      <MDBRow>
-        <MDBCol size={4}>
+      <MDBRow gap={3}>
+        <MDBCol size={5}>
           <input
             type="text"
             placeholder="Pesquisar nome..."
@@ -66,21 +67,21 @@ function Tabela() {
             onChange={(e) => setSearchTerm(e.target.value)}
           />
         </MDBCol>
-        <MDBCol size={2}>
-          <MDBBtn onClick={handleSearch} color="primary">
-            Pesquisar
+        <MDBCol size={2} style={{ marginLeft: '60px' }}>
+          <MDBBtn onClick={handleSearch} rounded color="success">
+          Pesquisar
           </MDBBtn>
         </MDBCol>
       </MDBRow>
       <MDBRow>
         <MDBCol size={12}>
           <MDBTable>
-            <MDBTableHead dark>
+            <MDBTableHead light>
               <tr>
-                <th scope="col">Nome</th>
-                <th scope="col">Cargo</th>
-                <th scope="col">Ação</th>
-                <th scope="col">Data</th>
+                <th scope="col"><p className={styles.body}>Nome</p></th>
+                <th scope="col"><p className={styles.body}>Cargo</p></th>
+                <th scope="col"><p className={styles.body}>Ação</p></th>
+                <th scope="col"><p className={styles.body}>Data</p></th>
               </tr>
             </MDBTableHead>
             <MDBTableBody>
@@ -93,10 +94,10 @@ function Tabela() {
               ) : (
                 data.map((item, index) => (
                   <tr key={index}>
-                    <td>{item.nome}</td>
-                    <td>{item.cargo}</td>
-                    <td>{item.acao}</td>
-                    <td>{item.data}</td>
+                    <td className={styles.body}>{item.nome}</td>
+                    <td className={styles.body}>{item.cargo}</td>
+                    <td className={styles.body}>{item.acao}</td>
+                    <td className={styles.body}>{item.data}</td>
                   </tr>
                 ))
               )}

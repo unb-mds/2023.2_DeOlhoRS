@@ -8,7 +8,7 @@ function Total({quantity} : TotalProps) {
   return (
     <div className={styles.totalTable}>
       <h2>Total Mapeado</h2>
-      <ol>
+      <ol className={styles.list}>
         <li>{quantity[0]} Nomeações</li>
         <li>{quantity[1]} Exonerações</li>
       </ol>

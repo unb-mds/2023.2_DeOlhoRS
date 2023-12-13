@@ -8,7 +8,12 @@
     border: 1px solid black;
     font-family: 'Niramit', sans-serif;
     gap: 15px;
-    padding: 20px;
+    padding: 0.5%;
+}
+
+.list {
+    display: flex;
+    gap: 50%;
 }
 
 li {
